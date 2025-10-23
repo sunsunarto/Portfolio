@@ -50,7 +50,7 @@ export default function LayoutApp({ children }) {
       {!isMobile && (<Sider width={280} style={{ background: '#f0f2f5', }}>
         <div style={{ display: 'flex', justifyContent: 'center', marginTop: 24 }}>
           <Avatar size={80}>
-            <Image src='/WhatsApp Image 2025-09-23 at 15.59.59_5da190e1.jpg' />
+            <Image src='/WhatsApp Image 2025-09-23 at 15.59.59_5da190e1.jpg' alt="Profile avatar" width={80} height={80} />
           </Avatar>
         </div>
         <Title level={5} style={{ marginTop: 12, textAlign: 'center' }}>

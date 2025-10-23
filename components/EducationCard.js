@@ -42,6 +42,7 @@ const Education = () => {
                 src={school.logo}
                 alt={`${school.name} logo`}
                 style={{ height: 60, marginBottom: 12 }}
+                width={80} height={80}
               />
               <Title level={4}>{school.name}</Title>
               <Text type="secondary">{school.years}</Text>

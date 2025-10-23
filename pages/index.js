@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Typography, Row, Col, Card, Button, Divider } from 'antd';
-import LayoutApp from '../components/LayoutApp';
+import LayoutApp from '../components/LayoutApp.js';
 import Link from 'next/link';
 
 const { Title, Text } = Typography;

@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import { Typography, Divider, Card, Row, Col } from 'antd';
-import LayoutApp from '../components/LayoutApp';
-import EventForm from '../components/EventForm';
-import EventCard from '../components/EventCard';
+import LayoutApp from '../components/LayoutApp.js';
+import EventForm from '../components/EventForm.js';
+import EventCard from '../components/EventCard.js';
 
 const { Title } = Typography;
 

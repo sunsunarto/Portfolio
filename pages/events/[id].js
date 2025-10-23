@@ -1,8 +1,8 @@
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
-import LayoutApp from '../../components/LayoutApp';
+import LayoutApp from '../../components/LayoutApp.js';
 import { Typography, Divider, Button, message } from 'antd';
-import EventCard from '../../components/EventCard';
+import EventCard from '../../components/EventCard.js';
 
 const { Title } = Typography;
 

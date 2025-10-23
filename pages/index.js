@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import React from 'react';
 import { Typography, Row, Col, Card, Button, Divider } from 'antd';
 import LayoutApp from '../components/LayoutApp.js';
 import Link from 'next/link';
@@ -6,53 +6,40 @@ import Link from 'next/link';
 const { Title, Text } = Typography;
 
 export default function Dashboard() {
-  const [stats, setStats] = useState({
-    total: 0,
-    upcoming: 0,
-    completed: 0,
-  });
-
-  useEffect(() => {
-    const events = JSON.parse(localStorage.getItem('events') || '[]');
-    const total = events.length;
-    const upcoming = events.filter((e) => e.status === 'Upcoming').length;
-    const completed = events.filter((e) => e.status === 'Completed').length;
-    setStats({ total, upcoming, completed });
-  }, []);
 
   return (
     <LayoutApp>
-      <Title level={2}>Welcome to Sunaryo Soengkono Portfolio</Title>
-      <Text type="secondary">Here&apos;s a quick summary of my Portfolio</Text>
-      <Divider />
+      <div style={{ background: '#e6f7ff', padding: '40px 24px'}}>
+        <Title level={2} style={{ color: '#000080' }}>
+          Website Developer & UX/UI Design
+        </Title>
+        <Text style={{ fontSize: 16 }}>
+          Hi, I&apos;m <strong>Sunaryo Soengkono</strong>. I&apos;m a Web Developer specialist in Front-end and UX/UI Design.
+        </Text>
 
-      <Row gutter={[16, 16]}>
-        <Col xs={24} sm={8}>
-          <Card title="Total Events" bordered>
-            <Title level={3}>{stats.total}</Title>
-          </Card>
-        </Col>
-        <Col xs={24} sm={8}>
-          <Card title="Upcoming Events" bordered>
-            <Title level={3}>{stats.upcoming}</Title>
-          </Card>
-        </Col>
-        <Col xs={24} sm={8}>
-          <Card title="Completed Events" bordered>
-            <Title level={3}>{stats.completed}</Title>
-          </Card>
-        </Col>
-      </Row>
+        <Divider style={{ margin: '32px auto', maxWidth: 400 }} />
 
-      <Divider />
+        <Row gutter={32} justify="center">
+          <Col xs={24} sm={12}>
+            <Title level={2} style={{color: '#000080'}}>Right now</Title>
+            <Text>Grade 11 Web Developer in SMK Tri Ratna</Text>
+          </Col>
+          <Col xs={24} sm={12}>
+            <Title level={2}style={{color: '#000080'}}>Location</Title>
+            <Text>(Indonesia), DKI Jakarta</Text>
+          </Col>
+        </Row>
 
-      <div style={{ marginTop: 16 }}>
-        <Link href="/create-event">
-          <Button type="primary">Create Event</Button>
-        </Link>
-        <Link href="/events">
-          <Button style={{ marginLeft: 8 }}>View Events</Button>
-        </Link>
+        <Divider style={{ margin: '32px auto', maxWidth: 400 }} />
+
+        <div style={{ display: 'flex', gap: '16px' }}>
+          <Link href="/cv">
+            <Button type="primary" size="large">View CV</Button>
+          </Link>
+          <Link href="/about">
+            <Button size="large">About Me</Button>
+          </Link>
+        </div>
       </div>
     </LayoutApp>
   );

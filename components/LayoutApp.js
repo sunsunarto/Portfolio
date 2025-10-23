@@ -1,5 +1,11 @@
 import { Layout, Menu, Avatar, Typography, Grid, Drawer, Button } from 'antd';
-import { DashboardOutlined, CalendarOutlined, PlusCircleOutlined, MenuOutlined, UserOutlined } from '@ant-design/icons';
+import {
+  DashboardOutlined,
+  CalendarOutlined,
+  PlusCircleOutlined,
+  MenuOutlined,
+  UserOutlined,
+} from '@ant-design/icons';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useState } from 'react';
@@ -17,11 +23,29 @@ export default function LayoutApp({ children }) {
   const isMobile = !screens.md;
   const [drawerVisible, setDrawerVisible] = useState(false);
 
+  const ProfileHeader = () => (
+    <div style={{ textAlign: 'center', padding: '24px 0' }}>
+      <Avatar size={80} style={{ marginBottom: 12 }}>
+        <Image
+          src="/WhatsApp Image 2025-09-23 at 15.59.59_5da190e1.jpg"
+          alt="Profile avatar"
+          width={80}
+          height={80}
+        />
+      </Avatar>
+      <Title level={5}>Sunaryo Soegkono</Title>
+      <Text type="secondary">
+        <span style={{ fontWeight: 'bold', color: '#3949AB' }}>front-end developer | </span>
+        <span style={{ fontWeight: 'bold', color: 'black' }}>from Indonesia</span>
+      </Text>
+    </div>
+  );
+
   const menuItems = (
     <Menu
       mode="vertical"
       selectedKeys={[path]}
-      style={{ width: '100%' }}
+      style={{ width: '100%', background: 'white' }}
       onClick={() => setDrawerVisible(false)}
     >
       <Menu.Item key="/" icon={<DashboardOutlined />}>
@@ -39,29 +63,19 @@ export default function LayoutApp({ children }) {
       <Menu.Item key="/achievement" icon={<UserOutlined />}>
         <Link href="/achievement">Achievement</Link>
       </Menu.Item>
-      <Menu.Item key="/events" icon={<CalendarOutlined />}>
+      {/* <Menu.Item key="/events" icon={<CalendarOutlined />}>
         <Link href="/events">Events</Link>
-      </Menu.Item>
+      </Menu.Item> */}
     </Menu>
   );
 
   return (
     <Layout style={{ minHeight: '100vh', flexDirection: 'row' }}>
-      {!isMobile && (<Sider width={280} style={{ background: '#f0f2f5', }}>
-        <div style={{ display: 'flex', justifyContent: 'center', marginTop: 24 }}>
-          <Avatar size={80}>
-            <Image src='/WhatsApp Image 2025-09-23 at 15.59.59_5da190e1.jpg' alt="Profile avatar" width={80} height={80} />
-          </Avatar>
-        </div>
-        <Title level={5} style={{ marginTop: 12, textAlign: 'center' }}>
-          Sunaryo Soegkono
-        </Title>
-        <Text type="secondary" style={{ textAlign: 'center', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-          <span style={{ fontWeight: 'bold', color: '#3949AB' }}>front-end developer |</span> 
-          <span style={{ fontWeight: 'bold', color: 'black' }}>| from Indonesia</span>
-        </Text>
-        <div style={{ marginTop: 32, width: '100%' }}>{menuItems}</div>
-      </Sider>
+      {!isMobile && (
+        <Sider width={280} style={{ background: 'white' }}>
+          <ProfileHeader />
+          <div style={{ marginTop: 32 }}>{menuItems}</div>
+        </Sider>
       )}
 
       {isMobile && (
@@ -73,19 +87,20 @@ export default function LayoutApp({ children }) {
               position: 'fixed',
               top: 16,
               left: 16,
-              zIndex: 1000,
+              zIndex: 1100,
               background: '#fff',
               borderRadius: 4,
+              boxShadow: '0 2px 6px rgba(0,0,0,0.15)',
             }}
             onClick={() => setDrawerVisible(true)}
           />
           <Drawer
-            title="Event Manager"
             placement="left"
             onClose={() => setDrawerVisible(false)}
             visible={drawerVisible}
             bodyStyle={{ padding: 0 }}
           >
+            <ProfileHeader />
             {menuItems}
           </Drawer>
         </>
@@ -96,8 +111,10 @@ export default function LayoutApp({ children }) {
           background: '#e6f7ff',
           padding: isMobile ? '24px 16px' : '40px',
           flex: 1,
+          position: 'relative',
         }}
       >
+        {isMobile && <div style={{ height: 56 }} />}
         <Breadcrumbnav />
         {children}
       </Content>

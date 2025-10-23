@@ -16,7 +16,7 @@ const AboutMe = () => {
           discipline, focus, and responsibility into every line of code I write.
         </Paragraph>
         <Paragraph>
-          I'm a <strong>front-end Web developer</strong> with a passion for crafting modular,
+          I&apos;m a <strong>front-end Web developer</strong> with a passion for crafting modular,
           intuitive, and emotionally resonant digital experiences. My toolkit includes
           <strong> Next.js, React, Vite</strong>, and libraries like <strong>Ant Design</strong>,
           <strong> GSAP</strong>, and others that help me build interfaces that are not only
@@ -27,10 +27,10 @@ const AboutMe = () => {
           and confidence in their interactions.
         </Paragraph>
         <Paragraph>
-          I'm from <strong>SMK Tri Ratna</strong>, majoring in <em>Rekayasa Perangkat Lunak</em>
+          I&apos;m from <strong>SMK Tri Ratna</strong>, majoring in <em>Rekayasa Perangkat Lunak</em>
           (Software Engineering), where I built a strong foundation in website development,
           user experience, and performance optimization. But beyond the technical skills,
-          I've developed a mindset that treats every project as a mission—one that demands
+          I&apos;ve developed a mindset that treats every project as a mission—one that demands
           clarity, care, and a commitment to excellence.
         </Paragraph>
       </Typography>

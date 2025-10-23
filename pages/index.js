@@ -22,8 +22,8 @@ export default function Dashboard() {
 
   return (
     <LayoutApp>
-      <Title level={2}>Welcome to the Event Dashboard</Title>
-      <Text type="secondary">Here's a quick summary of your events.</Text>
+      <Title level={2}>Welcome to Sunaryo Soengkono Portfolio</Title>
+      <Text type="secondary">Here&apos;s a quick summary of my Portfolio</Text>
       <Divider />
 
       <Row gutter={[16, 16]}>

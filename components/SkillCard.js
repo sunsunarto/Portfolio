@@ -20,8 +20,8 @@ const SkillCard = () => {
     <div>
       <h1>Skills</h1>
       <p className="descriptionSkill">
-        I'm a passionate software engineer with a strong interest in web development. I have experience with
-        a variety of programming languages and frameworks, and I'm always looking to learn more.
+        I&apos;m a passionate software engineer with a strong interest in web development. I have experience with
+        a variety of programming languages and frameworks, and I&apos;m always looking to learn more.
       </p>
 
       <div className="skills" style={{ display: "flex", flexWrap: "wrap", gap: "20px", marginTop: "40px" }}>

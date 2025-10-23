@@ -1,6 +1,6 @@
 import React from "react";
 import { Typography, Card, Row, Col } from "antd";
-
+import Image from "next/image";
 const { Title, Text } = Typography;
 
 const educationData = [
@@ -27,7 +27,7 @@ const educationData = [
     years: "2024-Present",
     level: "Senior High School - Software Engineering",
     logo: "logo_tri_ratna-removebg-preview.png",
-  }
+  } 
 ];
 
 const Education = () => {
@@ -38,7 +38,7 @@ const Education = () => {
         {educationData.map((school, index) => (
           <Col xs={24} sm={12} key={index}>
             <Card bordered style={{ textAlign: "center" }}>
-              <img
+              < Image
                 src={school.logo}
                 alt={`${school.name} logo`}
                 style={{ height: 60, marginBottom: 12 }}

@@ -34,7 +34,9 @@ export default function Dashboard() {
 
         <div style={{ display: 'flex', gap: '16px' }}>
           <Link href="/cv">
-            <Button type="primary" size="large">View CV</Button>
+            <Link href="/Sunaryo_Soengkono_CV 12.pdf" target="_blank">
+              <Button type="primary" size="large">View CV</Button>
+            </Link>
           </Link>
           <Link href="/about">
             <Button size="large">About Me</Button>

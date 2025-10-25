@@ -1,124 +1,141 @@
 [
   {
     "id": "1",
-    "title": "Learn To Build A To-Do App With Local Storage",
-    "date": "03 October 2025",
+    "title": "Rapid UI Building With React + Tailwind Design Stunning Interfaces Faster Than Ever!",
+    "date": "24 October 2025",
+    "status": "Webinar",
     "from": "SkillEcted",
-    "pic": "/1759497188777-certificate.png"
+    "pic": "/sertifikat/1761313151724-certificate.png"
   },
   {
     "id": "2",
-    "title": "Build A Movie Search App Using React JS - Explore, Search & Discover",
-    "date": "05 October 2025",
+    "title": "Learn To Build A To-Do App With Local Storage",
+    "date": "03 October 2025",
+    "status": "Webinar",
     "from": "SkillEcted",
-    "pic": "/1759671678904-certificate.png"
+    "pic": "/sertifikat/1759497188777-certificate.png"
   },
   {
     "id": "3",
-    "title": "Code Your Frist Game: Phython Snake With Turtle Graphics",
-    "date": "26 September 2025",
+    "title": "Build A Movie Search App Using React JS - Explore, Search & Discover",
+    "date": "05 October 2025",
+    "status": "Webinar",
     "from": "SkillEcted",
-    "pic": "/1758898972045-certificate.png"
+    "pic": "/sertifikat/1759671678904-certificate.png"
   },
   {
     "id": "4",
-    "title": "Mengikuti Nasional Intellect Competition 2025",
-    "date": "19 - 21 September 2025",
-    "from": "CV. Divya Cahaya Prestasi",
-    "pic": "/SERTIFIKAT SMA SUNARYO OSHMI 2025.jpg",
-    "decription": "mengkuit lomba bahasa Inggirs"
+    "title": "Code Your Frist Game: Phython Snake With Turtle Graphics",
+    "date": "26 September 2025",
+    "status": "Webinar",
+    "from": "SkillEcted",
+    "pic": "/sertifikat/1758898972045-certificate.png"
   },
   {
     "id": "5",
-    "title": "Mengikuti Olimpiade Sains hari Merdeka Indeonesia 2025",
-    "date": "29 - 30 Agustus 2025",
+    "title": "Mengikuti Nasional Intellect Competition 2025",
+    "date": "19 - 21 September 2025",
+    "status": "competition",
     "from": "CV. Divya Cahaya Prestasi",
-    "pic": "/SERTIFIKAT SMA SUNARYO OSHMI 2025.jpg",
+    "pic": "/sertifikat/SERTIFIKAT SMA SUNARYO OSHMI 2025.jpg",
     "decription": "mengkuit lomba bahasa Inggirs"
   },
   {
     "id": "6",
-    "title": "Mengikuti Olimpiade Sains hari Merdeka Indeonesia 2025",
+    "title": "Mengikuti Olimpiade Sains hari Merdeka Indonesia 2025",
     "date": "29 - 30 Agustus 2025",
+    "status": "competition",
     "from": "CV. Divya Cahaya Prestasi",
-    "pic": "/SERTIFIKAT SMA SUNARYO SOENGKONO OSHMI 2025.jpg",
-    "decription": "mengkuit lomba Informatika"
+    "pic": "/sertifikat/SERTIFIKAT SMA SUNARYO OSHMI 2025.jpg",
+    "decription": "mengkuit lomba bahasa Inggirs"
   },
   {
     "id": "7",
-    "title": "Why Java In 2025? Beginner's Guide To Java Career, Projects & Roadmap",
-    "date": "27 July 2025",
-    "from": "SkillEcted",
-    "pic": "/1753621204749-certificate.png"
+    "title": "Mengikuti Olimpiade Sains hari Merdeka Indonesia 2025",
+    "date": "29 - 30 Agustus 2025",
+    "status": "competition",
+    "from": "CV. Divya Cahaya Prestasi",
+    "pic": "/sertifikat/SERTIFIKAT SMA SUNARYO SOENGKONO OSHMI 2025.jpg",
+    "decription": "mengkuit lomba Informatika"
   },
   {
     "id": "8",
-    "title": "Master Python With AI In 60 Minutes! Learn Pro Tips, Tricks & AI-Powered Insights",
+    "title": "Why Java In 2025? Beginner's Guide To Java Career, Projects & Roadmap",
     "date": "27 July 2025",
+    "status": "Webinar",
     "from": "SkillEcted",
-    "pic": "/1753621537043-certificate.png"
+    "pic": "/sertifikat/1753621204749-certificate.png"
   },
   {
     "id": "9",
-    "title": "Getting Started With Industial Cybersecurity",
-    "date": "25 Juli 2025",
-    "from": "ID-Networkers",
-    "pic": "/SERTIFIKAT SMA SUNARYO OSHMI 2025.jpg"
+    "title": "Master Python With AI In 60 Minutes! Learn Pro Tips, Tricks & AI-Powered Insights",
+    "date": "27 July 2025",
+    "status": "Webinar",
+    "from": "SkillEcted",
+    "pic": "/sertifikat/1753621537043-certificate.png"
   },
   {
     "id": "10",
-    "title": "Build a Smart Chatbot Using React.js - From UI To Response",
-    "date": "08 June 2025",
-    "from": "SkillEcted",
-    "pic": "/1749390536581-certificate.png"
+    "title": "Getting Started With Industial Cybersecurity",
+    "date": "25 Juli 2025",
+    "status": "Webinar",
+    "from": "ID-Networkers",
+    "pic": "/sertifikat/SERTIFIKAT SMA SUNARYO OSHMI 2025.jpg"
   },
   {
     "id": "11",
-    "title": "Build A Real-Time Chat Application With Socket.io & Node.js",
-    "date": "11 June 2025",
+    "title": "Build a Smart Chatbot Using React.js - From UI To Response",
+    "date": "08 June 2025",
+    "status": "Webinar",
     "from": "SkillEcted",
-    "pic": "/1750048288282-certificate.png"
+    "pic": "/sertifikat/1749390536581-certificate.png"
   },
   {
     "id": "12",
     "title": "Build A Weather App With React & OpenWeather API",
     "date": "28 May 2025",
+    "status": "Webinar",
     "from": "SkillEcted",
-    "pic": "/1748439663293-certificate.png"
+    "pic": "/sertifikat/1748439663293-certificate.png"
   },
   {
     "id": "13",
     "title": "Cybersecurity Roadmap 2025: Start Your Journey to Become A Cyber Pro!",
     "date": "29 May 2025",
+    "status": "Webinar",
     "from": "SkillEcted",
-    "pic": "/1748484560534-certificate.png"
+    "pic": "/sertifikat/1748484560534-certificate.png"
   },
   {
     "id": "14",
     "title": "Master Python In 60 Minutes- Kickstart Your Full Stack Journey With Python",
     "date": "16 May 2025",
+    "status": "Webinar",
     "from": "SkillEcted",
-    "pic": "/1747402386079-certificate.png"
+    "pic": "/sertifikat/1747402386079-certificate.png"
   },
   {
     "id": "15",
     "title": "Secrets To Building Fast & Lightweight JavaScript Web Apps",
     "date": "02 May 2025",
+    "status": "Webinar",
     "from": "SkillEcted",
-    "pic": "/1746196902272-certificate.png"
+    "pic": "/sertifikat/1746196902272-certificate.png"
   },
   {
     "id": "16",
     "title": "NodeJs For Beginners-Build Your first Rest API",
     "date": "19 April 2025",
+    "status": "Webinar",
     "from": "SkillEcted",
-    "pic": "/1745072434351-certificate.png"
+    "pic": "/sertifikat/1745072434351-certificate.png"
   },
   {
     "id": "17",
     "title": "Build Your Own Portfolio Webinar with HTML, CSS & JS",
     "date": "27 March 2025",
+    "status": "Webinar",
     "from": "SkillEcted",
-    "pic": "/27-3-2025-certificate.png"
+    "pic": "/sertifikat/27-3-2025-certificate.png"
   }
 ]

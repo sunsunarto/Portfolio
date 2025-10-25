@@ -9,7 +9,7 @@ export default function Dashboard() {
 
   return (
     <LayoutApp>
-      <div style={{ background: '#e6f7ff', padding: '40px 24px'}}>
+      <div style={{ background: '#e6f7ff', padding: '40px 24px' }}>
         <Title level={2} style={{ color: '#000080' }}>
           Website Developer & UX/UI Design
         </Title>
@@ -21,11 +21,11 @@ export default function Dashboard() {
 
         <Row gutter={32} justify="center">
           <Col xs={24} sm={12}>
-            <Title level={2} style={{color: '#000080'}}>Right now</Title>
+            <Title level={2} style={{ color: '#000080' }}>Right now</Title>
             <Text>Grade 11 Web Developer in SMK Tri Ratna</Text>
           </Col>
           <Col xs={24} sm={12}>
-            <Title level={2}style={{color: '#000080'}}>Location</Title>
+            <Title level={2} style={{ color: '#000080' }}>Location</Title>
             <Text>(Indonesia), DKI Jakarta</Text>
           </Col>
         </Row>
@@ -33,11 +33,9 @@ export default function Dashboard() {
         <Divider style={{ margin: '32px auto', maxWidth: 400 }} />
 
         <div style={{ display: 'flex', gap: '16px' }}>
-          <Link href="/cv">
-            <Link href="/Sunaryo_Soengkono_CV 12.pdf" target="_blank">
-              <Button type="primary" size="large">View CV</Button>
-            </Link>
-          </Link>
+          <a href="/Sunaryo_Soengkono_CV_13.pdf" target="_blank" rel="noopener noreferrer">
+            <Button  size="large" style={{background: '#000080', color: '#fff'}}>View CV</Button>
+          </a>
           <Link href="/about">
             <Button size="large">About Me</Button>
           </Link>

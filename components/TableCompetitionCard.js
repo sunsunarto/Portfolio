@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Table, Typography, Image, Space } from 'antd';
 import { TrophyOutlined } from '@ant-design/icons';
+import Link from 'next/link';
 
 const { Title } = Typography;
 

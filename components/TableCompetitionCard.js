@@ -53,7 +53,7 @@ export default function TableCompetitionCard() {
     title: 'Information',
     key: 'information',
     render: (_, record) => (
-      <Link href={`/achievement/AchievementTable/table-competition/${record.id}`}>
+      <Link href={`/achievement/AchievementTable/Table-Competition/${record.id}`}>
         <a>View Details</a>
       </Link>
     ),

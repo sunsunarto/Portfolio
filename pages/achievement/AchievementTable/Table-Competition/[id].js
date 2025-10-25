@@ -1,8 +1,8 @@
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 import { Typography, Row, Col, Card, Button, Divider, Image } from 'antd';
-import LayoutApp from '../../../components/LayoutApp.js';
-import AchievementDetailCard from '../../../components/AchievementDetailCompetitionCard.js';
+import LayoutApp from '../../../../components/LayoutApp.js';
+import AchievementDetailCard from '../../../../components/AchievementDetailCompetitionCard.js';
 
 
 const { Title, Text } = Typography;

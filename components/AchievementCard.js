@@ -32,7 +32,7 @@ export default function AchievementCard() {
   return (
     <div>
       <Title level={2}>Achievements</Title>
-      <Text type="secondary">Here's a quick summary of your events.</Text>
+      <Text type="secondary">Here&apos;s a quick summary of your events.</Text>
       <Divider />
       <Row gutter={[16, 16]}>
         <Col xs={64} sm={8}>

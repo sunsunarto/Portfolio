@@ -2,7 +2,7 @@ import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 import { Typography, Row, Col, Card, Button, Divider, Image } from 'antd';
 import LayoutApp from '../../../../components/LayoutApp.js';
-import AchievementDetailCard from '../../../../components/AchievementDetailCompetitionCard.js';
+import AchievementDetailCompetitionCard from '../../../../components/AchievementDetailCompetitionCard.js';
 
 
 const { Title, Text } = Typography;
@@ -43,12 +43,7 @@ export default function ViewEvent() {
         <Title level={2} style={{ color: '#000080' }}>Achievement Details</Title>
         <Divider />
 
-        <AchievementDetailCard event={event} />
-
-        <Divider />
-        <Button type="primary" href="/achievement/AchievementTable/Table-Webinar">
-          Back to Webinar Table
-        </Button>
+        <AchievementDetailCompetitionCard event={event} />
       </div>
     </LayoutApp>
   );

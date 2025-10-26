@@ -25,6 +25,15 @@
   },
   {
     "id": "4",
+    "title": "Indoneisa Smart Mathematicas & Science Olipiad 2025",
+    "date": "03 - 05 October 2025",
+    "status": "competition",
+    "from": "SkillEcted",
+    "pic": "/sertifikat/SERTIFIKAT SMA SUNARYO SOENGKONO ISMSO 2025 en.jpg"
+
+  },
+  {
+    "id": "5",
     "title": "Code Your Frist Game: Phython Snake With Turtle Graphics",
     "date": "26 September 2025",
     "status": "Webinar",
@@ -32,22 +41,13 @@
     "pic": "/sertifikat/1758898972045-certificate.png"
   },
   {
-    "id": "5",
+    "id": "6",
     "title": "Mengikuti Nasional Intellect Competition 2025",
     "date": "19 - 21 September 2025",
     "status": "competition",
     "from": "CV. Divya Cahaya Prestasi",
-    "pic": "/sertifikat/SERTIFIKAT SMA SUNARYO OSHMI 2025.jpg",
-    "decription": "mengkuit lomba bahasa Inggirs"
-  },
-  {
-    "id": "6",
-    "title": "Mengikuti Olimpiade Sains hari Merdeka Indonesia 2025",
-    "date": "29 - 30 Agustus 2025",
-    "status": "competition",
-    "from": "CV. Divya Cahaya Prestasi",
-    "pic": "/sertifikat/SERTIFIKAT SMA SUNARYO OSHMI 2025.jpg",
-    "decription": "mengkuit lomba bahasa Inggirs"
+    "pic": "/sertifikat/SERTIFIKAT SMA SUNARYO SOENGKONO NIC 2025 EN.jpg",
+    "description": "English language competition"
   },
   {
     "id": "7",
@@ -55,11 +55,20 @@
     "date": "29 - 30 Agustus 2025",
     "status": "competition",
     "from": "CV. Divya Cahaya Prestasi",
-    "pic": "/sertifikat/SERTIFIKAT SMA SUNARYO SOENGKONO OSHMI 2025.jpg",
-    "decription": "mengkuit lomba Informatika"
+    "pic": "/sertifikat/SERTIFIKAT SMA SUNARYO OSHMI 2025.jpg",
+    "decription": "English language competition"
   },
   {
     "id": "8",
+    "title": "Mengikuti Olimpiade Sains hari Merdeka Indonesia 2025",
+    "date": "29 - 30 Agustus 2025",
+    "status": "competition",
+    "from": "CV. Divya Cahaya Prestasi",
+    "pic": "/sertifikat/SERTIFIKAT SMA SUNARYO SOENGKONO OSHMI 2025.jpg",
+    "decription": "Informatika competition"
+  },
+  {
+    "id": "9",
     "title": "Why Java In 2025? Beginner's Guide To Java Career, Projects & Roadmap",
     "date": "27 July 2025",
     "status": "Webinar",
@@ -67,7 +76,7 @@
     "pic": "/sertifikat/1753621204749-certificate.png"
   },
   {
-    "id": "9",
+    "id": "10",
     "title": "Master Python With AI In 60 Minutes! Learn Pro Tips, Tricks & AI-Powered Insights",
     "date": "27 July 2025",
     "status": "Webinar",
@@ -75,15 +84,15 @@
     "pic": "/sertifikat/1753621537043-certificate.png"
   },
   {
-    "id": "10",
+    "id": "11",
     "title": "Getting Started With Industial Cybersecurity",
     "date": "25 Juli 2025",
     "status": "Webinar",
     "from": "ID-Networkers",
-    "pic": "/sertifikat/SERTIFIKAT SMA SUNARYO OSHMI 2025.jpg"
+    "pic": "/sertifikat/Sunaryo Soengkono Sertifikat Webinar IT Cyber Security 25 Juli 2025.jpg"
   },
   {
-    "id": "11",
+    "id": "12",
     "title": "Build a Smart Chatbot Using React.js - From UI To Response",
     "date": "08 June 2025",
     "status": "Webinar",
@@ -91,7 +100,7 @@
     "pic": "/sertifikat/1749390536581-certificate.png"
   },
   {
-    "id": "12",
+    "id": "13",
     "title": "Build A Weather App With React & OpenWeather API",
     "date": "28 May 2025",
     "status": "Webinar",
@@ -99,7 +108,7 @@
     "pic": "/sertifikat/1748439663293-certificate.png"
   },
   {
-    "id": "13",
+    "id": "14",
     "title": "Cybersecurity Roadmap 2025: Start Your Journey to Become A Cyber Pro!",
     "date": "29 May 2025",
     "status": "Webinar",
@@ -107,7 +116,7 @@
     "pic": "/sertifikat/1748484560534-certificate.png"
   },
   {
-    "id": "14",
+    "id": "15",
     "title": "Master Python In 60 Minutes- Kickstart Your Full Stack Journey With Python",
     "date": "16 May 2025",
     "status": "Webinar",
@@ -115,7 +124,7 @@
     "pic": "/sertifikat/1747402386079-certificate.png"
   },
   {
-    "id": "15",
+    "id": "16",
     "title": "Secrets To Building Fast & Lightweight JavaScript Web Apps",
     "date": "02 May 2025",
     "status": "Webinar",
@@ -123,7 +132,7 @@
     "pic": "/sertifikat/1746196902272-certificate.png"
   },
   {
-    "id": "16",
+    "id": "17",
     "title": "NodeJs For Beginners-Build Your first Rest API",
     "date": "19 April 2025",
     "status": "Webinar",
@@ -131,7 +140,7 @@
     "pic": "/sertifikat/1745072434351-certificate.png"
   },
   {
-    "id": "17",
+    "id": "18",
     "title": "Build Your Own Portfolio Webinar with HTML, CSS & JS",
     "date": "27 March 2025",
     "status": "Webinar",

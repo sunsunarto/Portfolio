@@ -30,6 +30,8 @@ export default function AchievementCardTable() {
 
   return (
     <LayoutApp>
+      <Divider />
+      <Title level={2}>Achievements Table</Title>
         <Divider />
       <Row gutter={[16, 16]}>
         <Col xs={24} sm={8}>

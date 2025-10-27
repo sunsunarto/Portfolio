@@ -9,6 +9,7 @@ export default function AchievementCardTable() {
     webinar: 0,
     competition: 0,
     Bootcamp: 0,
+    other: 0,
   });
 
   useEffect(() => {
@@ -19,7 +20,8 @@ export default function AchievementCardTable() {
         const webinar = events.filter((e) => e.status === 'Webinar').length;
         const competition = events.filter((e) => e.status === 'competition').length;
         const Bootcamp = events.filter((e) => e.status === 'bootcamp').length;
-        setStats({ webinar, competition, Bootcamp });
+        const other = events.filter((e) => e.status === 'other').length;
+        setStats({ webinar, competition, Bootcamp, other });
       } catch (error) {
         console.error('Failed to load events:', error);
       }
@@ -55,6 +57,14 @@ export default function AchievementCardTable() {
             <Title level={3}>{stats.Bootcamp}</Title>
           </Card>
         </Col>
+        <Col xs={24} sm={8}>
+          <Card title="Other" bordered>
+            <Title level={3}>{stats.other}</Title>
+            <Link href="/achievement/AchievementTable/Table-Other">
+              <Button type="link">View Other</Button>
+            </Link>
+          </Card>
+        </Col>  
       </Row>
 
       <Divider />

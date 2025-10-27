@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react';
 import { Table, Typography, Image, Space } from 'antd';
-import { VideoCameraOutlined } from '@ant-design/icons';
+import { TrophyOutlined } from '@ant-design/icons';
 import Link from 'next/link';
 
 const { Title } = Typography;
 
-export default function TableWebinarCard() {
+export default function TableCompetitionCard() {
     const [competition, setCompetition] = useState([]);
 
     useEffect(() => {
@@ -62,7 +62,7 @@ export default function TableWebinarCard() {
 
     return (
         <Space direction="vertical" style={{ width: '100%', backgroundColor: '#E6F7FF' }}>
-            <Title level={2}> <VideoCameraOutlined /> Component Achievements</Title>
+            <Title style={{ color: '#000080' }} level={2}><TrophyOutlined style={{ color: '#000080' }} /> Competition Achievements</Title>
             <Table style={{backgroundColor: '#E6F7FF' }}
                 dataSource={competition}
                 columns={columns}

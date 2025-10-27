@@ -8,7 +8,7 @@ const AboutMe = () => {
   return (
     <div className="about-me" >
       <Typography>
-        <h2>About me</h2>
+        <h2 style={{ color: '#000080' }} >About me</h2>
         <Paragraph>
           Coding is a journey filled with calm cruising and intense moments of turbulence.
           The most critical phases—starting a new project and deploying it with precision—

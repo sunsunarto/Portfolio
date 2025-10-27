@@ -1,0 +1,112 @@
+[
+  {
+    "id": "1",
+    "title": "Socio Social Media App",
+    "date": "15 November 2024",
+    "lastestUpdate": "17 November 2024",
+    "status": "Project",
+    "pic": "/Projects/Screenshot 2025-03-27 101644.png",
+    "decription": "The application named \"socio\" is a social media platform designed for user interaction and content sharing. It features a clean and structured interface, enabling users to post updates, add multimedia, and engage with trending discussions.",
+    "link": "https://quiz-16-sunaryo.vercel.app/",
+    "github": "https://github.com/sunsunarto/Quiz_16_Sunaryo/"
+  },
+  {
+    "id": "2",
+    "title": "Project BI",
+    "date": "18 November 2024",
+    "lastestUpdate": "18 November 2024",
+    "status": "Project",
+    "pic": "/Projects/Screenshot 2025-03-27 105058.png",
+    "decription": "The application appears to be a story-sharing website titled \"Cerita Anekdot\" (Anecdote Stories). It features a clean and user-friendly interface, allowing users to share their stories and engage in entertainment discussions.",
+    "link": "https://projekbi.vercel.app/",
+    "github": "https://github.com/sunsunarto/Projekbi"
+  },
+  {
+    "id": "3",
+    "title": "Dessert Shop Website",
+    "date": "09 January 2025",
+    "lastestUpdate": "09 January 2025",
+    "status": "Project",
+    "pic": "/Projects/Screenshot 2025-03-27 110325.png",
+    "decription": "The shop offers various desserts with images, names, and prices displayed. You also can buy a dessert by clicking the \"Comfirm Order\" button. this is only the front-end part of the application website.",
+    "link": "https://dessert-shop-part-2.vercel.app/",
+    "github": "https://github.com/sunsunarto/Dessert-Shop-Part-2"
+  },
+  {
+    "id": "4",
+    "title": "Post Management App",
+    "date": "15 January 2025",
+    "lastestUpdate": "27 March 2025",
+    "status": "Project",
+    "pic": "/Projects/Screenshot 2025-03-27 112937.png",
+    "decription": "A Post Management App with a clean and simple interface designed for handling user-generated posts. It allows users to create, read, update, and delete posts efficiently.",
+    "link": "https://post-management-app-939m.vercel.app/",
+    "github": "https://github.com/sunsunarto/Post-Management-App"
+  },
+  {
+    "id": "7",
+    "title": "Advice Generator Website",
+    "date": "15 January 2025",
+    "lastestUpdate": "15 January 2025",
+    "status": "Project",
+    "pic": "/Projects/Screenshot 2025-03-27 120348.png",
+    "decription": "The Adive generator app is a user-friendly interface that allows users to generate random adjectives and nouns, which they can then use to create unique and creative names for their projects.",
+    "link": "https://advice-generator-coral-iota.vercel.app/",
+    "github": "https://github.com/sunsunarto/Advice-Generator"
+  },
+  {
+    "id": "5",
+    "title": "User Authentication System",
+    "date": "30 January 2025",
+    "lastestUpdate": "30 January 2025",
+    "status": "Project",
+    "pic": "/Projects/Screenshot 2025-03-27 113854.png",
+    "decription": "The application appears to be a user-friendly form interface designed for registration and login. It features a blue background with white text for easy readability. Users can choose between two options they are. This is not connected to database.",
+    "link": "https://user-authentication-system-ten.vercel.app/",
+    "github": "https://github.com/sunsunarto/User-Authentication-System"
+  },
+  {
+    "id": "6",
+    "title": "Movie Collection Website",
+    "date": "04 March 2025",
+    "lastestUpdate": "04 March 2025",
+    "status": "Project",
+    "pic": "/Projects/Screenshot 2025-03-27 115030.png",
+    "decription": "This is a website about movie collection. this website is not connected to API (Application Programming Interface). you can search any movie you want. but you can't watch just see about the movies.",
+    "link": "https://sunaryo-movie-collection-gsap-part-2-9mco.vercel.app/",
+    "github": "https://github.com/sunsunarto/Sunaryo_movie_collection_gsap_part_2"
+  },
+  {
+    "id": "8",
+    "title": "Weight Calculator App",
+    "date": "20 May 2025",
+    "lastestUpdate": "25 May 2025",
+    "status": "Project",
+    "pic": "/Projects/Screenshot 2025-07-26 111335.png",
+    "decription": "The weight Calculator app is a user-friendly interface that allows users to calculate their weight based on their height and age.",
+    "link": "https://weight-calculator-eosin.vercel.app//",
+    "github": "https://github.com/sunsunarto/weight-calculator-"
+  },
+  {
+    "id": "10",
+    "title": "My Art Space Website",
+    "date": "22 May 2025",
+    "lastestUpdate": "25 May 2025",
+    "status": "Project",
+    "pic": "/Projects/Screenshot 2025-07-26 122647.png",
+    "decription": "The My Art Space app is a user-friendly interface that allows users introduce to one of my creation on making a portfolio website.",
+    "link": "https://my-art-space-drj7.vercel.app/",
+    "github": "https://github.com/sunsunarto/My-Art-Space"
+  },
+  {
+    "id": "9",
+    "title": "Latest News Website",
+    "date": "22 July 2025",
+    "lastestUpdate": "09 July 2025",
+    "status": "Project",
+    "pic": "/Projects/Screenshot 2025-07-26 113733.png",
+    "decription": "The Latest News app is a user-friendly interface that allows users to read the latest news from the world of aviation, such as teh Air India news, and the Hijack Plane news.",
+    "link": "https://latest-news-sunaryo.vercel.app/",
+    "github": "https://github.com/sunsunarto/latest-news-Sunaryo"
+  }
+]

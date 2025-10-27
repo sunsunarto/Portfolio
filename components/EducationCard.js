@@ -42,7 +42,7 @@ const educationData = [
 const Education = () => {
     return (
         <div>
-            <Title level={2}>Education</Title>
+            <Title level={2} style={{ color: '#000080' }} >Education</Title>
             <Row gutter={[16, 16]}>
                 {educationData.map((school, index) => (
                     <Col xs={24} sm={12} key={index}>

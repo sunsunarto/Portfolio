@@ -1,8 +1,8 @@
 import { Typography, Row, Col, Card, Image, Button } from 'antd';
 
-const { Title, Text, Paragraph } = Typography;
+const { Title, Text } = Typography;
 
-export default function AchievementDetailCompetitionCard({ event }) {
+export default function AchievementDetailOtherCard({ event }) {
   if (!event) return null;
 
   return (
@@ -28,17 +28,13 @@ export default function AchievementDetailCompetitionCard({ event }) {
             <Text>{event.from}</Text>
           </Card>
         </Col>
-
-        {(event.description || event.decription) && (
+        {event.decription && (
           <Col span={24}>
             <Card title="Description" bordered>
-              <Paragraph>
-                {event.description || event.decription}
-              </Paragraph>
+              <Text>{event.decription}</Text>
             </Card>
           </Col>
         )}
-
         {event.pic && (
           <Col span={24}>
             <Card title="Certificate" bordered>
@@ -53,13 +49,7 @@ export default function AchievementDetailCompetitionCard({ event }) {
         )}
       </Row>
 
-      <Button
-        type="primary"
-        href="/achievement/AchievementTable/Table-Competition"
-        style={{ marginTop: 24 }}
-      >
-        Back to Competition Table
-      </Button>
     </div>
   );
 }
+  

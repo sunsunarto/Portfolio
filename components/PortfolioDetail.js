@@ -1,12 +1,13 @@
 import { Typography, Row, Col, Card, Image, Button } from 'antd';
 
-const { Title, Text, Paragraph } = Typography;
+const { Title, Text } = Typography;
 
-export default function AchievementDetailCompetitionCard({ event }) {
+export default function PortfolioDetail({ event }) {
   if (!event) return null;
 
   return (
     <div style={{ padding: '24px' }}>
+
       <Row gutter={[16, 16]}>
         <Col xs={24} sm={12}>
           <Card title="Title" bordered>
@@ -19,32 +20,23 @@ export default function AchievementDetailCompetitionCard({ event }) {
           </Card>
         </Col>
         <Col xs={24} sm={12}>
-          <Card title="Status" bordered>
-            <Text>{event.status}</Text>
+          <Card title="last Update" bordered>
+            <Text>{event.lastestUpdate}</Text>
           </Card>
         </Col>
-        <Col xs={24} sm={12}>
-          <Card title="Organizer" bordered>
-            <Text>{event.from}</Text>
-          </Card>
-        </Col>
-
-        {(event.description || event.decription) && (
+        {event.decription && (
           <Col span={24}>
             <Card title="Description" bordered>
-              <Paragraph>
-                {event.description || event.decription}
-              </Paragraph>
+              <Text>{event.decription}</Text>
             </Card>
           </Col>
         )}
-
         {event.pic && (
           <Col span={24}>
-            <Card title="Certificate" bordered>
+            <Card title="Projet Image" bordered>
               <Image
                 src={event.pic}
-                alt="Certificate"
+                alt="Project Image"
                 width={300}
                 style={{ borderRadius: 8 }}
               />
@@ -52,14 +44,11 @@ export default function AchievementDetailCompetitionCard({ event }) {
           </Col>
         )}
       </Row>
-
-      <Button
-        type="primary"
-        href="/achievement/AchievementTable/Table-Competition"
-        style={{ marginTop: 24 }}
-      >
-        Back to Competition Table
-      </Button>
+      <div style={{ marginTop: '16px', display: 'flex', gap: '8px' }}>
+        <Button type="primary" href={event.link} target="_blank"> Link Website </Button>
+        <Button type="primary" href={event.github} target="_blank"> Link Github </Button>
+      </div>
     </div>
   );
 }
+  

@@ -63,9 +63,9 @@ export default function LayoutApp({ children }) {
       <Menu.Item key="/achievement" icon={<UserOutlined />}>
         <Link href="/achievement">Achievement</Link>
       </Menu.Item>
-      {/* <Menu.Item key="/events" icon={<CalendarOutlined />}>
-        <Link href="/events">Events</Link>
-      </Menu.Item> */}
+      <Menu.Item key="/portfolio" icon={<CalendarOutlined />}>
+        <Link href="/portfolio">Portfolio</Link>
+      </Menu.Item>
     </Menu>
   );
 

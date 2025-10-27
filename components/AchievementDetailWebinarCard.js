@@ -2,13 +2,11 @@ import { Typography, Row, Col, Card, Image, Button } from 'antd';
 
 const { Title, Text } = Typography;
 
-export default function AchievementDetailCard({ event }) {
+export default function AchievementDetailWebinarCard({ event }) {
   if (!event) return null;
 
   return (
     <div style={{ padding: '24px' }}>
-      <Title level={2} style={{ color: '#000080' }}>Achievement Details</Title>
-
       <Row gutter={[16, 16]}>
         <Col xs={24} sm={12}>
           <Card title="Title" bordered>

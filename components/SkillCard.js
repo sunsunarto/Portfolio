@@ -1,6 +1,9 @@
 import React from "react";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
+import { Typography } from "antd";
+
+const { Title } = Typography;
 
 const skills = [
   { name: "Python", progress: 10, color: "#3498db" },
@@ -18,7 +21,7 @@ const SkillCard = () => {
 
   return (
     <div>
-      <h1>Skills</h1>
+      <Title level={2} style={{ color: '#000080' }} >Skills</Title>
       <p className="descriptionSkill">
         I&apos;m a passionate software engineer with a strong interest in web development. I have experience with
         a variety of programming languages and frameworks, and I&apos;m always looking to learn more.

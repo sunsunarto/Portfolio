@@ -25,12 +25,12 @@
   },
   {
     "id": "4",
-    "title": "Indoneisa Smart Mathematicas & Science Olipiad 2025",
+    "title": "Attend Indoneisa Smart Mathematicas & Science Olypiad 2025",
     "date": "03 - 05 October 2025",
     "status": "competition",
-    "from": "SkillEcted",
-    "pic": "/sertifikat/SERTIFIKAT SMA SUNARYO SOENGKONO ISMSO 2025 en.jpg"
-
+    "from": "CV. Divya Cahaya Prestasi",
+    "pic": "/sertifikat/SERTIFIKAT SMA SUNARYO SOENGKONO ISMSO 2025 en.jpg",
+    "decription": "English language competition"
   },
   {
     "id": "5",
@@ -42,7 +42,7 @@
   },
   {
     "id": "6",
-    "title": "Mengikuti Nasional Intellect Competition 2025",
+    "title": "Attend Nasional Intellect Competition 2025",
     "date": "19 - 21 September 2025",
     "status": "competition",
     "from": "CV. Divya Cahaya Prestasi",
@@ -51,7 +51,7 @@
   },
   {
     "id": "7",
-    "title": "Mengikuti Olimpiade Sains hari Merdeka Indonesia 2025",
+    "title": "Attend Olimpiade Sains hari Merdeka Indonesia 2025",
     "date": "29 - 30 Agustus 2025",
     "status": "competition",
     "from": "CV. Divya Cahaya Prestasi",
@@ -60,7 +60,7 @@
   },
   {
     "id": "8",
-    "title": "Mengikuti Olimpiade Sains hari Merdeka Indonesia 2025",
+    "title": "Attend Olimpiade Sains hari Merdeka Indonesia 2025",
     "date": "29 - 30 Agustus 2025",
     "status": "competition",
     "from": "CV. Divya Cahaya Prestasi",
@@ -146,5 +146,41 @@
     "status": "Webinar",
     "from": "SkillEcted",
     "pic": "/sertifikat/27-3-2025-certificate.png"
+  },
+  {
+    "id": "19",
+    "title": "Second place Of Class 2024 ",
+    "date": "13 June 2024",
+    "status": "other",
+    "from": "Mutiara Bangsa 3 School",
+    "pic": "/sertifikat/certificate _07.jpg",
+    "decription": "second place Of Class 2024 in Junior High School Mutiara Bangsa 3 Sccool with the Average value of 84.88"
+  },
+  {
+    "id": "20",
+    "title": "讀經班",
+    "date": "02 July 2022",
+    "status": "other",
+    "from": "讀經班",
+    "pic": "/sertifikat/certificate _04.jpg",
+    "decription": "This certificate is issued by Cetiya Eka Satya Dharma (守忠佛堂) to formally recognize an individual's participation in an online classical scripture reading class. The class focused on the study of Kitab Klasik (Classical Texts), specifically the  百孝經 (bai Xiao Jing, or \"Classic of Filial Piety\")"
+  },
+  {
+    "id": "21",
+    "title": "HSK 2 Certification",
+    "date": "03 December 2017",
+    "status": "other",
+    "from": "Hanban",
+    "pic": "/sertifikat/certificate _03.jpg",
+    "decription": "This certificate was issued by Hanban (汉办), the Chinese National Office for Teaching Chinese as a Foreign Language, to certify that the individual has successfully passed the HSK Level 2 exam, demonstrating proficiency in basic Chinese language skills."
+  },
+  {
+    "id": "22",
+    "title": "弟子规",
+    "date": "11 December 2016",
+    "status": "other",
+    "from": "印尼留台校友聯誼會",
+    "pic": "/sertifikat/certificate _01.jpg",
+    "decription": "This certificate was issued by the Indonesian Alumni Association of Taiwan (印尼留台校友聯誼會) to recognize a student's participation in a cultural event held in Jakarta, Indonesia, on December 11, 2016."
   }
 ]

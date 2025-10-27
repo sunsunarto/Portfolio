@@ -5,16 +5,16 @@ import Link from 'next/link';
 
 const { Title } = Typography;
 
-export default function TableWebinarCard() {
-    const [webinars, setWebinars] = useState([]);
+export default function PortfolioCard() {
+    const [portfolio, setPortfolio] = useState([]);
 
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const res = await fetch('/data/event.json');
+                const res = await fetch('/data/portfolio.json');
                 const data = await res.json();
-                const filtered = data.filter((item) => item.status === 'Webinar');
-                setWebinars(filtered);
+                const filtered = data.filter((item) => item.status === 'Project');
+                setPortfolio(filtered);
             } catch (error) {
                 console.error('Failed to load webinar data:', error);
             }
@@ -25,7 +25,7 @@ export default function TableWebinarCard() {
 
     const columns = [
   {
-    title: 'Certificate',
+    title: 'Project Image ',
     dataIndex: 'pic',
     key: 'pic',
     render: (pic) => (
@@ -53,7 +53,7 @@ export default function TableWebinarCard() {
     title: 'Information',
     key: 'information',
     render: (_, record) => (
-      <Link href={`/achievement/AchievementTable//Table-Webinar/${record.id}`}>
+      <Link href={`/portfolio/${record.id}`}>
         View Details
       </Link>
     ),
@@ -62,9 +62,9 @@ export default function TableWebinarCard() {
 
     return (
         <Space direction="vertical" style={{ width: '100%', backgroundColor: '#E6F7FF' }}>
-            <Title style={{ color: '#000080' }} level={2}> <VideoCameraOutlined style={{ color: '#000080' }}/> Webinar Achievements</Title>
+            <Title level={2} style={{ color: '#000080' }}> <VideoCameraOutlined style={{ color: '#000080' }}/> Portfolio</Title>
             <Table style={{backgroundColor: '#E6F7FF' }}
-                dataSource={webinars}
+                dataSource={portfolio}
                 columns={columns}
                 rowKey="id"
                 pagination={{ pageSize: 7 }}

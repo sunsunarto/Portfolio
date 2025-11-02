@@ -33,7 +33,7 @@ export default function AchievementCardTable() {
   return (
     <LayoutApp>
       <Divider />
-      <Title level={2}>Achievements Table</Title>
+      <Title level={2} style={{ color: '#000080' }} >Achievements Table</Title>
         <Divider />
       <Row gutter={[16, 16]}>
         <Col xs={24} sm={8}>
@@ -55,6 +55,9 @@ export default function AchievementCardTable() {
         <Col xs={24} sm={8}>
           <Card title="bootcamp" bordered>
             <Title level={3}>{stats.Bootcamp}</Title>
+            <Link href="/achievement/AchievementTable/Table-Bootcamp">
+              <Button type="link">View bootcamp</Button>
+            </Link>
           </Card>
         </Col>
         <Col xs={24} sm={8}>

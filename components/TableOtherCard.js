@@ -53,7 +53,7 @@ export default function TableOtherCard() {
     title: 'Information',
     key: 'information',
     render: (_, record) => (
-      <Link href={`/achievement/AchievementTable//Table-Other/${record.id}`}>
+      <Link href={`/achievement/AchievementTable/Table-Other/${record.id}`}>
         View Details
       </Link>
     ),

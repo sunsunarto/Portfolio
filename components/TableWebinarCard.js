@@ -53,7 +53,7 @@ export default function TableWebinarCard() {
     title: 'Information',
     key: 'information',
     render: (_, record) => (
-      <Link href={`/achievement/AchievementTable//Table-Webinar/${record.id}`}>
+      <Link href={`/achievement/AchievementTable/Table-Webinar/${record.id}`}>
         View Details
       </Link>
     ),

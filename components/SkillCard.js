@@ -1,7 +1,9 @@
-import React from "react";
+import { useContext } from "react";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import { Typography } from "antd";
+import { LanguageContext } from "../context/LanguageContext";
+import { translations } from "../utils/i18n.js";
 
 const { Title } = Typography;
 
@@ -18,14 +20,12 @@ const skills = [
 ];
 
 const SkillCard = () => {
-
+  const { language } = useContext(LanguageContext);
+  const t = translations[language];
   return (
     <div>
       <Title level={2} style={{ color: '#000080' }} >Skills</Title>
-      <p className="descriptionSkill">
-        I&apos;m a passionate software engineer with a strong interest in web development. I have experience with
-        a variety of programming languages and frameworks, and I&apos;m always looking to learn more.
-      </p>
+      <p className="descriptionSkill">{t.skill1}</p>
 
       <div className="skills" style={{ display: "flex", flexWrap: "wrap", gap: "20px", marginTop: "40px" }}>
         {skills.map((skill, index) => (

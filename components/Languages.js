@@ -1,17 +1,20 @@
-import { useState } from "react";
+import { useState, useContext } from "react";
 import { Button, Drawer, Radio, Space } from "antd";
+import { LanguageContext } from "../context/LanguageContext";
+import { translations } from "../utils/i18n.js";
 
 export default function Languages() {
   const [drawerVisible, setDrawerVisible] = useState(false);
-  const [selectedLang, setSelectedLang] = useState("en");
+  const { language, setLanguage } = useContext(LanguageContext);
+  const t = translations[language];
 
   const handleLanguageChange = (e) => {
-    setSelectedLang(e.target.value);
-    setDrawerVisible(false); 
+    setLanguage(e.target.value);
+    setDrawerVisible(false);
   };
 
   return (
-    <div style={{padding: '8px 16px' }}>
+    <div style={{ padding: '8px 16px' }}>
       <Button
         type="primary"
         style={{
@@ -22,7 +25,7 @@ export default function Languages() {
         }}
         onClick={() => setDrawerVisible(true)}
       >
-        Languages
+        {t.language}
       </Button>
 
       <Drawer
@@ -33,11 +36,11 @@ export default function Languages() {
         bodyStyle={{ padding: 24 }}
       >
         <Space direction="vertical">
-          <Radio.Group onChange={handleLanguageChange} value={selectedLang}>
+          <Radio.Group onChange={handleLanguageChange} value={language}>
             <Space direction="vertical">
               <Radio value="en">English</Radio>
-              <Radio value="id">Bahasa Indonesia (coming soon)</Radio>
-              <Radio value="cn">中文 (coming soon)</Radio>
+              <Radio value="id">Bahasa Indonesia (not fully done)</Radio>
+              <Radio value="cn">中文 (in the next update)</Radio>
             </Space>
           </Radio.Group>
         </Space>

@@ -1,0 +1,82 @@
+export const translations = {
+  en: {
+    //sider content
+    name: "Sunaryo Soengkono",
+    role: "Front-end Developer",
+    location: "in Indonesia",
+    language: "Language",
+    //home content
+    navHome: "Home",
+    titleHome: "Website Developer & UX/UI Design",
+    greeting: "Hi, I'm ",
+    greeting1: ". I'm a Web Developer specialist in Front-end and UX/UI Design",
+    rightNow: "Right now",
+    class: "Grade 11 Software Engineering in SMK Tri Ratna",
+    location1: "Location",
+    viewCV: "View CV",
+    navAbout: "About Me",
+    //about content
+    about1: "Coding is a journey filled with calm cruising and intense moments of turbulence. The most critical phases starting a new project and deploying it with precision are the moments I live for. My name is Sunaryo, and I bring discipline, focus, and responsibility into every line of code I write.",
+    about2: "I'm a front-end Web developer with a passion for crafting modular, intuitive, and emotionally resonant digital experiences. My toolkit includes Next.js, React, Vite, and libraries like Ant Design, GSAP, and others that help me build interfaces that are not only functional but also elegant and responsive. I believe that every website should feel seamless users deserve clarity, comfort and confidence in their interactions.",
+    about3: "I'm from SMK Tri Ratna, majoring in Software Engineering (Rekayasa Perangkat Lunak), where I built a strong foundation in website development, user experience, and performance optimization. But beyond the technical skills, I've developed a mindset that treats every project as a mission—one that demands clarity, care, and a commitment to excellence.",
+    //skill content
+    navSkills: "Skills",
+    skill1: "I'm a software engineer with a strong interest in web development. I have experience with a variety of programming languages and frameworks, and I'm always looking to learn more.",
+    //education content
+    navEducation: "Education",
+    edu1: "Primary School",
+    edu2: "Elementary School",
+    edu3: "Junior High School",
+    edu4: "Senior High School - Software Engineering",
+    time: "Present",
+    //achievement content
+    navAchievement: "Achievement",
+    aboutAchievement: "here's my quick summary of my achievements.", 
+    total: "Total Achievements",
+    viewMore: "View Details",
+    competition: "Competition",
+    other: "Other",
+    //portfolio content
+    navPortfolio: "Portfolio",
+  },
+  id: {
+    //sider content
+    name: "Sunaryo Soengkono",
+    role: "Pengembang Front-end",
+    location: "di Indonesia",
+    language: "Bahasa",
+    //home content
+    navHome: "Beranda",
+    titleHome: "Pengembangan Website & Desain UX/UI Design",
+    greeting: "Hai, saya ", 
+    greeting1: ". saya adalah Web Developer spesialis Front-end dan Desain UX/UI",
+    rightNow: "Sekarang",
+    class: "kelas 11 Rekayasa Perangkat Lunak di SMK Tri Ratna",
+    location1: "Lokasi",
+    viewCV: "Lihat CV",
+    //about content
+    navAbout: "Tentang Saya",
+    about1: "Pemrograman adalah perjalanan yang penuh dengan ketenangan dan momen-momen turbulensi yang intens. Fase-fase paling krusial—memulai proyek baru dan menerapkannya dengan presisi adalah momen-momen yang saya nanti-nantikan. Nama saya Sunaryo, dan saya menerapkan disiplin, fokus, dan tanggung jawab dalam setiap baris kode yang saya tulis.",
+    about2: "Saya seorang pengembang web front-end dengan hasrat untuk menciptakan pengalaman digital yang modular, intuitif, dan beresonansi secara emosional. Perangkat saya mencakup Next.js, React, Vite, dan pustaka seperti Ant Design, GSAP, dan lainnya yang membantu saya membangun antarmuka yang tidak hanya fungsional tetapi juga elegan dan responsif. Saya percaya bahwa setiap situs web harus terasa lancar, pengguna berhak mendapatkan kejelasan, kenyamanan, dan kepercayaan dalam interaksi mereka.", 
+    about3: "Saya lulusan SMK Tri Ratna, jurusan Rekayasa Perangkat Lunak (RPL), tempat saya membangun fondasi yang kuat dalam pengembangan situs web, pengalaman pengguna, dan optimasi kinerja. Namun, di luar keterampilan teknis, saya telah mengembangkan pola pikir yang memperlakukan setiap proyek sebagai misi—misi yang menuntut kejelasan, ketelitian, dan komitmen terhadap keunggulan.",
+    //skill content
+    navSkills: "Talenta",
+    skill1: "Saya seorang pengembang perangkat lunak yang bersemangat dan sangat tertarik dengan pengembangan web. Saya berpengalaman dengan berbagai bahasa pemrograman dan kerangka kerja, dan saya selalu ingin belajar lebih banyak.",
+    //education content
+    navEducation: "Edukasi",
+    edu1: "Sekolah Dasar",
+    edu2: "Sekolah Dasar",
+    edu3: "Sekolah Menengah Pertama",
+    edu4: "Sekolah Menengah Atas - Rekayasa Perangkat Lunak (RPL)",
+    time: "Sekarang",
+    //achievement content
+    navAchievement: "Penghargaan",
+    aboutAchievement: "disini adalah ringkasan cepat tentang penghargaan saya.",
+    total: "Total Penghargaan",
+    viewMore: "Lihat Detail",
+    competition: "Kompetisi",
+    other: "Lainnya",
+    //portfolio content
+    navPortfolio: "Portfolio",
+  }
+};

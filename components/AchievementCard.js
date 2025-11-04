@@ -1,6 +1,9 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useContext } from 'react';
 import { Typography, Row, Col, Card, Button, Divider } from 'antd';
 import Link from 'next/link';
+import { LanguageContext } from "../context/LanguageContext";
+import { translations } from "../utils/i18n.js";
+
 const { Title, Text } = Typography;
 
 export default function AchievementCard() {
@@ -29,16 +32,18 @@ export default function AchievementCard() {
     fetchStats();
   }, []);
 
+  const { language } = useContext(LanguageContext);
+  const t = translations[language];
   return (
     <div>
-      <Title level={2} style={{ color: '#000080' }} >Achievements</Title>
-      <Text type="secondary">Here&apos;s a quick summary of your events.</Text>
+      <Title level={2} style={{ color: '#000080' }} >{t.navAchievement}</Title>
+      <Text type="secondary">{t.aboutAchievement}</Text>
       <Divider />
       <Row gutter={[16, 16]}>
         <Col xs={64} sm={8}>
-          <Card title="Total Events" bordered>
+          <Card title={t.total} bordered>
             <Title level={3}>{stats.total}</Title>
-            <Link href="/achievement/AchievementTable"><Button type="link">View Details</Button></Link>
+            <Link href="/achievement/AchievementTable"><Button type="link">{t.viewMore}</Button></Link>
           </Card>
         </Col>
       </Row>

@@ -1,10 +1,16 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useContext } from 'react';
 import { Typography, Row, Col, Card, Button, Divider } from 'antd';
 import LayoutApp from '../../../components/LayoutApp.js';
 import Link from 'next/link';
+import { LanguageContext } from "../../../context/LanguageContext";
+import { translations } from "../../../utils/i18n.js";
+
 const { Title, Text } = Typography;
 
 export default function AchievementCardTable() {
+  const { language } = useContext(LanguageContext);
+  const t = translations[language];
+
   const [stats, setStats] = useState({
     webinar: 0,
     competition: 0,
@@ -40,15 +46,15 @@ export default function AchievementCardTable() {
           <Card title="Webinar" bordered>
             <Title level={3}>{stats.webinar}</Title>
             <Link href="/achievement/AchievementTable/Table-Webinar">
-              <Button type="link">View Webinar</Button>
+              <Button type="link">{t.viewMore}</Button>
             </Link>
           </Card>
         </Col>
         <Col xs={24} sm={8}>
-          <Card title="Competition" bordered>
+          <Card title={t.competition} bordered>
             <Title level={3}>{stats.competition}</Title>
             <Link href="/achievement/AchievementTable/Table-Competition">
-              <Button type="link">View Competition</Button>
+              <Button type="link">{t.viewMore}</Button>
             </Link>
           </Card>
         </Col>
@@ -56,15 +62,15 @@ export default function AchievementCardTable() {
           <Card title="bootcamp" bordered>
             <Title level={3}>{stats.Bootcamp}</Title>
             <Link href="/achievement/AchievementTable/Table-Bootcamp">
-              <Button type="link">View bootcamp</Button>
+              <Button type="link">{t.viewMore}</Button>
             </Link>
           </Card>
         </Col>
         <Col xs={24} sm={8}>
-          <Card title="Other" bordered>
+          <Card title={t.other} bordered>
             <Title level={3}>{stats.other}</Title>
             <Link href="/achievement/AchievementTable/Table-Other">
-              <Button type="link">View Other</Button>
+              <Button type="link">{t.viewMore}</Button>
             </Link>
           </Card>
         </Col>  

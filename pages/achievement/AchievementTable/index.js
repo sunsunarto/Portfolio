@@ -51,7 +51,7 @@ export default function AchievementCardTable() {
           </Card>
         </Col>
         <Col xs={24} sm={8}>
-          <Card title={t.competition} bordered>
+          <Card title="Competition" bordered>
             <Title level={3}>{stats.competition}</Title>
             <Link href="/achievement/AchievementTable/Table-Competition">
               <Button type="link">{t.viewMore}</Button>

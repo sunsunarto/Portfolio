@@ -1,12 +1,16 @@
-import { useEffect, useState } from 'react';
-import { Table, Typography, Image, Space } from 'antd';
-import { TrophyOutlined } from '@ant-design/icons';
+import { useEffect, useState, useContext } from 'react';
+import { Table, Typography, Image, Space, Button } from 'antd';
+import { BookOutlined } from '@ant-design/icons';
 import Link from 'next/link';
+import { LanguageContext } from "../context/LanguageContext.js";
+import { translations } from "../utils/i18n.js";
 
 const { Title } = Typography;
 
 export default function TableCompetitionCard() {
-  const [competition, setCompetition] = useState([]);
+  const { language } = useContext(LanguageContext);
+  const t = translations[language];
+  const [bootcamp, setBootcamp] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -14,9 +18,9 @@ export default function TableCompetitionCard() {
         const res = await fetch('/data/event.json');
         const data = await res.json();
         const filtered = data.filter((item) => item.status === 'competition');
-        setCompetition(filtered);
+        setBootcamp(filtered);
       } catch (error) {
-        console.error('Failed to load webinar data:', error);
+        console.error('Failed to load bootcamp data:', error);
       }
     };
 
@@ -25,7 +29,7 @@ export default function TableCompetitionCard() {
 
   const columns = [
     {
-      title: 'Certificate',
+      title: t.certificate,
       dataIndex: 'pic',
       key: 'pic',
       render: (pic) => (
@@ -39,41 +43,40 @@ export default function TableCompetitionCard() {
       ),
     },
     {
-      title: 'Title',
-      dataIndex: 'title',
+      title: t.title,
       key: 'title',
-      render: (text) => <strong>{text}</strong>,
+      render: (_, record) => (
+        <strong>{record.title?.[language] || record.title?.en || 'Untitled'}</strong>
+      ),
     },
     {
-      title: 'Date',
-      dataIndex: 'date',
+      title: t.date,
       key: 'date',
+      render: (_, record) => record.date?.[language] || record.date?.en || '-',
     },
     {
-      title: 'Information',
+      title: t.information,
       key: 'information',
-      render: (_, record) => {
-        console.log("Competition record:", record); // ✅ Correct placement
-        return (
-          <Link href={`/achievement/AchievementTable/Table-Competition/${record.id}`}>
-            View Details
-          </Link>
-        );
-      },
-    }
+      render: (_, record) => (
+        <Link href={`/achievement/AchievementTable/Table-Competition/${record.id}`}>{t.viewMore}</Link>
+      ),
+    },
   ];
 
   return (
     <Space direction="vertical" style={{ width: '100%', backgroundColor: '#E6F7FF' }}>
-      <Title style={{ color: '#000080' }} level={2}><TrophyOutlined style={{ color: '#000080' }} /> Competition Achievements</Title>
-      <Table style={{ backgroundColor: '#E6F7FF' }}
-        dataSource={competition}
+      <Title style={{ color: '#000080' }} level={2}>
+        <BookOutlined style={{ color: '#000080' }} /> {t.tabCompetition}
+      </Title>
+      <Table
+        style={{ backgroundColor: '#E6F7FF' }}
+        dataSource={bootcamp}
         columns={columns}
         rowKey="id"
         pagination={{ pageSize: 7 }}
         bordered
       />
+      <Button type="primary" style ={{ backgroundColor: '#000080' }} href="/achievement/AchievementTable">{t.back}</Button>
     </Space>
   );
 }
-

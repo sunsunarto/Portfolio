@@ -1,40 +1,70 @@
 [
   {
     "id": "1",
-    "title": "Rapid UI Building With React + Tailwind Design Stunning Interfaces Faster Than Ever!",
-    "date": "24 October 2025",
+    "title": {
+      "en": "Rapid UI Building With React + Tailwind Design Stunning Interfaces Faster Than Ever!",
+      "id": "Membangun UI Cepat dengan React + Tailwind Design Antarmuka Menakjubkan Lebih Cepat dari Sebelumnya!"
+    },
+    "date": {
+      "en": "24 October 2025",
+      "id" : "24 Oktober 2025"
+    },
     "status": "Webinar",
     "from": "SkillEcted",
     "pic": "/sertifikat/1761313151724-certificate.png"
   },
   {
     "id": "2",
-    "title": "Bootcamp: DSF 44 - cYber Security",
-    "date": "13-17 October 2025",
-    "status": "bootcamp",
+    "title": {
+      "en": "DSF 44 - Cyber Security",
+      "id": "DSF 44 - Keamanan Siber"
+    },
+    "date": {
+      "en": "13-17 October 2025",
+      "id" : "13-17 Oktober 2025"
+    },
+    "status": "Bootcamp",
     "from": "DiBimbing",
     "pic": "/sertifikat/5a07d450-366a-4550-8ff5-0ef900d445cf.jpg"
   },
   {
     "id": "3",
-    "title": "Learn To Build A To-Do App With Local Storage",
-    "date": "03 October 2025",
+    "title": {
+      "en": "Learn To Build A To-Do App With Local Storage",
+      "id": "Belajar Membangun Aplikasi To-Do Dengan Local Storage"
+    },
+    "date": {
+      "en": "03 October 2025",
+      "id" : "03 Oktober 2025"
+    },
     "status": "Webinar",
     "from": "SkillEcted",
     "pic": "/sertifikat/1759497188777-certificate.png"
   },
   {
     "id": "4",
-    "title": "Build A Movie Search App Using React JS - Explore, Search & Discover",
-    "date": "05 October 2025",
+    "title": { 
+      "en": "Build A Movie Search App Using React JS - Explore, Search & Discover",
+      "id": "Membangun Aplikasi Pencarian Film Menggunakan React JS - Eksplor, Cari & Temukan"
+    },
+    "date": {
+      "en": "03 - 05 October 2025",
+      "id" : "03 - 05 Oktober 2025"
+    },
     "status": "Webinar",
     "from": "SkillEcted",
     "pic": "/sertifikat/1759671678904-certificate.png"
   },
   {
     "id": "5",
-    "title": "Attend Indoneisa Smart Mathematicas & Science Olypiad 2025",
-    "date": "03 - 05 October 2025",
+    "title": {
+      "en": "Attend Indoneisa Smart Mathematicas & Science Olypiad 2025",
+      "id": "Datang ke Olimpiade Matematika dan Ilmu Pengetahuan Indonesia 2025"
+    },
+    "date": {
+      "en": "03 - 05 October 2025",
+      "id" : "03 - 05 Oktober 2025"
+    },
     "status": "competition",
     "from": "CV. Divya Cahaya Prestasi",
     "pic": "/sertifikat/SERTIFIKAT SMA SUNARYO SOENGKONO ISMSO 2025 en.jpg",
@@ -42,16 +72,28 @@
   },
   {
     "id": "6",
-    "title": "Code Your Frist Game: Phython Snake With Turtle Graphics",
-    "date": "26 September 2025",
+    "title": {
+      "en": "Code Your Frist Game: Phython Snake With Turtle Graphics",
+      "id": "Kodekan Aplikasi Pertama Kamu: Python Snake Dengan Graphics Turtle"
+    },
+    "date": {
+      "en": "26 September 2025",
+      "id" : "26 September 2025"
+    },
     "status": "Webinar",
     "from": "SkillEcted",
     "pic": "/sertifikat/1758898972045-certificate.png"
   },
   {
     "id": "7",
-    "title": "Attend Nasional Intellect Competition 2025",
-    "date": "19 - 21 September 2025",
+    "title": {
+      "en": "Attend Nasional Intellect Competition 2025",
+      "id": "Datang ke Olimpiade Matematika dan Ilmu Pengetahuan Indonesia 2025"
+    },
+    "date": {
+      "en": "19 - 21 September 2025",
+      "id" : "19 - 21 September 2025"
+    },
     "status": "competition",
     "from": "CV. Divya Cahaya Prestasi",
     "pic": "/sertifikat/SERTIFIKAT SMA SUNARYO SOENGKONO NIC 2025 EN.jpg",
@@ -59,8 +101,14 @@
   },
   {
     "id": "8",
-    "title": "Attend Olimpiade Sains hari Merdeka Indonesia 2025",
-    "date": "29 - 30 Agustus 2025",
+    "title": {
+      "en": "Attend 2025 Indonesian Independence Day Science Olympiad",
+      "id": "Megikuti Olimpiade Matematika dan Ilmu Pengetahuan Indonesia 2025"
+    },
+    "date": { 
+      "en": "29 - 31 Agustus 2025",
+      "id" : "29 - 31 Agustus 2025"
+    },
     "status": "competition",
     "from": "CV. Divya Cahaya Prestasi",
     "pic": "/sertifikat/SERTIFIKAT SMA SUNARYO OSHMI 2025.jpg",
@@ -68,8 +116,14 @@
   },
   {
     "id": "9",
-    "title": "Attend Olimpiade Sains hari Merdeka Indonesia 2025",
-    "date": "29 - 30 Agustus 2025",
+    "title": {
+      "en": "Attend 2025 Indonesian Independence Day Science Olympiad",
+      "id": "Megikuti Olimpiade Matematika dan Ilmu Pengetahuan Indonesia 2025"
+    },
+    "date": { 
+      "en": "29 - 31 August 2025",
+      "id" : "29 - 31 Agustus 2025"
+    },
     "status": "competition",
     "from": "CV. Divya Cahaya Prestasi",
     "pic": "/sertifikat/SERTIFIKAT SMA SUNARYO SOENGKONO OSHMI 2025.jpg",
@@ -77,118 +131,222 @@
   },
   {
     "id": "10",
-    "title": "Why Java In 2025? Beginner's Guide To Java Career, Projects & Roadmap",
-    "date": "27 July 2025",
+    "title": {
+      "en": "Why Java In 2025? Beginner's Guide To Java Career, Projects & Roadmap",
+      "id": "Kenapa Java Di 2025? Panduan Pemula Untuk Karir, Projek, dan Roadmap Java"
+    },
+    "date": {
+      "en": "27 July 2025",
+      "id" : "27 Juli 2025"
+    },
     "status": "Webinar",
     "from": "SkillEcted",
     "pic": "/sertifikat/1753621204749-certificate.png"
   },
   {
     "id": "11",
-    "title": "Master Python With AI In 60 Minutes! Learn Pro Tips, Tricks & AI-Powered Insights",
-    "date": "27 July 2025",
+    "title": {
+      "en": "Master Python With AI In 60 Minutes! Learn Pro Tips, Tricks & AI-Powered Insights",
+      "id": "Master Python Dengan AI Di 60 Menit! Pelajari Tips, Trik, dan Pengetahuan AI"
+    },
+    "date": {
+      "en": "27 July 2025",
+      "id" : "27 Juli 2025"
+    },
     "status": "Webinar",
     "from": "SkillEcted",
     "pic": "/sertifikat/1753621537043-certificate.png"
   },
   {
     "id": "12",
-    "title": "Getting Started With Industial Cybersecurity",
-    "date": "25 Juli 2025",
+    "title": {
+      "en": "Getting Started With Industial Cybersecurity",
+      "id": "Memulai Dengan Industri Keamanan Siber"
+    },
+    "date": {
+      "en": "25 Juli 2025",
+      "id" : "25 Juli 2025"
+    },
     "status": "Webinar",
     "from": "ID-Networkers",
     "pic": "/sertifikat/Sunaryo Soengkono Sertifikat Webinar IT Cyber Security 25 Juli 2025.jpg"
   },
   {
     "id": "13",
-    "title": "Build a Smart Chatbot Using React.js - From UI To Response",
-    "date": "08 June 2025",
+    "title": {
+      "en": "Build a Smart Chatbot Using React.js - From UI To Response",
+      "id": "Buat Chatbot Smart Menggunakan React.js - Dari UI Hingga Respon"
+    },
+    "date": {
+      "en": "08 June 2025",
+      "id" : "08 Juni 2025"
+    },
     "status": "Webinar",
     "from": "SkillEcted",
     "pic": "/sertifikat/1749390536581-certificate.png"
   },
   {
     "id": "14",
-    "title": "Build A Weather App With React & OpenWeather API",
-    "date": "28 May 2025",
+    "title": {
+      "en": "Build A Weather App With React & OpenWeather API",
+      "id": "Buat Aplikasi Cuaca Dengan React & OpenWeather API"
+    },
+    "date": {
+      "en": "28 May 2025",
+      "id" : "28 Mei 2025"
+    },
     "status": "Webinar",
     "from": "SkillEcted",
     "pic": "/sertifikat/1748439663293-certificate.png"
   },
   {
     "id": "15",
-    "title": "Cybersecurity Roadmap 2025: Start Your Journey to Become A Cyber Pro!",
-    "date": "29 May 2025",
+    "title": { 
+      "en": "Cybersecurity Roadmap 2025: Start Your Journey to Become A Cyber Pro!",
+      "id": "Jalur Keamanan Siber 2025: Mulai Jalanmu Menjadi Cyber Pro!"
+    },
+    "date": {
+      "en": "29 May 2025",
+      "id" : "29 Mei 2025"
+    },
     "status": "Webinar",
     "from": "SkillEcted",
     "pic": "/sertifikat/1748484560534-certificate.png"
   },
   {
     "id": "16",
-    "title": "Master Python In 60 Minutes- Kickstart Your Full Stack Journey With Python",
-    "date": "16 May 2025",
+    "title": {
+      "en": "Master Python In 60 Minutes- Kickstart Your Full Stack Journey With Python",
+      "id": "Master Python Dalam 60 Menit- Mulai Jalanmu Dengan Python"
+    },
+    "date": {
+      "en": "16 May 2025",
+      "id" : "16 Mei 2025"
+    },
     "status": "Webinar",
     "from": "SkillEcted",
     "pic": "/sertifikat/1747402386079-certificate.png"
   },
   {
     "id": "17",
-    "title": "Secrets To Building Fast & Lightweight JavaScript Web Apps",
-    "date": "02 May 2025",
+    "title": {
+      "en": "Secrets To Building Fast & Lightweight JavaScript Web Apps",
+      "id": "Rahasia Menyusun Aplikasi Web JavaScript Cepat dan Ringan"
+    },
+    "date": {
+      "en": "02 May 2025",
+      "id" : "02 Mei 2025"
+    },
     "status": "Webinar",
     "from": "SkillEcted",
     "pic": "/sertifikat/1746196902272-certificate.png"
   },
   {
     "id": "18",
-    "title": "NodeJs For Beginners-Build Your first Rest API",
-    "date": "19 April 2025",
+    "title": {
+      "en": "NodeJs For Beginners-Build Your first Rest API",
+      "id": "NodeJs Untuk Pemula-Buat API Rest Pertama"
+    },
+    "date": {
+      "en": "19 April 2025",
+      "id" : "19 April 2025"
+    },
     "status": "Webinar",
     "from": "SkillEcted",
     "pic": "/sertifikat/1745072434351-certificate.png"
   },
   {
     "id": "19",
-    "title": "Build Your Own Portfolio Webinar with HTML, CSS & JS",
-    "date": "27 March 2025",
+    "title": {
+      "en": "Build Your Own Portfolio Webinar with HTML, CSS & JS",
+      "id": "Buat Portfolio Webinar Dengan HTML, CSS & JS"
+    },
+    "date": {
+      "en": "27 March 2025",
+      "id" : "27 Maret 2025"
+    },
     "status": "Webinar",
     "from": "SkillEcted",
     "pic": "/sertifikat/27-3-2025-certificate.png"
   },
   {
     "id": "20",
-    "title": "Second place Of Class 2024 ",
-    "date": "13 June 2024",
+    "title": {
+      "en": "Second place Of Class 2024 ",
+      "id": "Kedua Pemenang Kelas 2024"
+    },
+    "date": {
+      "en": "13 June 2024",
+      "id" : "13 Juni 2024"
+    },
     "status": "other",
     "from": "Mutiara Bangsa 3 School",
     "pic": "/sertifikat/certificate _07.jpg",
-    "decription": "second place Of Class 2024 in Junior High School Mutiara Bangsa 3 Sccool with the Average value of 84.88"
+    "decription": {
+      "en": "Second place Of Class 2024 in Junior High School Mutiara Bangsa 3 Sccool with the Average value of 84.88",
+      "id": "Kedua Pemenang Kelas 2024 di SMA Mutiara Bangsa 3 Sccool dengan nilai rata-rata 84.88"
+    }
   },
   {
     "id": "21",
-    "title": "讀經班",
-    "date": "02 July 2022",
+    "title": {
+      "en": "Classical Scripture Reading Class",
+      "id": "Kelas Pembacaan Kitab Klasik",
+      "cn": "讀經班"
+    },
+    "date": {
+      "en": "02 July 2022",
+      "id" : "02 Juli 2022",
+      "cn": "2022年7月2日"
+    },
     "status": "other",
     "from": "讀經班",
     "pic": "/sertifikat/certificate _04.jpg",
-    "decription": "This certificate is issued by Cetiya Eka Satya Dharma (守忠佛堂) to formally recognize an individual's participation in an online classical scripture reading class. The class focused on the study of Kitab Klasik (Classical Texts), specifically the  百孝經 (bai Xiao Jing, or \"Classic of Filial Piety\")"
+    "decription": {
+      "en": "This certificate is issued by Cetiya Eka Satya Dharma (守忠佛堂) to formally recognize an individual's participation in an online classical scripture reading class. The class focused on the study of Kitab Klasik (Classical Texts), specifically the  百孝經 (bai Xiao Jing, or \"Classic of Filial Piety\")",
+      "id": "Sertifikat ini dikeluarkan oleh Cetiya Eka Satya Dharma (守忠佛堂) sebagai pengakuan resmi atas keikutsertaan seseorang dalam kelas membaca kitab suci klasik daring. Kelas ini berfokus pada pembelajaran Kitab Klasik (Teks Klasik), khususnya 百孝經 (bai Xiao Jing, atau \"Kitab Suci Kesalehan Anak\")"
+    }
   },
   {
     "id": "22",
-    "title": "HSK 2 Certification",
-    "date": "03 December 2017",
+    "title": {
+      "en": "HSK 2 Certification",
+      "id": "HSK 2 Sertifikat",
+      "cn": "HSK 2 證書"
+    },
+    "date": {
+      "en": "03 December 2017",
+      "id" : "03 Desember 2017",
+      "cn": "2017年12月3日"
+    },
     "status": "other",
     "from": "Hanban",
     "pic": "/sertifikat/certificate _03.jpg",
-    "decription": "This certificate was issued by Hanban (汉办), the Chinese National Office for Teaching Chinese as a Foreign Language, to certify that the individual has successfully passed the HSK Level 2 exam, demonstrating proficiency in basic Chinese language skills."
+    "decription": {
+      "en": "This certificate was issued by Hanban (汉办), the Chinese National Office for Teaching Chinese as a Foreign Language, to certify that the individual has successfully passed the HSK Level 2 exam, demonstrating proficiency in basic Chinese language skills.",
+      "id": "Sertifikat ini dikeluarkan oleh Hanban (汉办), Kantor Nasional Tiongkok untuk Pengajaran Bahasa Mandarin sebagai Bahasa Asing, untuk menyatakan bahwa individu tersebut telah berhasil lulus ujian HSK Level 2, yang menunjukkan kemahiran dalam keterampilan bahasa Mandarin dasar.",
+      "cn": "此证书由汉办(汉办)中文国际教育中心发放,证明该个人已成功通过HSK Level 2考试,表明其在基本中文语言技能方面的熟练程度。"
+    }
   },
   {
-    "id": "23",
-    "title": "弟子规",
-    "date": "11 December 2016",
+    "id": "23", 
+    "title":{
+      "en": "Standards for being a Good Pupil and Child",
+      "id": "Standar untuk Menjadi Murid dan Anak yang Baik",
+      "cn": "學生規則"
+    },
+    "date": {
+      "en": "11 December 2016",
+      "id" : "11 Desember 2016",
+      "cn": "2016年12月11日"
+    },
     "status": "other",
     "from": "印尼留台校友聯誼會",
     "pic": "/sertifikat/certificate _01.jpg",
-    "decription": "This certificate was issued by the Indonesian Alumni Association of Taiwan (印尼留台校友聯誼會) to recognize a student's participation in a cultural event held in Jakarta, Indonesia, on December 11, 2016."
+    "decription": {
+      "en": "This certificate was issued by the Indonesian Alumni Association of Taiwan (印尼留台校友聯誼會) to recognize a student's participation in a cultural event held in Jakarta, Indonesia, on December 11, 2016.",
+      "id": "Sertifikat ini dikeluarkan oleh Ikatan Alumni Indonesia Taiwan untuk mengakui partisipasi seorang mahasiswa dalam acara budaya yang diadakan di Jakarta, Indonesia, pada tanggal 11 Desember 2016.",
+      "cn": "此证书由印尼留台校友联合会发放,证明该学生在2016年12月11日在雅加达,印尼举行的文化活动中的参与。"
+    }
   }
 ]

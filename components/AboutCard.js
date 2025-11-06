@@ -1,7 +1,7 @@
 "use client";
 import { useContext } from 'react';
 import { Typography } from 'antd';
-import { LanguageContext } from "../context/LanguageContext";
+import { LanguageContext } from "../context/LanguageContext.js";
 import { translations } from "../utils/i18n.js";
 
 const { Title, Paragraph } = Typography;

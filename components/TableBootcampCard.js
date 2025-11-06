@@ -1,76 +1,81 @@
-import { useEffect, useState } from 'react';
-import { Table, Typography, Image, Space } from 'antd';
+import { useEffect, useState, useContext } from 'react';
+import { Table, Typography, Image, Space, Button } from 'antd';
 import { BookOutlined } from '@ant-design/icons';
 import Link from 'next/link';
+import { LanguageContext } from "../context/LanguageContext.js";
+import { translations } from "../utils/i18n.js";
 
 const { Title } = Typography;
 
 export default function TableBootcampCard() {
-    const [bootcamp, setBootcamp] = useState([]);
+  const { language } = useContext(LanguageContext);
+  const [bootcamp, setBootcamp] = useState([]);
+  const t = translations[language];
 
-    useEffect(() => {
-        const fetchData = async () => {
-            try {
-                const res = await fetch('/data/event.json');
-                const data = await res.json();
-                const filtered = data.filter((item) => item.status === 'bootcamp');
-                setBootcamp(filtered);
-            } catch (error) {
-                console.error('Failed to load webinar data:', error);
-            }
-        };
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const res = await fetch('/data/event.json');
+        const data = await res.json();
+        const filtered = data.filter((item) => item.status === 'Bootcamp');
+        setBootcamp(filtered);
+      } catch (error) {
+        console.error('Failed to load bootcamp data:', error);
+      }
+    };
 
-        fetchData();
-    }, []);
+    fetchData();
+  }, []);
 
-    const columns = [
-  {
-    title: 'Certificate',
-    dataIndex: 'pic',
-    key: 'pic',
-    render: (pic) => (
-      <Image
-        src={pic}
-        alt="Certificate"
-        width={100}
-        height={50}
-        style={{ objectFit: 'cover', borderRadius: 8 }}
+  const columns = [
+    {
+      title: t.certificate,
+      dataIndex: 'pic',
+      key: 'pic',
+      render: (pic) => (
+        <Image
+          src={pic}
+          alt="Certificate"
+          width={100}
+          height={50}
+          style={{ objectFit: 'cover', borderRadius: 8 }}
+        />
+      ),
+    },
+    {
+      title: t.title,
+      key: 'title',
+      render: (_, record) => (
+        <strong>{record.title?.[language] || record.title?.en || 'Untitled'}</strong>
+      ),
+    },
+    {
+      title: t.date,
+      key: 'date',
+      render: (_, record) => record.date?.[language] || record.date?.en || '-',
+    },
+    {
+      title: t.information,
+      key: 'information',
+      render: (_, record) => (
+        <Link href={`/achievement/AchievementTable/Table-Bootcamp/${record.id}`}>{t.viewMore}</Link>
+      ),
+    },
+  ];
+  return (
+    <Space direction="vertical" style={{ width: '100%', backgroundColor: '#E6F7FF' }}>
+      <Title style={{ color: '#000080' }} level={2}>
+        <BookOutlined style={{ color: '#000080' }} /> {t.tabBootcamp}
+      </Title>
+      <Table
+        style={{ backgroundColor: '#E6F7FF' }}
+        dataSource={bootcamp}
+        columns={columns}
+        rowKey="id"
+        pagination={{ pageSize: 7 }}
+        bordered
       />
-    ),
-  },
-  {
-    title: 'Title',
-    dataIndex: 'title',
-    key: 'title',
-    render: (text) => <strong>{text}</strong>,
-  },
-  {
-    title: 'Date',
-    dataIndex: 'date',
-    key: 'date',
-  },
-  {
-    title: 'Information',
-    key: 'information',
-    render: (_, record) => (
-      <Link href={`/achievement/AchievementTable/Table-Bootcamp/${record.id}`}>
-        View Details
-      </Link>
-    ),
-  },
-];
-
-    return (
-        <Space direction="vertical" style={{ width: '100%', backgroundColor: '#E6F7FF' }}>
-            <Title style={{ color: '#000080' }} level={2}><BookOutlined style={{ color: '#000080' }} /> Other Achievements</Title>
-            <Table style={{backgroundColor: '#E6F7FF' }}
-                dataSource={bootcamp }
-                columns={columns}
-                rowKey="id"
-                pagination={{ pageSize: 7 }}
-                bordered
-            />
-        </Space>
-    );
+      <Button type="primary" style ={{ backgroundColor: '#000080' }} href="/achievement/AchievementTable">{t.back}</Button>
+    </Space>
+  );
 }
-

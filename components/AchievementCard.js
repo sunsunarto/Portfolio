@@ -1,7 +1,7 @@
 import { useEffect, useState, useContext } from 'react';
 import { Typography, Row, Col, Card, Button, Divider } from 'antd';
 import Link from 'next/link';
-import { LanguageContext } from "../context/LanguageContext";
+import { LanguageContext } from "../context/LanguageContext.js";
 import { translations } from "../utils/i18n.js";
 
 const { Title, Text } = Typography;

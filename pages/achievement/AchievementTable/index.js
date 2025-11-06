@@ -25,7 +25,7 @@ export default function AchievementCardTable() {
         const events = await res.json();
         const webinar = events.filter((e) => e.status === 'Webinar').length;
         const competition = events.filter((e) => e.status === 'competition').length;
-        const Bootcamp = events.filter((e) => e.status === 'bootcamp').length;
+        const Bootcamp = events.filter((e) => e.status === 'Bootcamp').length;
         const other = events.filter((e) => e.status === 'other').length;
         setStats({ webinar, competition, Bootcamp, other });
       } catch (error) {
@@ -39,7 +39,7 @@ export default function AchievementCardTable() {
   return (
     <LayoutApp>
       <Divider />
-      <Title level={2} style={{ color: '#000080' }} >Achievements Table</Title>
+      <Title level={2} style={{ color: '#000080' }} >{t.tabAchievement}</Title>
         <Divider />
       <Row gutter={[16, 16]}>
         <Col xs={24} sm={8}>
@@ -51,7 +51,7 @@ export default function AchievementCardTable() {
           </Card>
         </Col>
         <Col xs={24} sm={8}>
-          <Card title="Competition" bordered>
+          <Card title= {t.competition} bordered>
             <Title level={3}>{stats.competition}</Title>
             <Link href="/achievement/AchievementTable/Table-Competition">
               <Button type="link">{t.viewMore}</Button>
@@ -59,7 +59,7 @@ export default function AchievementCardTable() {
           </Card>
         </Col>
         <Col xs={24} sm={8}>
-          <Card title="bootcamp" bordered>
+          <Card title="Bootcamp" bordered>
             <Title level={3}>{stats.Bootcamp}</Title>
             <Link href="/achievement/AchievementTable/Table-Bootcamp">
               <Button type="link">{t.viewMore}</Button>

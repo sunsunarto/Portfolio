@@ -3,7 +3,7 @@ import { DashboardOutlined, CalendarOutlined, MenuOutlined, UserOutlined } from 
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useState, useContext } from 'react';
-import { LanguageContext } from "../context/LanguageContext";
+import { LanguageContext } from "../context/LanguageContext.js";
 import { translations } from "../utils/i18n.js";
 import Breadcrumbnav from '../components/Breadcrumb.js';
 import Languages from './Languages.js';

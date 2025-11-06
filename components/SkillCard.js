@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import { Typography } from "antd";
-import { LanguageContext } from "../context/LanguageContext";
+import { LanguageContext } from "../context/LanguageContext.js";
 import { translations } from "../utils/i18n.js";
 
 const { Title } = Typography;
@@ -24,7 +24,7 @@ const SkillCard = () => {
   const t = translations[language];
   return (
     <div>
-      <Title level={2} style={{ color: '#000080' }} >Skills</Title>
+      <Title level={2} style={{ color: '#000080' }} >{t.navSkills}</Title>
       <p className="descriptionSkill">{t.skill1}</p>
 
       <div className="skills" style={{ display: "flex", flexWrap: "wrap", gap: "20px", marginTop: "40px" }}>

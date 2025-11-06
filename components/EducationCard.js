@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { Typography, Card, Row, Col } from "antd";
 import Image from "next/image";
-import { LanguageContext } from "../context/LanguageContext";
+import { LanguageContext } from "../context/LanguageContext.js";
 import { translations } from "../utils/i18n.js";
 
 const { Title, Text } = Typography;

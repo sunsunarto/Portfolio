@@ -1,6 +1,6 @@
 import { useState, useContext } from "react";
 import { Button, Drawer, Radio, Space } from "antd";
-import { LanguageContext } from "../context/LanguageContext";
+import { LanguageContext } from "../context/LanguageContext.js";
 import { translations } from "../utils/i18n.js";
 
 export default function Languages() {

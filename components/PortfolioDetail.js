@@ -1,8 +1,13 @@
 import { Typography, Row, Col, Card, Image, Button } from 'antd';
+import { useContext } from 'react';
+import { LanguageContext } from "../context/LanguageContext";
+import { translations } from "../utils/i18n.js";
 
 const { Title, Text } = Typography;
 
 export default function PortfolioDetail({ event }) {
+  const { language } = useContext(LanguageContext);
+  const t = translations[language];
   if (!event) return null;
 
   return (
@@ -10,30 +15,30 @@ export default function PortfolioDetail({ event }) {
 
       <Row gutter={[16, 16]}>
         <Col xs={24} sm={12}>
-          <Card title="Title" bordered>
-            <Text>{event.title}</Text>
+          <Card title={t.title} bordered>
+            <Text>{event.title?.[language] || event.title?.en || 'Untitled'}</Text>
           </Card>
         </Col>
         <Col xs={24} sm={12}>
-          <Card title="Date" bordered>
-            <Text>{event.date}</Text>
+          <Card title={t.date} bordered>
+              <Text>{event.date?.[language] || event.date?.en || "-"}</Text>
           </Card>
         </Col>
         <Col xs={24} sm={12}>
-          <Card title="last Update" bordered>
-            <Text>{event.lastestUpdate}</Text>
+          <Card title={t.update} bordered>
+            <Text>{event.lastestUpdate?.[language] || event.lastestUpdate?.en || '-'}</Text>
           </Card>
         </Col>
         {event.decription && (
           <Col span={24}>
-            <Card title="Description" bordered>
-              <Text>{event.decription}</Text>
+            <Card title={t.description} bordered>
+              <Text>{event.decription?.[language] || event.decription?.en || '-'}</Text>
             </Card>
           </Col>
         )}
         {event.pic && (
           <Col span={24}>
-            <Card title="Projet Image" bordered>
+            <Card title={t.tabProject} bordered>
               <Image
                 src={event.pic}
                 alt="Project Image"
@@ -45,8 +50,8 @@ export default function PortfolioDetail({ event }) {
         )}
       </Row>
       <div style={{ marginTop: '16px', display: 'flex', gap: '8px' }}>
-        <Button type="primary" href={event.link} target="_blank"> Link Website </Button>
-        <Button type="primary" href={event.github} target="_blank"> Link Github </Button>
+        <Button type="primary" style ={{ backgroundColor: '#000080' }} href={event.link} target="_blank"> Link Website </Button>
+        <Button type="primary" style ={{ backgroundColor: '#000080' }} href={event.github} target="_blank"> Link Github </Button>
       </div>
     </div>
   );

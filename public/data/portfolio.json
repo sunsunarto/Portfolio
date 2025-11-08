@@ -1,111 +1,231 @@
 [
   {
     "id": "1",
-    "title": "Socio Social Media App",
-    "date": "15 November 2024",
-    "lastestUpdate": "17 November 2024",
+    "title": {
+      "en": "Socio Social Media App",
+      "id": "Aplikasi Media Sosial \"Socio\""
+    },
+    "date": { 
+      "en": "15 November 2024",
+      "id": "15 November 2024"
+    },
+    "lastestUpdate": {
+      "en": "17 November 2024",
+      "id": "17 November 2024"
+    },
     "status": "Project",
     "pic": "/Projects/Screenshot 2025-03-27 101644.png",
-    "decription": "The application named \"socio\" is a social media platform designed for user interaction and content sharing. It features a clean and structured interface, enabling users to post updates, add multimedia, and engage with trending discussions.",
+    "decription": {
+      "en": "The application named \"socio\" is a social media platform designed for user interaction and content sharing. It features a clean and structured interface, enabling users to post updates, add multimedia, and engage with trending discussions.",
+      "id": "Aplikasi bernama \"socio\" ini merupakan platform media sosial yang dirancang untuk interaksi pengguna dan berbagi konten. Antarmukanya bersih dan terstruktur, memungkinkan pengguna untuk mengunggah pembaruan, menambahkan multimedia, dan terlibat dalam diskusi yang sedang tren."
+    },
     "link": "https://quiz-16-sunaryo.vercel.app/",
     "github": "https://github.com/sunsunarto/Quiz_16_Sunaryo/"
   },
   {
     "id": "2",
-    "title": "Project BI",
-    "date": "18 November 2024",
-    "lastestUpdate": "18 November 2024",
+    "title":{ 
+      "en": "Bahasa Indonesia Project", 
+      "id": "Projek Bahasa Indonesia"
+    },
+    "date": {
+      "en": "18 November 2024",
+      "id": "18 November 2024"
+    },
+    "lastestUpdate": {
+      "en": "18 November 2024",
+      "id": "18 November 2024"
+    },
     "status": "Project",
     "pic": "/Projects/Screenshot 2025-03-27 105058.png",
-    "decription": "The application appears to be a story-sharing website titled \"Cerita Anekdot\" (Anecdote Stories). It features a clean and user-friendly interface, allowing users to share their stories and engage in entertainment discussions.",
+    "decription": {
+      "en": "The application appears to be a story-sharing website titled \"Cerita Anekdot\" (Anecdote Stories). It features a clean and user-friendly interface, allowing users to share their stories and engage in entertainment discussions.",
+      "id": "Aplikasi ini tampaknya merupakan situs web berbagi cerita berjudul \"Cerita Anekdot\". Antarmukanya bersih dan ramah pengguna, memungkinkan pengguna untuk berbagi cerita dan terlibat dalam diskusi yang menghibur."
+    },
     "link": "https://projekbi.vercel.app/",
     "github": "https://github.com/sunsunarto/Projekbi"
   },
   {
     "id": "3",
-    "title": "Dessert Shop Website",
-    "date": "09 January 2025",
-    "lastestUpdate": "09 January 2025",
+    "title": {
+      "en": "Dessert Shop Website",
+      "id": "Website Toko Dessert"
+    },
+    "date": {
+      "en": "09 January 2025",
+      "id": "09 Januari 2025"
+    },
+    "lastestUpdate": {
+      "en": "09 January 2025",
+      "id": "09 Januari 2025"
+    },
     "status": "Project",
     "pic": "/Projects/Screenshot 2025-03-27 110325.png",
-    "decription": "The shop offers various desserts with images, names, and prices displayed. You also can buy a dessert by clicking the \"Comfirm Order\" button. this is only the front-end part of the application website.",
+    "decription": {
+      "en": "The shop offers various desserts with images, names, and prices displayed. You also can buy a dessert by clicking the \"Comfirm Order\" button. this is only the front-end part of the application website.",
+      "id": "Toko ini menawarkan berbagai macam hidangan penutup dengan gambar, nama, dan harga yang ditampilkan. Anda juga dapat membeli hidangan penutup dengan mengeklik tombol \"Konfirmasi Pesanan\". Ini hanyalah tampilan depan situs web aplikasi."
+    },
     "link": "https://dessert-shop-part-2.vercel.app/",
     "github": "https://github.com/sunsunarto/Dessert-Shop-Part-2"
   },
   {
     "id": "4",
-    "title": "Post Management App",
-    "date": "15 January 2025",
-    "lastestUpdate": "27 March 2025",
+    "title": {
+      "en": "Post Management App",
+      "id": "Aplikasi Pengelolaan Post"
+    },
+    "date": {
+      "en": "15 January 2025",
+      "id": "15 Januari 2025"
+    },
+    "lastestUpdate": {
+      "en": "27 March 2025",
+      "id": "27 Maret 2025"
+    },
     "status": "Project",
     "pic": "/Projects/Screenshot 2025-03-27 112937.png",
-    "decription": "A Post Management App with a clean and simple interface designed for handling user-generated posts. It allows users to create, read, update, and delete posts efficiently.",
+    "decription": {
+      "en": "The Post Management App is A Post Management App with a clean and simple interface designed for handling user-generated posts. It allows users to create, read, update, and delete posts efficiently.",
+      "id": "Aplikasi Manajemen Postingan adalah aplikasi manajemen postingan dengan antarmuka yang bersih dan sederhana, dirancang untuk mengelola postingan yang dibuat pengguna. Aplikasi ini memungkinkan pengguna untuk membuat, membaca, memperbarui, dan menghapus postingan secara efisien."
+    },
     "link": "https://post-management-app-939m.vercel.app/",
     "github": "https://github.com/sunsunarto/Post-Management-App"
   },
   {
-    "id": "7",
-    "title": "Advice Generator Website",
-    "date": "15 January 2025",
-    "lastestUpdate": "15 January 2025",
+    "id": "5",
+    "title": {
+      "en": "Advice Generator Website",
+      "id": "Website Generator Advice"
+    },
+    "date": {
+      "en": "15 January 2025",
+      "id": "15 Januari 2025"
+    },
+    "lastestUpdate": { 
+      "en": "15 January 2025",
+      "id": "15 Januari 2025"
+    },
     "status": "Project",
     "pic": "/Projects/Screenshot 2025-03-27 120348.png",
-    "decription": "The Adive generator app is a user-friendly interface that allows users to generate random adjectives and nouns, which they can then use to create unique and creative names for their projects.",
+    "decription": {
+      "en": "The Adive generator app is a user-friendly interface that allows users to generate random adjectives and nouns, which they can then use to create unique and creative names for their projects.",
+      "id": "Aplikasi generator Adive adalah antarmuka yang mudah digunakan yang memungkinkan pengguna untuk menghasilkan kata sifat dan kata benda acak, yang kemudian dapat mereka gunakan untuk membuat nama yang unik dan kreatif untuk proyek mereka."
+    },
     "link": "https://advice-generator-coral-iota.vercel.app/",
     "github": "https://github.com/sunsunarto/Advice-Generator"
   },
   {
-    "id": "5",
-    "title": "User Authentication System",
-    "date": "30 January 2025",
-    "lastestUpdate": "30 January 2025",
+    "id": "6",
+    "title": {
+      "en": "User Authentication System",
+      "id": "Sistem Autentikasi Pengguna"
+    },
+    "date": {
+      "en": "30 January 2025",
+      "id": "30 Januari 2025"
+    },
+    "lastestUpdate": {
+      "en": "30 January 2025",
+      "id": "30 Januari 2025"
+    },
     "status": "Project",
     "pic": "/Projects/Screenshot 2025-03-27 113854.png",
-    "decription": "The application appears to be a user-friendly form interface designed for registration and login. It features a blue background with white text for easy readability. Users can choose between two options they are. This is not connected to database.",
+    "decription": { 
+      "en": "The application appears to be a user-friendly form interface designed for registration and login. It features a blue background with white text for easy readability. Users can choose between two options they are. This is not connected to database.",
+      "id": "Aplikasi ini tampaknya merupakan antarmuka formulir yang ramah pengguna, dirancang untuk pendaftaran dan masuk. Aplikasi ini memiliki latar belakang biru dengan teks putih agar mudah dibaca. Pengguna dapat memilih di antara dua opsi yang tersedia. Aplikasi ini tidak terhubung ke basis data."
+    },
     "link": "https://user-authentication-system-ten.vercel.app/",
     "github": "https://github.com/sunsunarto/User-Authentication-System"
   },
   {
-    "id": "6",
-    "title": "Movie Collection Website",
-    "date": "04 March 2025",
-    "lastestUpdate": "04 March 2025",
+    "id": "7",
+    "title": { 
+      "en": "Movie Collection Website",
+      "id": "Website Koleksi Film"
+    },
+    "date": {
+      "en": "04 March 2025",
+      "id": "04 Maret 2025"
+    },
+    "lastestUpdate": {
+      "en": "04 March 2025",
+      "id": "04 Maret 2025"
+    },
     "status": "Project",
     "pic": "/Projects/Screenshot 2025-03-27 115030.png",
-    "decription": "This is a website about movie collection. this website is not connected to API (Application Programming Interface). you can search any movie you want. but you can't watch just see about the movies.",
+    "decription": {
+      "en": "This is a website about movie collection. this website is not connected to API (Application Programming Interface). you can search any movie you want. but you can't watch just see about the movies.",
+      "id": "Ini adalah situs web tentang koleksi film. Situs web ini tidak terhubung ke API (Antarmuka Pemrograman Aplikasi). Anda dapat mencari film apa pun yang Anda inginkan. Tetapi Anda tidak dapat menonton, hanya melihat-lihat tentang film."
+    },
     "link": "https://sunaryo-movie-collection-gsap-part-2-9mco.vercel.app/",
     "github": "https://github.com/sunsunarto/Sunaryo_movie_collection_gsap_part_2"
   },
   {
     "id": "8",
-    "title": "Weight Calculator App",
-    "date": "20 May 2025",
-    "lastestUpdate": "25 May 2025",
+    "title": {
+      "en": "Weight Calculator App",
+      "id": "Aplikasi Kalkulator Berat Badan"
+    },
+    "date": {
+      "en": "20 May 2025",
+      "id": "20 Mei 2025"
+    },
+    "lastestUpdate": {
+      "en": "25 May 2025",
+      "id": "25 Mei 2025"
+    },
     "status": "Project",
     "pic": "/Projects/Screenshot 2025-07-26 111335.png",
-    "decription": "The weight Calculator app is a user-friendly interface that allows users to calculate their weight based on their height and age.",
+    "decription": {
+      "en": "The weight Calculator app is a user-friendly interface that allows users to calculate their weight based on their height and age.",
+      "id": "Aplikasi Kalkulator Berat Badan adalah antarmuka yang ramah pengguna yang memungkinkan pengguna untuk menghitung berat mereka berdasarkan tingginya dan umurnya."
+    },
     "link": "https://weight-calculator-eosin.vercel.app//",
     "github": "https://github.com/sunsunarto/weight-calculator-"
   },
   {
-    "id": "10",
-    "title": "My Art Space Website",
-    "date": "22 May 2025",
-    "lastestUpdate": "25 May 2025",
+    "id": "9",
+    "title": {
+      "en": "My Art Space Website",
+      "id": "Website My Art Space"
+    },
+    "date": { 
+      "en": "22 May 2025",
+      "id": "22 Mei 2025"
+    },
+    "lastestUpdate": {
+      "en": "25 May 2025",
+      "id": "25 Mei 2025"
+    },
     "status": "Project",
     "pic": "/Projects/Screenshot 2025-07-26 122647.png",
-    "decription": "The My Art Space app is a user-friendly interface that allows users introduce to one of my creation on making a portfolio website.",
+    "decription": {
+      "en": "The My Art Space app is a user-friendly interface that allows users introduce to one of my creation on making a portfolio website.",
+      "id": "Aplikasi My Art Space adalah antarmuka yang ramah pengguna yang memungkinkan pengguna memperkenalkan satu dari karya saya dalam membuat website portfolio."
+    },
     "link": "https://my-art-space-drj7.vercel.app/",
     "github": "https://github.com/sunsunarto/My-Art-Space"
   },
   {
-    "id": "9",
-    "title": "Latest News Website",
-    "date": "22 July 2025",
-    "lastestUpdate": "09 July 2025",
+    "id": "10",
+    "title": {
+      "en": "dummy News Website",
+      "id": "Website Berita Dummy"
+    },
+    "date": {
+      "en": "22 July 2025",
+      "id": "22 Juli 2025"
+    },
+    "lastestUpdate": {
+      "en": "09 July 2025",
+      "id": "09 Juli 2025"
+    },
     "status": "Project",
     "pic": "/Projects/Screenshot 2025-07-26 113733.png",
-    "decription": "The Latest News app is a user-friendly interface that allows users to read the latest news from the world of aviation, such as teh Air India news, and the Hijack Plane news.",
+    "decription": {
+      "en": "The Latest News app is a user-friendly interface that allows users to read the latest news from the world of aviation, such as teh Air India news, and the Hijack Plane news.",
+      "id": "Aplikasi Berita Terbaru adalah antarmuka yang ramah pengguna yang memungkinkan pengguna untuk membaca berita terbaru dari dunia aviasi, seperti berita Air India dan berita Hijack Plane."
+    },
     "link": "https://latest-news-sunaryo.vercel.app/",
     "github": "https://github.com/sunsunarto/latest-news-Sunaryo"
   }

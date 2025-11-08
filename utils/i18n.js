@@ -59,6 +59,11 @@ export const translations = {
     back: "Back",
     //portfolio content
     navPortfolio: "Portfolio",
+    titlePortfolio: "Project Details",
+    tabProject: "Project Picture",
+    update: "last Update",
+    backProject: "Back to Project Table",
+    //404 content
     f404: "Page not found",
   },
   id: {
@@ -121,6 +126,11 @@ export const translations = {
     back: "Kembali",
     //portfolio content
     navPortfolio: "Portfolio",
+    titlePortfolio: "Detail Projek",
+    tabProject: "Projek Gambar",
+    update: "Pembaruan Terakhir",
+    backProject: "Kembali ke Tabel Projek",
+    //404 content
     f404: "Halaman tidak ditemukan",
   }
 };

@@ -1,5 +1,5 @@
 import { Layout, Menu, Avatar, Typography, Grid, Drawer, Button, Space, Divider } from 'antd';
-import { DashboardOutlined, CalendarOutlined, MenuOutlined, UserOutlined } from '@ant-design/icons';
+import { DashboardOutlined, CalendarOutlined, MenuOutlined, UserOutlined, ContactsOutlined } from '@ant-design/icons';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useState, useContext } from 'react';
@@ -62,6 +62,9 @@ export default function LayoutApp({ children }) {
       </Menu.Item>
       <Menu.Item key="/portfolio" icon={<CalendarOutlined />}>
         <Link href="/portfolio">{t.navPortfolio}</Link>
+      </Menu.Item>
+      <Menu.Item key="/getInTouch" icon={<ContactsOutlined />}>
+        <Link href="/getInTouch">{t.navContact}</Link>
       </Menu.Item>
     </Menu>
   );

@@ -1,55 +1,41 @@
-import { useRouter } from 'next/router';
-import { useEffect, useState, useContext } from 'react';
-import { Typography, Row, Col, Card, Button, Divider, Image } from 'antd';
-import LayoutApp from '../../../../components/LayoutApp.js';
-import AchievementDetailBootcampCard from '../../../../components/AchievementDetailBootcampCard.js';
-import { LanguageContext } from "../../../../context/LanguageContext.js";
-import { translations } from "../../../../utils/i18n.js";
+import "../Styles/globals.css";
+import { ConfigProvider } from "antd";
+import { LanguageProvider } from "../context/LanguageContext.js";
+import { useEffect } from "react";
+import gsap from "gsap";
 
-
-const { Title, Text } = Typography;
-
-export default function ViewEvent() {
-  const router = useRouter();
-  const { id } = router.query;
-  const [event, setEvent] = useState(null);
-  const { language } = useContext(LanguageContext);
-  const t = translations[language];
-
+function MyApp({ Component, pageProps, router }) {
   useEffect(() => {
-    const fetchEvent = async () => {
-      try {
-        const res = await fetch('/data/event.json');
-        const data = await res.json();
-        const found = data.find((e) => e.id === id);
-        setEvent(found);
-      } catch (error) {
-        console.error('Error loading event:', error);
-      }
+    const handleRouteChange = () => {
+      gsap.fromTo(
+        "main",
+        { opacity: 0, y: 30 },
+        { opacity: 1, y: 0, duration: 0.6, ease: "power3.out" }
+      );
     };
 
-    if (id) {
-      fetchEvent();
-    }
-  }, [id]);
-
-  if (!event) {
-    return (
-      <LayoutApp>
-        <Title>{t.f404}</Title>
-      </LayoutApp>
-    );
-  }
+    router.events.on("routeChangeComplete", handleRouteChange);
+    return () => {
+      router.events.off("routeChangeComplete", handleRouteChange);
+    };
+  }, [router.events]);
 
   return (
-    <LayoutApp>
-      <div style={{ padding: '24px' }}>
-        <Title level={2} style={{ color: '#000080' }}>{t.detailsBootcamp}</Title>
-        <Divider />
-        <AchievementDetailBootcampCard event={event} />
-        <Divider />
-        <Button type="primary" style ={{ backgroundColor: '#000080' }} href="/achievement/AchievementTable/Table-Webinar">{t.backBootcamp}</Button>
-      </div>
-    </LayoutApp>
+    <ConfigProvider
+      theme={{
+        token: {
+          colorPrimary: "#1677ff",
+          borderRadius: 6,
+        },
+      }}
+    >
+      <LanguageProvider>
+        <main>
+          <Component {...pageProps} />
+        </main>
+      </LanguageProvider>
+    </ConfigProvider>
   );
 }
+
+export default MyApp;

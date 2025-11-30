@@ -50,7 +50,7 @@ export default function ViewEvent() {
         <AchievementDetailOtherCard event={event} />
 
         <Divider />
-        <Button type="primary" style ={{ backgroundColor: '#000080' }} href="/achievement/AchievementTable/Table-Webinar">{t.backOther}</Button>
+        <Button type="primary" style ={{ backgroundColor: '#000080' }} href="/achievement/AchievementTable/Table-Other">{t.backOther}</Button>
       </div>
     </LayoutApp>
   );

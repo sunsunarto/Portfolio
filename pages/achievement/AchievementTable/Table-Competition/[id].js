@@ -48,7 +48,7 @@ export default function ViewEvent() {
         <Divider />
         <AchievementDetailCompetitionCard event={event} />
         <Divider />
-        <Button type="primary" style ={{ backgroundColor: '#000080' }} href="/achievement/AchievementTable/Table-Webinar">{t.backCompetition}</Button>
+        <Button type="primary" style ={{ backgroundColor: '#000080' }} href="/achievement/AchievementTable/Table-Competition">{t.backCompetition}</Button>
       </div>
     </LayoutApp>
   );

@@ -63,6 +63,13 @@ export const translations = {
     tabProject: "Project Picture",
     update: "last Update",
     backProject: "Back to Project Table",
+    //contact content
+    navContact: "Get In Touch",
+    yourName: "Your Name",
+    yourEmail: "Your Email",
+    yourSubject: "Subject",
+    yourMessage: "Message",
+    submit: "Submit",
     //404 content
     f404: "Page not found",
   },
@@ -130,6 +137,13 @@ export const translations = {
     tabProject: "Projek Gambar",
     update: "Pembaruan Terakhir",
     backProject: "Kembali ke Tabel Projek",
+    //contact content
+    navContact: "Hubungi Saya",
+    yourName: "Nama Anda",
+    yourEmail: "Email Anda",
+    yourSubject: "Subjek",
+    yourMessage: "Pesan",
+    send: "Kirim",
     //404 content
     f404: "Halaman tidak ditemukan",
   }

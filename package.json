@@ -11,6 +11,7 @@
   "dependencies": {
     "@ant-design/icons": "^6.1.0",
     "@emailjs/browser": "^4.4.1",
+    "@tailwindcss/oxide": "^4.1.17",
     "antd": "^5.27.6",
     "gsap": "^3.13.0",
     "lightningcss": "^1.30.2",

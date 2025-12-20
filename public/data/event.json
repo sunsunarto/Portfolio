@@ -62,8 +62,8 @@
       "id": "Datang ke Olimpiade Matematika dan Ilmu Pengetahuan Indonesia 2025"
     },
     "date": {
-      "en": "03 - 05 October 2025",
-      "id" : "03 - 05 Oktober 2025"
+      "en": "03-05 October 2025",
+      "id" : "03-05 Oktober 2025"
     },
     "status": "competition",
     "from": "CV. Divya Cahaya Prestasi",
@@ -91,8 +91,8 @@
       "id": "Datang ke Olimpiade Matematika dan Ilmu Pengetahuan Indonesia 2025"
     },
     "date": {
-      "en": "19 - 21 September 2025",
-      "id" : "19 - 21 September 2025"
+      "en": "19-21 September 2025",
+      "id" : "19-21 September 2025"
     },
     "status": "competition",
     "from": "CV. Divya Cahaya Prestasi",
@@ -106,8 +106,8 @@
       "id": "Megikuti Olimpiade Matematika dan Ilmu Pengetahuan Indonesia 2025"
     },
     "date": { 
-      "en": "29 - 31 Agustus 2025",
-      "id" : "29 - 31 Agustus 2025"
+      "en": "29-31 Agustus 2025",
+      "id" : "29-31 Agustus 2025"
     },
     "status": "competition",
     "from": "CV. Divya Cahaya Prestasi",
@@ -121,8 +121,8 @@
       "id": "Megikuti Olimpiade Matematika dan Ilmu Pengetahuan Indonesia 2025"
     },
     "date": { 
-      "en": "29 - 31 August 2025",
-      "id" : "29 - 31 Agustus 2025"
+      "en": "29-31 August 2025",
+      "id" : "29-31 Agustus 2025"
     },
     "status": "competition",
     "from": "CV. Divya Cahaya Prestasi",
@@ -347,6 +347,78 @@
       "en": "This certificate was issued by the Indonesian Alumni Association of Taiwan (印尼留台校友聯誼會) to recognize a student's participation in a cultural event held in Jakarta, Indonesia, on December 11, 2016.",
       "id": "Sertifikat ini dikeluarkan oleh Ikatan Alumni Indonesia Taiwan untuk mengakui partisipasi seorang mahasiswa dalam acara budaya yang diadakan di Jakarta, Indonesia, pada tanggal 11 Desember 2016.",
       "cn": "此证书由印尼留台校友联合会发放,证明该学生在2016年12月11日在雅加达,印尼举行的文化活动中的参与。"
+    }
+  },
+  {
+    "id": "24",
+    "title": {
+      "en": "Participate in the Beyond The `Match` From biometric Bypass To Full Access",
+      "id": "Mengikuti Beyond The `Match` From Biometric Bypass To Full Access"
+    },
+    "date": {
+      "en": "30 November 2025",
+      "id" : "30 November 2025"
+    },
+    "status": "Webinar",
+    "from": "Merdeka Cyber",
+    "pic": "/sertifikat/Sunaryo Soengkono beyond the match from bio.png",
+    "decription": {
+      "en": "Webinar on Cybersecurity and Ethical Hacking",
+      "id": "Webinar tentang Keamanan Siber dan Peretasan Etis"
+    }
+  },
+  {
+    "id": "25",
+    "title": {
+      "en": "Participate in the Inception competition 2025",
+      "id": "Mengikuti Olimpiade Inception 2025"
+    },
+    "date": {
+      "en": "01 November 2025",
+      "id" : "01 November 2025"
+    },
+    "status": "competition",
+    "from": "Inception ",
+    "pic": "/sertifikat/Sunaryo Soengkono inception.png",
+    "decription": {
+      "en": "Inception competition 2025 with the jobdesk as a ui/ux design team",
+      "id": "Olimpiade Inception 2025 dengan jobdesk sebagai tim desain ui/ux"
+    }
+  },
+  {
+    "id": "26",
+    "title": {
+      "en": "Participate in the Infra Competition 2025",
+      "id": "Mengikuti Olimpiade Infra 2025"
+    },
+    "date": {
+      "en": "08 November 2025",
+      "id" : "08 November 2025"
+    },
+    "status": "competition",
+    "from": "Jagoan Hosting",
+    "pic": "/sertifikat/1401758603237-150142.png",
+    "decription": {
+      "en": "attend the infra competition 2025 with teh jobdesk as a copywriter and help teh ui/ux design team",
+      "id": "mengikuti olimpiade infra 2025 dengan jobdesk sebagai copywriter dan membantu tim desain ui/ux"
+    }
+  },
+  {
+    "id": "27",
+    "title": {
+      "en": "attend the Data Science & AI Bootcamp",
+      "id": "Mengikuti Bootcamp Data Science & AI"
+    },
+    "date": {
+      "en": "11 October 2025",
+      "id" : "11 Oktober 2025"
+    },
+    "status": "Bootcamp",
+    "from": "Intelligo.id",
+    "pic": "/sertifikat/Trial - Sunaryo Soengkono - INT-TBDSAI-0925-069.png",
+    "decription": {
+      "en": "Trail Bootcamp Data Science & AI with project from Intelligo.id",
+      "id": "Trial Bootcamp Data Science & AI dengan proyek dari Intelligo.id"
     }
   }
 ]

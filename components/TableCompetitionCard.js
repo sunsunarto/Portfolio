@@ -1,16 +1,21 @@
 import { useEffect, useState, useContext } from 'react';
 import { Table, Typography, Image, Space, Button } from 'antd';
-import { BookOutlined } from '@ant-design/icons';
+import { TrophyOutlined } from '@ant-design/icons';
 import Link from 'next/link';
 import { LanguageContext } from "../context/LanguageContext.js";
 import { translations } from "../utils/i18n.js";
+import dayjs from 'dayjs';
+import customParseFormat from 'dayjs/plugin/customParseFormat';
+import 'dayjs/locale/id';
+
+dayjs.extend(customParseFormat);
 
 const { Title } = Typography;
 
 export default function TableCompetitionCard() {
   const { language } = useContext(LanguageContext);
   const t = translations[language];
-  const [bootcamp, setBootcamp] = useState([]);
+  const [competition, setcompetition] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -18,29 +23,47 @@ export default function TableCompetitionCard() {
         const res = await fetch('/data/event.json');
         const data = await res.json();
         const filtered = data.filter((item) => item.status === 'competition');
-        setBootcamp(filtered);
+
+        const sorted = filtered.sort((a, b) => {
+          const rawDateA = typeof a.date === 'string'
+            ? a.date
+            : (a.date?.[language] || a.date?.en);
+          const rawDateB = typeof b.date === 'string'
+            ? b.date
+            : (b.date?.[language] || b.date?.en);
+
+          const dateA = dayjs(rawDateA, 'DD MMMM YYYY', language === 'id' ? 'id' : 'en');
+          const dateB = dayjs(rawDateB, 'DD MMMM YYYY', language === 'id' ? 'id' : 'en');
+
+          return dateB.valueOf() - dateA.valueOf();
+        });
+
+        setcompetition(sorted);
       } catch (error) {
-        console.error('Failed to load bootcamp data:', error);
+        console.error('Failed to load Competition data:', error);
       }
     };
 
     fetchData();
-  }, []);
+  }, [language]);
 
   const columns = [
     {
       title: t.certificate,
       dataIndex: 'pic',
       key: 'pic',
-      render: (pic) => (
-        <Image
-          src={pic}
-          alt="Certificate"
-          width={100}
-          height={50}
-          style={{ objectFit: 'cover', borderRadius: 8 }}
-        />
-      ),
+      render: (pic) =>
+        pic ? (
+          <Image
+            src={pic}
+            alt="Certificate"
+            width={100}
+            height={50}
+            style={{ objectFit: 'cover', borderRadius: 8 }}
+          />
+        ) : (
+          '-'
+        ),
     },
     {
       title: t.title,
@@ -52,13 +75,21 @@ export default function TableCompetitionCard() {
     {
       title: t.date,
       key: 'date',
-      render: (_, record) => record.date?.[language] || record.date?.en || '-',
+      render: (_, record) => {
+        const rawDate =
+          typeof record.date === 'string'
+            ? record.date
+            : (record.date?.[language] || record.date?.en);
+        return rawDate || '-';
+      },
     },
     {
       title: t.information,
       key: 'information',
       render: (_, record) => (
-        <Link href={`/achievement/AchievementTable/Table-Competition/${record.id}`}>{t.viewMore}</Link>
+        <Link href={`/achievement/AchievementTable/Table-Competition/${record.id}`}>
+          {t.viewMore}
+        </Link>
       ),
     },
   ];
@@ -66,17 +97,23 @@ export default function TableCompetitionCard() {
   return (
     <Space direction="vertical" style={{ width: '100%', backgroundColor: '#E6F7FF' }}>
       <Title style={{ color: '#000080' }} level={2}>
-        <BookOutlined style={{ color: '#000080' }} /> {t.tabCompetition}
+        <TrophyOutlined style={{ color: '#000080' }} /> {t.tabCompetition}
       </Title>
       <Table
         style={{ backgroundColor: '#E6F7FF' }}
-        dataSource={bootcamp}
+        dataSource={competition}
         columns={columns}
         rowKey="id"
         pagination={{ pageSize: 7 }}
         bordered
       />
-      <Button type="primary" style ={{ backgroundColor: '#000080' }} href="/achievement/AchievementTable">{t.back}</Button>
+      <Button
+        type="primary"
+        style={{ backgroundColor: '#000080' }}
+        href="/achievement/AchievementTable"
+      >
+        {t.back}
+      </Button>
     </Space>
   );
 }

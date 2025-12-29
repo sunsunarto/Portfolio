@@ -11,6 +11,8 @@
   "dependencies": {
     "@ant-design/icons": "^6.1.0",
     "@emailjs/browser": "^4.4.1",
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.4.2",
     "@tailwindcss/oxide": "^4.1.17",
     "antd": "^5.27.6",
     "dayjs": "^1.11.19",
@@ -19,7 +21,8 @@
     "next": "^16.0.8",
     "react": "19.1.0",
     "react-circular-progressbar": "^2.2.0",
-    "react-dom": "19.1.0"
+    "react-dom": "19.1.0",
+    "three": "^0.182.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

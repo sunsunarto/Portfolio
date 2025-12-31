@@ -6,6 +6,7 @@
       "id": "Membangun UI Cepat dengan React + Tailwind Design Antarmuka Menakjubkan Lebih Cepat dari Sebelumnya!"
     },
     "date": {
+      "iso": "2025-10-24",
       "en": "24 October 2025",
       "id" : "24 Oktober 2025"
     },
@@ -20,6 +21,7 @@
       "id": "DSF 44 - Keamanan Siber"
     },
     "date": {
+      "iso": "2025-10-13",
       "en": "13-17 October 2025",
       "id" : "13-17 Oktober 2025"
     },
@@ -34,6 +36,7 @@
       "id": "Belajar Membangun Aplikasi To-Do Dengan Local Storage"
     },
     "date": {
+      "iso": "2025-10-03",
       "en": "03 October 2025",
       "id" : "03 Oktober 2025"
     },
@@ -48,6 +51,7 @@
       "id": "Membangun Aplikasi Pencarian Film Menggunakan React JS - Eksplor, Cari & Temukan"
     },
     "date": {
+      "iso": "2025-10-03",
       "en": "03 - 05 October 2025",
       "id" : "03 - 05 Oktober 2025"
     },
@@ -62,6 +66,7 @@
       "id": "Datang ke Olimpiade Matematika dan Ilmu Pengetahuan Indonesia 2025"
     },
     "date": {
+      "iso": "2025-10-03",
       "en": "03-05 October 2025",
       "id" : "03-05 Oktober 2025"
     },
@@ -77,6 +82,7 @@
       "id": "Kodekan Aplikasi Pertama Kamu: Python Snake Dengan Graphics Turtle"
     },
     "date": {
+      "iso": "2025-09-26",
       "en": "26 September 2025",
       "id" : "26 September 2025"
     },
@@ -91,6 +97,7 @@
       "id": "Datang ke Olimpiade Matematika dan Ilmu Pengetahuan Indonesia 2025"
     },
     "date": {
+      "iso": "2025-09-19",
       "en": "19-21 September 2025",
       "id" : "19-21 September 2025"
     },
@@ -105,7 +112,8 @@
       "en": "Attend 2025 Indonesian Independence Day Science Olympiad",
       "id": "Megikuti Olimpiade Matematika dan Ilmu Pengetahuan Indonesia 2025"
     },
-    "date": { 
+    "date": {
+      "iso": "2025-08-30", 
       "en": "29-31 Agustus 2025",
       "id" : "29-31 Agustus 2025"
     },
@@ -121,6 +129,7 @@
       "id": "Megikuti Olimpiade Matematika dan Ilmu Pengetahuan Indonesia 2025"
     },
     "date": { 
+      "iso": "2025-08-29",
       "en": "29-31 August 2025",
       "id" : "29-31 Agustus 2025"
     },
@@ -136,6 +145,7 @@
       "id": "Kenapa Java Di 2025? Panduan Pemula Untuk Karir, Projek, dan Roadmap Java"
     },
     "date": {
+      "iso": "2025-07-27",
       "en": "27 July 2025",
       "id" : "27 Juli 2025"
     },
@@ -150,6 +160,7 @@
       "id": "Master Python Dengan AI Di 60 Menit! Pelajari Tips, Trik, dan Pengetahuan AI"
     },
     "date": {
+      "iso": "2025-07-27",
       "en": "27 July 2025",
       "id" : "27 Juli 2025"
     },
@@ -164,6 +175,7 @@
       "id": "Memulai Dengan Industri Keamanan Siber"
     },
     "date": {
+      "iso": "2025-07-25",
       "en": "25 Juli 2025",
       "id" : "25 Juli 2025"
     },
@@ -178,6 +190,7 @@
       "id": "Buat Chatbot Smart Menggunakan React.js - Dari UI Hingga Respon"
     },
     "date": {
+      "iso": "2025-06-08",
       "en": "08 June 2025",
       "id" : "08 Juni 2025"
     },
@@ -192,6 +205,7 @@
       "id": "Buat Aplikasi Cuaca Dengan React & OpenWeather API"
     },
     "date": {
+      "iso": "2025-05-28",
       "en": "28 May 2025",
       "id" : "28 Mei 2025"
     },
@@ -206,6 +220,7 @@
       "id": "Jalur Keamanan Siber 2025: Mulai Jalanmu Menjadi Cyber Pro!"
     },
     "date": {
+      "iso": "2025-05-29",
       "en": "29 May 2025",
       "id" : "29 Mei 2025"
     },
@@ -220,6 +235,7 @@
       "id": "Master Python Dalam 60 Menit- Mulai Jalanmu Dengan Python"
     },
     "date": {
+      "iso": "2025-05-16",
       "en": "16 May 2025",
       "id" : "16 Mei 2025"
     },
@@ -234,6 +250,7 @@
       "id": "Rahasia Menyusun Aplikasi Web JavaScript Cepat dan Ringan"
     },
     "date": {
+      "iso": "2025-05-02",
       "en": "02 May 2025",
       "id" : "02 Mei 2025"
     },
@@ -248,6 +265,7 @@
       "id": "NodeJs Untuk Pemula-Buat API Rest Pertama"
     },
     "date": {
+      "iso": "2025-04-19",
       "en": "19 April 2025",
       "id" : "19 April 2025"
     },
@@ -262,6 +280,7 @@
       "id": "Buat Portfolio Webinar Dengan HTML, CSS & JS"
     },
     "date": {
+      "iso": "2025-03-27",
       "en": "27 March 2025",
       "id" : "27 Maret 2025"
     },
@@ -276,6 +295,7 @@
       "id": "Kedua Pemenang Kelas 2024"
     },
     "date": {
+      "iso": "2024-06-13",
       "en": "13 June 2024",
       "id" : "13 Juni 2024"
     },
@@ -295,6 +315,7 @@
       "cn": "讀經班"
     },
     "date": {
+      "iso": "2022-07-02",
       "en": "02 July 2022",
       "id" : "02 Juli 2022",
       "cn": "2022年7月2日"
@@ -315,6 +336,7 @@
       "cn": "HSK 2 證書"
     },
     "date": {
+      "iso": "2017-12-03",
       "en": "03 December 2017",
       "id" : "03 Desember 2017",
       "cn": "2017年12月3日"
@@ -336,6 +358,7 @@
       "cn": "學生規則"
     },
     "date": {
+      "iso": "2016-12-11",
       "en": "11 December 2016",
       "id" : "11 Desember 2016",
       "cn": "2016年12月11日"
@@ -356,6 +379,7 @@
       "id": "Mengikuti Beyond The `Match` From Biometric Bypass To Full Access"
     },
     "date": {
+      "iso": "2025-11-30",
       "en": "30 November 2025",
       "id" : "30 November 2025"
     },
@@ -374,6 +398,7 @@
       "id": "Mengikuti Olimpiade Inception 2025"
     },
     "date": {
+      "iso": "2025-11-01",
       "en": "01 November 2025",
       "id" : "01 November 2025"
     },
@@ -392,6 +417,7 @@
       "id": "Mengikuti Olimpiade Infra 2025"
     },
     "date": {
+      "iso": "2025-11-08",
       "en": "08 November 2025",
       "id" : "08 November 2025"
     },
@@ -410,6 +436,7 @@
       "id": "Mengikuti Bootcamp Data Science & AI"
     },
     "date": {
+      "iso": "2025-10-11",
       "en": "11 October 2025",
       "id" : "11 Oktober 2025"
     },

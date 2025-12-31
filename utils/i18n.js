@@ -70,6 +70,10 @@ export const translations = {
     yourSubject: "Subject",
     yourMessage: "Message",
     submit: "Submit",
+    //3d model content
+    nav3DModel: "3D Model",
+    //Calendar content
+    navCalendar: "Calendar",
     //404 content
     f404: "Page not found",
   },
@@ -144,6 +148,10 @@ export const translations = {
     yourSubject: "Subjek",
     yourMessage: "Pesan",
     send: "Kirim",
+    //3d model content
+    nav3DModel: "Model 3D",
+    //Calendar content
+    navCalendar: "Kalender",
     //404 content
     f404: "Halaman tidak ditemukan",
   }

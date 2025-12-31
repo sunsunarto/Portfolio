@@ -42,7 +42,7 @@ export default function LayoutApp({ children }) {
     <Menu
       mode="vertical"
       selectedKeys={[path]}
-      style={{ background: 'white', borderRight: 'none' }}
+      style={{ background: 'white', borderRight: 'none', boxShadow: '2px 0 8px rgba(0,0,0,0.1)', height: '450px' }}
       onClick={() => setDrawerVisible(false)}
     >
       <Menu.Item key="/" icon={<DashboardOutlined />}>
@@ -66,6 +66,12 @@ export default function LayoutApp({ children }) {
       <Menu.Item key="/getInTouch" icon={<ContactsOutlined />}>
         <Link href="/getInTouch">{t.navContact}</Link>
       </Menu.Item>
+      <Menu.Item key="/3DModel" icon={<DashboardOutlined />}>
+        <Link href="/3DModel">{t.nav3DModel}</Link>
+      </Menu.Item>
+      <Menu.Item key="/Calendar" icon={<CalendarOutlined />}>
+        <Link href="/Calendar">{t.navCalendar}</Link>
+      </Menu.Item>
     </Menu>
   );
 
@@ -81,40 +87,15 @@ export default function LayoutApp({ children }) {
 
         {isMobile && (
           <>
-            <Button
-              icon={<MenuOutlined />}
-              type="text"
-              style={{
-                position: 'fixed',
-                top: 16,
-                left: 16,
-                zIndex: 1100,
-                background: '#fff',
-                borderRadius: 4,
-                boxShadow: '0 2px 6px rgba(0,0,0,0.15)',
-              }}
-              onClick={() => setDrawerVisible(true)}
-            />
-            <Drawer
-              placement="left"
-              onClose={() => setDrawerVisible(false)}
-              visible={drawerVisible}
-              bodyStyle={{ padding: 0 }}
-            >
+            <Button icon={<MenuOutlined />}type="text" style={{ position: 'fixed', top: 16, left: 16, zIndex: 1100, background: '#fff', borderRadius: 4, boxShadow: '0 2px 6px rgba(0,0,0,0.15)'}} onClick={() => setDrawerVisible(true)}/>
+            <Drawer placement="left" onClose={() => setDrawerVisible(false)} visible={drawerVisible} bodyStyle={{ padding: 0 }}>
               <ProfileHeader />
               {menuItems}
             </Drawer>
           </>
         )}
 
-        <Content
-          style={{
-            background: '#e6f7ff',
-            padding: isMobile ? '24px 16px' : '40px',
-            flex: 1,
-            position: 'relative',
-          }}
-        >
+        <Content style={{ background: '#e6f7ff', padding: isMobile ? '24px 16px' : '40px', flex: 1, position: 'relative' }}>
           {isMobile && <div style={{ height: 56 }} />}
           <Breadcrumbnav />
           {children}

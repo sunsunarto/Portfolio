@@ -1,0 +1,248 @@
+[
+    {
+        "commit": "Initial commit from Create Next App",
+        "date": "21 October 2025",
+        "version": "0.1.0",
+        "description": "Initial commit of the Next.js portfolio application."
+    },
+    {
+        "commit": "First Commit",
+        "date": "23 October 2025",
+        "version": "1.0.0",
+        "description": "Made a first commit with home, about me, skills, half done with the achievements section"
+    },
+    {
+        "commit": "third Commit",
+        "date": "23 October 2025",
+        "version": "1.0.1",
+        "description": "Fix the apostrophe issue in the about me section and skill section and optimize the image in education section."
+    },
+    {
+        "commit": "second Commit",
+        "date": "23 October 2025",
+        "version": "1.0.2",
+        "description": "Fix the image optimization issue in the education section and fix the import issue in all components."
+    },
+    {
+        "commit": "Fourth Commit",
+        "date": "23 October 2025",
+        "version": "1.0.3",
+        "description": "Fix the import issue"
+    },
+    {
+        "commit": "delete Commit",
+        "date": "23 October 2025",
+        "version": "1.0.4",
+        "description": "Delete the unwanted file (create event.js)"
+    },
+    {
+        "commit": "delete1 Commit",
+        "date": "23 October 2025",
+        "version": "1.0.5",
+        "description": "Delete the unwanted file (the table in achievement.js)"
+    },
+    {
+        "commit": "edit app commit",
+        "date": "23 October 2025",
+        "version": "1.1.5",
+        "description": "Change the name of the app.js"
+    },
+    {
+        "commit": "edit app1 commit",
+        "date": "23 October 2025",
+        "version": "1.2.6",
+        "description": "Udpate the app.js"
+    },
+    {
+        "commit": "fifth commit",
+        "date": "23 October 2025",
+        "version": "1.3.6",
+        "description": "Update the layout app, home page and optimise the picture inn education section."
+    },
+    {
+        "commit": "sixth commit",
+        "date": "24 October 2025",
+        "version": "1.4.6",
+        "description": "Added event json, update teh view CV in home page"
+    },
+    {
+        "commit": "seventh commit",
+        "date": "25 October 2025",
+        "version": "1.5.6",
+        "description": "Added the achievement per section and update the CV PDF Link"
+    },
+    {
+        "commit": "fix table competition card  commit",
+        "date": "25 October 2025",
+        "version": "1.5.7",
+        "description": "Fdded link in the competition card"
+    },
+    {
+        "commit": "fix table competition commit",
+        "date": "25 October 2025",
+        "version": "1.5.8",
+        "description": "Fix the import for the competition card"
+    },
+    {
+        "commit": "fix table competition commit",
+        "date": "25 October 2025",
+        "version": "1.5.9",
+        "description": "Fix the link in competition card"
+    },
+    {
+        "commit": "eighth commit",
+        "date": "26 October 2025",
+        "version": "1.6.9",
+        "description": "Added more detail in competition card, table, the achievement page and added more Certificate"
+    },
+    {
+        "commit": "fix &apos  commit",
+        "date": "26 October 2025",
+        "version": "1.6.10",
+        "description": "Fix the apostrophe issue in achievement page"
+    },
+    {
+        "commit": "ninth commit",
+        "date": "27 October 2025",
+        "version": "1.7.10",
+        "description": "Added more detail in achievement page, portfoilo"
+    },
+    {
+        "commit": "tenth commit",
+        "date": "02 November 2025",
+        "version": "1.8.10",
+        "description": "Added webinar card in achievement page and start to add language context"
+    },
+    {
+        "commit": "eleventh commit",
+        "date": "04 November 2025",
+        "version": "2.0.0",
+        "description": "Added language context to the layout app, home page an about me page"
+    },
+    {
+        "commit": "test competition commit",
+        "date": "05 November 2025",
+        "version": "2.1.0",
+        "description": "Update the text in competition card"
+    },
+    {
+        "commit": "test 1 competition commit",
+        "date": "05 November 2025",
+        "version": "2.1.1",
+        "description": "Neat the code in competition card"
+    },
+    {
+        "commit": "test 2 competition commit",
+        "date": "05 November 2025",
+        "version": "2.2.1",
+        "description": "Update the text in one folder achievement card"
+    },
+    {
+        "commit": "change index.js",
+        "date": "06 November 2025",
+        "version": "2.2.2",
+        "description": "Fix the name of the index.js in achievement competition folder"
+    },
+    {
+        "commit": "twelveth commit",
+        "date": "06 November 2025",
+        "version": "2.3.2",
+        "description": "Update the text in achievement card"
+    },
+    {
+        "commit": "Merge branch 'main' of https://github.com/sunsunarto/Portfolio",
+        "date": "06 November 2025",
+        "version": "2.3.2",
+        "description": "Pull latest changes from main branch and update the index.js in achievement competition"
+    },
+    {
+        "commit": "fix commit",
+        "date": "06 November 2025",
+        "version": "2.3.3",
+        "description": "Fix the useContext in webinar card in achievement card"
+    },
+    {
+        "commit": "thirdteenth commit",
+        "date": "30 November 2025",
+        "version": "2.4.3",
+        "description": " update the text in portfolio card"
+    },
+    {
+        "commit": "eight commit",
+        "date": "30 November 2025",
+        "version": "2.5.3",
+        "description": "Added Get in Touch beta section and optimize other page"
+    },
+    {
+        "commit": "fourteenth commit",
+        "date": "05 November 2025",
+        "version": "2.5.4",
+        "description": "Optimize the achievement page logic and layout"
+    },
+    {
+        "commit": "fifteenth commit",
+        "date": "30 November 2025",
+        "version": "2.6.4",
+        "description": "Optimize teh get in touch section layout and logic"
+    },
+    {
+        "commit": "fix bug commit",
+        "date": "09 December 2025",
+        "version": "2.6.5",
+        "description": " fix the bug in Webinar achievement card"
+    },
+    {
+        "commit": "Update Next.js/React Flight packages for RCE advisory",
+        "date": "09 December 2025",
+        "version": "2.7.5",
+        "description": "upadte the nextjs and reactjs packages to fix the RCE security issue by vercle bot"
+    },
+    {
+        "commit": "Merge pull request #1 from sunsunarto/vercel/nextjsreact-flight-packages-fo-3du6wp",
+        "date": "09 December 2025",
+        "version": "2.7.5",
+        "description": "pull the update from vercle bot to fix the RCE security issue"
+    },
+    {
+        "commit": "fix 1  commit",
+        "date": "09 December 2025",
+        "version": "2.8.5",
+        "description": "Update the next pakage"
+    },
+    {
+        "commit": "fix 2 commit",
+        "date": "09 December 2025",
+        "version": "2.9.5",
+        "description": "Update the lightningcss package"
+    },
+    {
+        "commit": "fix 3 commit",
+        "date": "09 December 2025",
+        "version": "2.10.5",
+        "description": "Added pnpm package and fix the packege-lock.json scripts"
+    },
+    {
+        "commit": "update and fix commit",
+        "date": "20 December 2025",
+        "version": "2.11.5",
+        "description": "Added Dayjs Package and use it in achievement page and up to date  teh event json data"
+    },
+    {
+        "commit": "add commit",
+        "date": "29 December 2025",
+        "version": "2.12.5",
+        "description": "Added treejs package to start in importing my 3d models"
+    },
+    {
+        "commit": "update",
+        "date": "29 December 2025",
+        "version": "2.13.5",
+        "description": "added packege in pnpm file"
+    },
+    {
+        "commit": "sixteenth commit",
+        "date": "31 December 2025",
+        "version": "2.14.5",
+        "description": "Added the 3d model page and add my model"
+    }
+]

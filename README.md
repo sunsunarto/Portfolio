@@ -1,36 +1,96 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌐 Sunaryo's Portfolio
 
-## Getting Started
+A modern, responsive portfolio showcasing my work as a **Front-end Developer** and**UX/UI Designer**
+Built with **Next.js**, deployed on **Vercel**, and designed for clarity, scalability, and bilingual presentation.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📖 Table of Contents
+1. [Features](#-features)
+2. [Tech Stack](#-tech-stack)
+3. [Project Philosophy](#-project-philosophy)
+4. [Design Principles](#-design-principles)
+5. [Project Structure](#-project-structure)
+6. [Screenshots](#-screenshots)
+7. [Getting Started](#-getting-started)-
+8. [Author](#-author)
+9. [License](#-license)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🚀 Features
+- **Responsive Design**: Optimized for desktop, tablet, and mobile.
+- **Interactive Dashboard**: Highlights projects, campaigns, and changelogs.
+- **CV Integration**: Quick access to resume and credentials.
+- **About Me Section**: Personal background and professional journey.
+- **3D Model**:  3D model showcases using React Three Fiber + Blender.
+- **Change Langguge**: Bilingual content (Indonesian & English).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠️ Tech Stack
+- **Framework**: [Next.js](https://nextjs.org/) — chosen for SSR, SSG, and scalability.
+- **UI Library**: React + Ant Design — modular components for rapid development.
+- **Deployment**: [Vercel](https://vercel.com/) — seamless CI/CD and global edge network.
+- **Styling**: CSS Modules / Tailwind (optional) — responsive and maintainable.
+- **3D Integration (planned)**: React Three Fiber, Blender — for interactive model showcases.
+- **Package Manager**: pnpm — faster installs and better monorepo support.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎯 Project Philosophy
+This portfolio is more than a static showcase — it’s a **living document** of my growth as a developer and designer.  
+Key philosophies:
+- **Iterative Development**: Every update is logged and visible, reflecting continuous improvement.
+- **Transparency**: Honest presentation of both strengths and imperfections.
+- **Accessibility**: Designed to be usable by as many people as possible.
+- **Scalability**: Built with modular components for easy expansion.
+- **Cultural Sensitivity**: Bilingual content and inclusive design for diverse audiences.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🎨 Design Principles
+- **Minimalism**: Clean layouts with focus on content.
+- **Consistency**: Unified typography, spacing, and color palette.
+- **Interactivity**: Hover effects, toggles, and responsive UI elements.
+- **Narrative-driven UX**: Each section tells a story about skills, projects, and vision.
+- **Defensive Coding**: Error handling for JSON parsing, rendering, and responsive breakpoints.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📂 Project Structure
+├── public/          # Static assets (images, icons, CV)
+├── components/      # Reusable UI components
+├── pages/           # Next.js  routing (Home, About, Projects, Contact)
+├── styles/          # Global and modular CSS
+├── utils/           # Helper functions and defensive logic
+├── hooks/           # Custom React hooks
+├── data/            # JSON data for events, projects, changelogs
+└── README.md        # Project documentation
+
+
+---
+
+## 📸 Screenshots
+*(Add screenshots of your portfolio here once ready)*  
+- Homepage layout  
+- Dashboard view  
+- CV integration page  
+- 3D model showcase 
+---
+
+## 👤 Author
+Sunaryo Soengkono  
+Front-end Developer | UX/UI Designer
+📍 Jakarta, Indonesia
+
+🌐 Portfolio: portfolio-sunaryo.vercel.app
+
+💼 LinkedIn: (add link here)
+
+📺 yotube: 
+
+✉️ Email: sunaryo24259@outlook.com
+
+## 📜 License
+This project is licensed under the MIT License.

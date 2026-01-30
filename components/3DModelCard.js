@@ -15,7 +15,7 @@ export default function ModelViewer() {
     <div>
       <div style={{ marginBottom: '10px' }}>
         <Button style={{backgroundColor: "#3949AB", color: "white"}}  onClick={() => setActiveModel('1')}>
-          Model A220-100 (30% done)
+          Model A220-100 (40% done)
         </Button>
         <Button style={{ backgroundColor: "#3949AB", color: "white", marginLeft: '10px' }} onClick={() => setActiveModel('2')}>
           Model A319 (1% done)

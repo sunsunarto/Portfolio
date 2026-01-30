@@ -5,7 +5,7 @@ import LayoutApp from '../components/LayoutApp.js'
 import { LanguageContext } from "../context/LanguageContext.js";
 import { translations } from "../utils/i18n.js";
 
-const { Title } = Typography
+const { Title, Text } = Typography
 
 
 const ModelViewer = dynamic(() => import('../components/3DModelCard.js') )
@@ -13,11 +13,12 @@ const ModelViewer = dynamic(() => import('../components/3DModelCard.js') )
 export default function Model3DPage() {
 const { language } = useContext(LanguageContext);
 const t = translations[language];
-    
+
   return (
     <LayoutApp>
       <Divider/>
       <Title level={2} style={{color: '#000080'}}>{t.nav3DModel}</Title>
+      <Text>{t.text3D}</Text>
       <div style={{ width: '100%', height: '500px' }}>
         <ModelViewer />
       </div>

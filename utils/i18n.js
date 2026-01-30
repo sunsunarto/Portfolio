@@ -1,3 +1,5 @@
+import { Text3D } from "@react-three/drei";
+
 export const translations = {
   en: {
     //sider content
@@ -72,6 +74,7 @@ export const translations = {
     submit: "Submit",
     //3d model content
     nav3DModel: "3D Model",
+    Text3D: "This 3D card shows a simple aircraft model. It is inspired by real planes like Airbus and Boeing. The model is not perfect, but you can rotate and look at it from different sides. It helps to see the basic shape and idea of the aircraft. I made this project just for fun as a hobby, so please excuse any mistakes or rough design.",
     //Calendar content
     navCalendar: "Calendar",
     //404 content

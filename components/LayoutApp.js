@@ -63,14 +63,14 @@ export default function LayoutApp({ children }) {
       <Menu.Item key="/portfolio" icon={<CalendarOutlined />}>
         <Link href="/portfolio">{t.navPortfolio}</Link>
       </Menu.Item>
-      <Menu.Item key="/getInTouch" icon={<ContactsOutlined />}>
-        <Link href="/getInTouch">{t.navContact}</Link>
+      <Menu.Item key="/Calendar" icon={<CalendarOutlined />}>
+        <Link href="/Calendar">{t.navCalendar}</Link>
       </Menu.Item>
       <Menu.Item key="/3DModel" icon={<DashboardOutlined />}>
         <Link href="/3DModel">{t.nav3DModel}</Link>
       </Menu.Item>
-      <Menu.Item key="/Calendar" icon={<CalendarOutlined />}>
-        <Link href="/Calendar">{t.navCalendar}</Link>
+      <Menu.Item key="/getInTouch" icon={<ContactsOutlined />}>
+        <Link href="/getInTouch">{t.navContact}</Link>
       </Menu.Item>
     </Menu>
   );

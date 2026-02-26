@@ -32,7 +32,7 @@ export default function Languages() {
         title="Select Language"
         placement="right"
         onClose={() => setDrawerVisible(false)}
-        visible={drawerVisible}
+        open={drawerVisible}
         bodyStyle={{ padding: 24 }}
       >
         <Space direction="vertical">

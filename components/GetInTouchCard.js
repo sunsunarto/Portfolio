@@ -72,8 +72,8 @@ export default function Contact() {
           >
             <input type="text" placeholder={t.yourName} name="name" required style={{ backgroundColor: "#F6F8F9", color: "black", width: "600px", height: "32px", borderRadius: "5px" }} />
             <input type="email" placeholder={t.yourEmail} required name="email" style={{ backgroundColor: "#F6F8F9", color: "black", height: "32px", borderRadius: "5px" }} />
-            <input type="text" placeholder={t.yourSubject} required name="subject" style={{ backgroundColor: "#F6F8F9", color: "black", height: "32px", borderRadius: "5px" }} />
-            <textarea placeholder={t.yourMessage} required name="message" style={{ backgroundColor: "#F6F8F9", color: "black", height: "147px", borderRadius: "5px" }}></textarea>
+            <input type="text" placeholder={t.yourSubject} name="subject" style={{ backgroundColor: "#F6F8F9", color: "black", height: "32px", borderRadius: "5px" }} />
+            <textarea placeholder={t.yourMessage} name="message" style={{ backgroundColor: "#F6F8F9", color: "black", height: "147px", borderRadius: "5px" }}></textarea>
             <button type="submit" style={{ backgroundColor: "#000080", color: "white", borderRadius: "5px", fontWeight: "bold", height: "32px" }}>
               {t.send}
             </button>

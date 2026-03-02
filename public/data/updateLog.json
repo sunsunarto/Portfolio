@@ -470,8 +470,8 @@
         },
         "version": "2.7.5",
         "description": {
-            "en": "Pull the update from vercle bot to fix the RCE security issue",
-            "id": "Pull the update from vercle bot to fix the RCE security issue",
+            "en": "Pull the update from vercel bot to fix the RCE security issue",
+            "id": "Unduh pembaruan dari bot Vercel untuk memperbaiki masalah keamanan RCE.",
             "cn": "从vercle bot拉取更新以修复RCE安全问题"
         }
     },
@@ -610,7 +610,7 @@
         },
         "version": "3.0.1",
         "description": {
-            "en": "fix the bug in the button menu Navigation at phone model annd the language switcher",
+            "en": "Fix the bug in the button menu Navigation at phone model annd the language switcher",
             "id": "Memperbaiki bug di menu navigasi tombol Navigasi di model ponsel dan pengganti bahasa",
             "cn": "修复导航菜单按钮的bug"
         }

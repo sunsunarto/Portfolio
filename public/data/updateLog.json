@@ -656,5 +656,19 @@
         "id": "Perbarui UpdateLog.json",
         "cn": "更新UpdateLog.json"
       }
+    },
+    {
+      "commit": "3d-fetch-data",
+      "date": {
+        "en": "2 March 2026",
+        "id": "2 Maret 2026",
+        "cn": "2026年3月2日"
+      },
+      "version": "3.2.3",
+      "description": {
+        "en:": "fix the fetch file not found in the 3d model page",
+        "id": "memperbaiki file fetch tidak ditemukan di halaman model 3D",
+        "cn": "修复3D模型页面中的fetch文件未找到"
+      }
     }
 ]

@@ -5,9 +5,6 @@ import { Button } from 'antd'
 import Model1 from './Model/Model1'
 import Model2 from './Model/Model2'
 
-useGLTF.preload('/models/model1.glb')
-useGLTF.preload('/models/model2.glb')
-
 export default function ModelViewer() {
   const [activeModel, setActiveModel] = useState(null) 
 

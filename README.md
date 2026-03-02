@@ -94,3 +94,18 @@ Front-end Developer | UX/UI Designer
 
 ## 📜 License
 This project is licensed under the MIT License.
+
+## To start this app
+1. git pull https://github.com/sunsunarto/Portfolio
+2. npm run dev
+3. npm run build
+
+## to commit
+1. git add .
+2. git commit -m "description"
+3. git push -u origin (branch)
+*always make a new branch to developt feature or bug.*
+
+## make new branch
+1. git checkout -b (branch name)
+

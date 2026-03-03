@@ -49,7 +49,7 @@ export default function ViewProject() {
         <Divider />
 
         <ProjectDetail event={project} />
-        <Link href="/Project">
+        <Link href="/project">
           <Button type="primary" style={{ marginTop: '16px' }}> Back to Project Table </Button>
         </Link>
       </div>

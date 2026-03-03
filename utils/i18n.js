@@ -59,9 +59,9 @@ export const translations = {
     backCompetition: "Back to Competition Table",
     backOther: "Back to Other Table",
     back: "Back",
-    //portfolio content
-    navPortfolio: "Portfolio",
-    titlePortfolio: "Project Details",
+    //Project content
+    navProject: "Project",
+    titleProject: "Project Details",
     tabProject: "Project Picture",
     update: "last Update",
     backProject: "Back to Project Table",
@@ -138,9 +138,9 @@ export const translations = {
     backCompetition: "Kembali ke Tabel Kompetisi",
     backOther: "Kembali ke Tabel Lainnya",
     back: "Kembali",
-    //portfolio content
-    navPortfolio: "Portfolio",
-    titlePortfolio: "Detail Projek",
+    //project content
+    navProject: "Projek",
+    titleProject: "Detail Projek",
     tabProject: "Projek Gambar",
     update: "Pembaruan Terakhir",
     backProject: "Kembali ke Tabel Projek",

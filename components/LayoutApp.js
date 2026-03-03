@@ -60,8 +60,8 @@ export default function LayoutApp({ children }) {
       <Menu.Item key="/achievement" icon={<UserOutlined />}>
         <Link href="/achievement">{t.navAchievement}</Link>
       </Menu.Item>
-      <Menu.Item key="/portfolio" icon={<CalendarOutlined />}>
-        <Link href="/portfolio">{t.navPortfolio}</Link>
+      <Menu.Item key="/project" icon={<CalendarOutlined />}>
+        <Link href="/project">{t.navProject}</Link>
       </Menu.Item>
       <Menu.Item key="/Calendar" icon={<CalendarOutlined />}>
         <Link href="/Calendar">{t.navCalendar}</Link>

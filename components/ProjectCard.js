@@ -7,20 +7,20 @@ import { translations } from "../utils/i18n.js";
 
 const { Title } = Typography;
 
-export default function PortfolioCard() {
-    const [portfolio, setPortfolio] = useState([]);
+export default function ProjectCard() {
+    const [project, setProject] = useState([]);
     const { language } = useContext(LanguageContext);
     const t = translations[language];
 
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const res = await fetch('/data/portfolio.json');
+                const res = await fetch('/data/Project.json');
                 const data = await res.json();
                 const filtered = data.filter((item) => item.status === 'Project');
-                setPortfolio(filtered);
+                setProject(filtered);
             } catch (error) {
-                console.error('Failed to load webinar data:', error);
+                console.error('Failed to load Project data:', error);
             }
         };
 
@@ -35,7 +35,7 @@ export default function PortfolioCard() {
     render: (pic) => (
       <Image
         src={pic}
-        alt="Certificate"
+        alt="Project"
         width={100}
         height={50}
         style={{ objectFit: 'cover', borderRadius: 8 }}
@@ -58,16 +58,16 @@ export default function PortfolioCard() {
     title: 'Information',
     key: 'information',
     render: (_, record) => (
-      <Link href={`/portfolio/${record.id}`}>{t.viewMore}</Link>
+      <Link href={`/project/${record.id}`}>{t.viewMore}</Link>
     ),
   },
 ];
 
     return (
         <Space direction="vertical" style={{ width: '100%', backgroundColor: '#E6F7FF' }}>
-            <Title level={2} style={{ color: '#000080' }}> <VideoCameraOutlined style={{ color: '#000080' }}/> {t.navPortfolio}</Title>
+            <Title level={2} style={{ color: '#000080' }}> <VideoCameraOutlined style={{ color: '#000080' }}/> {t.navProject}</Title>
             <Table style={{backgroundColor: '#E6F7FF' }}
-                dataSource={portfolio}
+                dataSource={project}
                 columns={columns}
                 rowKey="id"
                 pagination={{ pageSize: 7 }}

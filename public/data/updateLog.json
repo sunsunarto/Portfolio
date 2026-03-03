@@ -670,5 +670,19 @@
         "id": "memperbaiki file fetch tidak ditemukan di halaman model 3D",
         "cn": "修复3D模型页面中的fetch文件未找到"
       }
+    },
+    {
+      "commit": "New JSON Skill",
+      "date": {
+        "en": "2 March 2026",
+        "id": "2 Maret 2026",
+        "cn": "2026年3月2日"
+      },
+      "version": "3.3.3",
+      "description": {
+        "en:": "Make a new JSON for skill",
+        "id": "Membuat JSON baru untuk kemampuan",
+        "cn": "为技能制作一个新的JSON"
+      }
     }
 ]

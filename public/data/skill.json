@@ -1,0 +1,189 @@
+[
+  {
+    "'id": 1,
+    "name": "HTML",
+    "image": "/Skill/HTML_5.png",
+    "percentage": 90,
+    "Description": {
+      "en": "Hypertext Markup Language (HTML) is the standard markup language[a] for documents designed to be displayed in a web browser. It defines the content and structure of web content.",
+      "id": "HyperText Markup Language (HTML) adalah bahasa markah standar untuk dokumen yang dirancang untuk ditampilkan di peramban internet.",
+      "cn": "HTML(超文本置标语言,HyperText Markup Language)是为网页创建和其它可在网页浏览器中看到的信息设计的一种置标语言。"
+    }
+  },
+  {
+    "'id": 2,
+    "name": "CSS",
+    "image": "/Skill/CSS.png",
+    "percentage": 80,
+    "Description": {
+      "en": "Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML.",
+      "id": "Cascading Style Sheets (CSS) adalah bahasa penataan gaya yang digunakan untuk mendeskripsikan tampilan dari sebuah dokumen yang ditulis dalam bahasa markah seperti HTML atau XML.",
+      "cn": "样式表 (Cascading Style Sheets, 简称CSS) 是一种用于定义HTML或XML等结构化文档视觉样式的计算机语言, 通过文件扩展名为.css的外部文件或文档内嵌方式实现字体、颜色、布局等样式设置。"
+    }
+  },
+  {
+    "id": 3,
+    "name": "JavaScript",
+    "image": "/Skill/js.webp",
+    "percentage": 90,
+    "Description": {
+      "en": "JavaScript is a programming language used to create interactive effects within web pages.",
+      "id": "JavaScript adalah bahasa pemrograman yang digunakan untuk membuat efek interaktif dalam halaman web.",
+      "cn": "JavaScript (简称 JS) 是一种轻量级、解释型或即时编译型的编程语言，广泛用于网页开发，是万维网的核心技术之一，与 HTML 和 CSS 共同构成前端开发的三大基石。"
+    }
+  },
+  {
+    "id": "4",
+    "name": "React",
+    "image": "/Skill/react.png",
+    "percentage": 80,
+    "Description": {
+      "en": "React is a JavaScript library for building user interfaces.",
+      "id": "React adalah sebuah library JavaScript untuk membuat antarmuka pengguna.",
+      "cn": "React 是一个用于构建用户界面的 JavaScript 库。"
+    }
+  },
+  {
+    "id": "5",
+    "name": "Next JS",
+    "image": "/Skill/next_js.png",
+    "percentage": 80,
+    "Description": {
+      "en": "Next.js is an open-source full-stack web development framework created by the private company Vercel providing React-based web applications with server-side rendering and static rendering.",
+      "id": "next.js adalah sebuah framework web full-stack yang dibuat oleh perusahaan privasi Vercel yang menyediakan aplikasi web berbasis React dengan penampilan server dan penampilan statis.",
+      "cn": "Next.js 是一个基于 React 的开源 JavaScript 框架，由 Vercel 公司开发和维护，用于构建高性能的全栈 Web 应用程序。"
+    }
+  },
+  {
+    "id": "6",
+    "name": "C++",
+    "image": "/Skill/c++.png",
+    "percentage": 10,
+    "Description": {
+      "en": "",
+      "id": "",
+      "cn": ""
+    }
+  },
+  {
+    "id": "7",
+    "name": "Three JS",
+    "image": "/Skill/three_js.png",
+    "percentage": 10,
+    "Description": {
+      "en": "",
+      "id": "",
+      "cn": ""
+    }
+  },
+  {
+    "id": "8",
+    "name": "GSAP",
+    "image": "/Skill/gsap.png",
+    "percentage": 30,
+    "Description": {
+      "en": "",
+      "id": "",
+      "cn": ""
+    }
+  },
+  {
+    "id": "9",
+    "name": "Antd",
+    "image": "/Skill/antd.png",
+    "percentage": 50,
+    "Description": {
+      "en": "",
+      "id": "",
+      "cn": ""
+    }
+  },
+  {
+    "id": "10",
+    "name": "Phyton",
+    "image": "/Skill/phyton.png",
+    "percentage": 10,
+    "Description": {
+      "en": "",
+      "id": "",
+      "cn": ""
+    }
+  },
+  {
+    "id": "11",
+    "name": "Blender",
+    "image": "/Skill/Blender.png",
+    "percentage": 15,
+    "Description": {
+      "en": "",
+      "id": "",
+      "cn": ""
+    }
+  },
+  {
+    "id": "12",
+    "name": "Figma",
+    "image": "/Skill/Figma.png",
+    "percentage": 10,
+    "Description": {
+      "en": "",
+      "id": "",
+      "cn": ""
+    }
+  },
+  {
+    "id": "13",
+    "name": "Lunacy",
+    "image": "/Skill/Lunacy.webp",
+    "percentage": 10,
+    "Description": {
+      "en": "",
+      "id": "",
+      "cn": ""
+    }
+  },
+  {
+    "id": "14",
+    "name": "Post Man",
+    "image": "/Skill/PostMan.png",
+    "percentage": 10,
+    "Description": {
+      "en": "",
+      "id": "",
+      "cn": ""
+    }
+  },
+  {
+    "id": "15",
+    "name": "Capcut",
+    "image": "",
+    "percentage": 10,
+    "Description": {
+      "en": "",
+      "id": "",
+      "cn": ""
+    }
+  },
+  {
+    "id": "16",
+    "name": "Audacity",
+    "image": "",
+    "percentage": 10,
+    "Description": {
+      "en": "",
+      "id": "",
+      "cn": ""
+    }
+  },
+  {
+    "id": "17",
+    "name": "Sweet Home 3D",
+    "image": "/Skill/Sweet_home_3d.png",
+    "percentage": 10,
+    "Description": {
+      "en": "",
+      "id": "",
+      "cn": ""
+    }
+  }
+]

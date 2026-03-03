@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router';
 import { useEffect, useState, useContext } from 'react';
-import { Typography, Row, Col, Card, Button, Divider, Image } from 'antd';
+import { Typography, Button, Divider } from 'antd';
 import LayoutApp from '../../components/LayoutApp.js';
 import ProjectDetail from '../../components/ProjectDetail.js';
 import Link from 'next/link.js';

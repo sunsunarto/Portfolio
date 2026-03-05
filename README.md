@@ -71,14 +71,6 @@ Key philosophies:
 
 ---
 
-## 📸 Screenshots
-*(Add screenshots of your portfolio here once ready)*  
-- Homepage layout  
-- Dashboard view  
-- CV integration page  
-- 3D model showcase 
----
-
 ## 👤 Author
 Sunaryo Soengkono  
 Front-end Developer | UX/UI Designer
@@ -86,9 +78,9 @@ Front-end Developer | UX/UI Designer
 
 🌐 Portfolio: portfolio-sunaryo.vercel.app
 
-💼 LinkedIn: (add link here)
+💼 LinkedIn: https://www.linkedin.com/in/sunaryo-soengkono-b29849386 
 
-📺 yotube: 
+📺 yotube: https://www.youtube.com/@artos2166
 
 ✉️ Email: sunaryo24259@outlook.com
 

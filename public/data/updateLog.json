@@ -684,5 +684,19 @@
       "id": "Mengubah Portfolio menjadi Project",
       "cn": "重命名Portfolio为Project"
     }
+  },
+  {
+    "commit": "New JSON Skill",
+    "date": {
+      "en": "4 March 2026",
+      "id": "4 Maret 2026",
+      "cn": "2026年3月2日"
+    },
+    "version": "3.4.3",
+    "description": {
+      "en:": "Make a new JSON for skill",
+      "id": "Membuat JSON baru untuk kemampuan",
+      "cn": "为技能制作一个新的JSON"
+    }
   }
 ]

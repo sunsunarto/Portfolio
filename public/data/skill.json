@@ -1,0 +1,218 @@
+[
+  {
+    "'id": 1,
+    "name": "HTML",
+    "image": "/Skill/HTML_5.png",
+    "percentage": 80,
+    "Description": {
+      "en": "Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser. It defines the content and structure of web content.",
+      "id": "HyperText Markup Language (HTML) adalah bahasa markah standar untuk dokumen yang dirancang untuk ditampilkan di peramban internet.",
+      "cn": "HTML (超文本置标语言, HyperText Markup Language)是为网页创建和其它可在网页浏览器中看到的信息设计的一种置标语言。"
+    },
+    "color": "#E44D26"
+  },
+  {
+    "'id": 2,
+    "name": "CSS",
+    "image": "/Skill/CSS.png",
+    "percentage": 70,
+    "Description": {
+      "en": "Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML.",
+      "id": "Cascading Style Sheets (CSS) adalah bahasa penataan gaya yang digunakan untuk mendeskripsikan tampilan dari sebuah dokumen yang ditulis dalam bahasa markah seperti HTML atau XML.",
+      "cn": "样式表 (Cascading Style Sheets, 简称 CSS) 是一种用于定义HTML或XML等结构化文档视觉样式的计算机语言, 通过文件扩展名为.css的外部文件或文档内嵌方式实现字体、颜色、布局等样式设置。"
+    },
+    "color": "#264DE4"
+  },
+  {
+    "id": 3,
+    "name": "JavaScript",
+    "image": "/Skill/js.webp",
+    "percentage": 60,
+    "Description": {
+      "en": "JavaScript is a programming language used to create interactive effects within web pages.",
+      "id": "JavaScript adalah bahasa pemrograman yang digunakan untuk membuat efek interaktif dalam halaman web.",
+      "cn": "JavaScript (简称 JS) 是一种轻量级、解释型或即时编译型的编程语言，广泛用于网页开发，是万维网的核心技术之一，与 HTML 和 CSS 共同构成前端开发的三大基石。"
+    },
+    "color": "#F0DB4F"
+  },
+  {
+    "id": "4",
+    "name": "React",
+    "image": "/Skill/react.png",
+    "percentage": 80,
+    "Description": {
+      "en": "React is a JavaScript library for building user interfaces.",
+      "id": "React adalah sebuah library JavaScript untuk membuat antarmuka pengguna.",
+      "cn": "React 是一个用于构建用户界面的 JavaScript 库。"
+    },
+    "color": "#61DBFB"
+  },
+  {
+    "id": "5",
+    "name": "Next JS",
+    "image": "/Skill/next_js.png",
+    "percentage": 80,
+    "Description": {
+      "en": "Next.js is an open-source full-stack web development framework created by the private company Vercel providing React-based web applications with server-side rendering and static rendering.",
+      "id": "next.js adalah sebuah framework web full-stack yang dibuat oleh perusahaan privasi Vercel yang menyediakan aplikasi web berbasis React dengan penampilan server dan penampilan statis.",
+      "cn": "Next.js 是一个基于 React 的开源 JavaScript 框架，由 Vercel 公司开发和维护，用于构建高性能的全栈 Web 应用程序。"
+    },
+    "color": "#000000"
+  },
+  {
+    "id": "6",
+    "name": "C++",
+    "image": "/Skill/c++.png",
+    "percentage": 10,
+    "Description": {
+      "en": "C++ is a powerful, versatile programming language that bridges high-level abstraction with low-level control, enabling efficient, scalable, and performance-critical software across diverse domains.",
+      "id": "C++ adalah bahasa pemrograman yang kuat dan beragam, yang menghubungkan abstraksi tinggi dengan kontrol rendah, memungkinkan software yang efisien, skala besar dan kritis pada berbagai bidang.",
+      "cn": "C++ 是C语言的继承,它既可以进行C语言的过程化程序设计, 又可以进行以抽象数据类型为特点的基于对象的程序设计, 还可以进行以继承和多态为特点的面向对象的程序设计。"
+    },
+    "color": "#00599C"
+  },
+  {
+    "id": "7",
+    "name": "Three JS",
+    "image": "/Skill/three_js.png",
+    "percentage": 10,
+    "Description": {
+      "en": "Three.js is an open-source JavaScript library that enables the creation and display of 3D graphics in a web browser using WebGL.",
+      "id": "Three.js adalah sebuah library JavaScript yang memungkinkan pembuatan dan tampilan gambar 3D di browser menggunakan WebGL.",
+      "cn": "Three.js 是基于 JavaScript 的开源 Web 图形引擎, 专注于在浏览器中创建和展示交互式 3D 图形与动画"
+    },
+    "color": "#FF9900"
+  },
+  {
+    "id": "8",
+    "name": "GSAP",
+    "image": "/Skill/gsap.png",
+    "percentage": 30,
+    "Description": {
+      "en": "The GSAP (GreenSock Animation Platform) is a robust JavaScript library for high-performance animations.",
+      "id": "GSAP (GreenSock Animation Platform) adalah sebuah library JavaScript yang mampu membuat animasi dengan performa tinggi.",
+      "cn": "GSAP 全称是 GreenSock Animation Platform, 是一个JS动画框架。"
+    },
+    "color": "#07E247"
+  },
+  {
+    "id": "9",
+    "name": "Antd",
+    "image": "/Skill/antd.png",
+    "percentage": 50,
+    "Description": {
+      "en": "Ant Design Specification | OpenUI Ant Design (AntD) is an enterprise-class UI design language and React UI library for building modern web applications.",
+      "id": "Ant Design Specification | OpenUI Ant Design (AntD) adalah sebuah desain UI untuk aplikasi web modern.",
+      "cn": "Antd 是基于 Ant Design 设计体系的 React UI 组件库,适合企业级中后台产品与前台桌面网站。"
+    },
+    "color": "#1677ff"
+  },
+  {
+    "id": "10",
+    "name": "Phyton",
+    "image": "/Skill/phyton.png",
+    "percentage": 10,
+    "Description": {
+      "en": "Python is a high-level, interpreted programming language known for its clear syntax and readability.",
+      "id": "Python adalah bahasa pemrograman tingkat tinggi, interpretasi, yang diketahui karena sintaksnya jelas dan mudah dimengerti.",
+      "cn": "Python 是一门开源免费、通用型的脚本编程语言,它上手简单,功能强大,坚持「极简主义」。"
+    },
+    "color": "#FFD43B"
+  },
+  {
+    "id": "11",
+    "name": "Blender",
+    "image": "/Skill/Blender.png",
+    "percentage": 15,
+    "Description": {
+      "en": "Blender is a free and open source 3d creation suite that offers everything from modelling and texturing to rigging, animation, lighting, rendering, and even video editing.",
+      "id": "Blender adalah sebuah suite 3D gratis dan open source yang menyediakan semua yang dibutuhkan untuk membuat model, tekstur, animasi, hingga video editing.",
+      "cn": "Blender 是一款免费开源三维图形图像软件, 提供从建模、动画、材质、渲染、到音频处理、视频剪辑等一系列动画短片制作解决方案。"
+    },
+    "color": "#265787"
+  },
+  {
+    "id": "12",
+    "name": "Figma",
+    "image": "/Skill/Figma.png",
+    "percentage": 50,
+    "Description": {
+      "en": "Figma is a cloud-based design tool that is similar to Sketch in functionality and features, but with big differences that make Figma better for team collaboration. ",
+      "id": "Figma adalah sebuah alat desain online yang mirip dengan Sketch dalam fungsi dan fitur, tetapi dengan perbedaan besar yang membuat Figma lebih baik untuk kolaborasi tim.",
+      "cn": "Figma 是一款基于Web的向量图形编辑工具, 广泛应用于图形设计、界面设计和原型制作等领域。"
+    },
+    "color": "#A259FF"
+  },
+  {
+    "id": "13",
+    "name": "Lunacy",
+    "image": "/Skill/Lunacy.webp",
+    "percentage": 70,
+    "Description": {
+      "en": "Lunacy is a powerful, free graphic design software that combines advanced features with an intuitive interface, making it suitable for both beginners and professionals.",
+      "id": "Lunacy adalah sebuah software desain grafis yang kuat dan gratis yang menggabungkan fitur luar biasa dengan antarmuka yang intuitif, sehingga cocok untuk pemula dan profesional.",
+      "cn": "Lunacy 是一款由 Icons8 LLC 开发的 ‌跨平台 UI/UX 设计和矢量图形工具‌，适用于 Windows、macOS 和 Linux 系统。它主打 ‌免费、轻量、离线可用‌，并兼容主流设计文件格式，是 Figma、Sketch 等工具的替代选择。"
+    },
+    "color": "#159AE0"
+  },
+  {
+    "id": "14",
+    "name": "Post Man",
+    "image": "/Skill/PostMan.png",
+    "percentage": 20,
+    "Description": {
+      "en": "Postman is a widely used API development and testing platform that streamlines the process of designing, sending, and validating HTTP requests.",
+      "id": "Postman adalah sebuah platform pengembangan dan pengujian API yang populer yang mempermudah proses desain, pengiriman, dan pengecekan permintaan HTTP.",
+      "cn": "Postman 是流行的网页调试和HTTP请求模拟工具,支持多平台,免费且功能强大。"
+    },
+    "color": "#EF5B25"
+  },
+  {
+    "id": "15",
+    "name": "Capcut",
+    "image": "/Skill/capcut.png",
+    "percentage": 50,
+    "Description": {
+      "en": "CapCut is an all-in-one video editing platform developed by ByteDance, designed for users to easily create, edit, and share videos.",
+      "id": "CapCut adalah sebuah platform video editing yang dikembangkan oleh ByteDance, dirancang untuk pengguna untuk membuat, mengedit, dan membagikan video dengan mudah.",
+      "cn": "CapCut 的中文名是剪映国际版。它由字节跳动开发, 提供专业级剪辑工具、创意特效及便捷分享功能, 支持多语言版本, 适用于 Android 及 iOS 系统。"
+    },
+    "color": "#FF0000"
+  },
+  {
+    "id": "16",
+    "name": "Audacity",
+    "image": "/Skill/Audacity.wenp",
+    "percentage": 30,
+    "Description": {
+      "en": "Audacity is a free and open-source audio editing software that allows users to record, edit, and manipulate audio files.",
+      "id": "Audacity adalah sebuah software audio editing yang gratis dan open-source yang memungkinkan pengguna untuk merekam, mengedit, dan memanipulasi berkas audio.",
+      "cn": "Audacity 是一款非常实用的音频编辑工具, audacity安卓手机版提供了齐全的编辑处理功能, 支持多种格式的音频文件, 音频剪裁、音频提取、音频拼接、格式转换等各种功能一应俱全, 用户可以轻松创作属于自己的作品, 操作非常简单, 此 专题收录了多个版本的 audacity 音频编辑器软件, 用户可以跟根据自己的需求选择下载。"
+    },
+    "color": "#0101C8"
+  },
+  {
+    "id": "17",
+    "name": "Sweet Home 3D",
+    "image": "/Skill/Sweet_home_3d.png",
+    "percentage": 50,
+    "Description": {
+      "en": "Sweet Home 3D is a free and open-source interior design application that allows users to create 2D and 3D floor plans, furnish and decorate spaces, and visualize their designs in realistic 3D.",
+      "id": "Sweet Home 3D adalah aplikasi desain interior gratis dan sumber terbuka yang memungkinkan pengguna untuk membuat denah lantai 2D dan 3D, melengkapi dan mendekorasi ruangan, serta memvisualisasikan desain mereka dalam bentuk 3D yang realistis.",
+      "cn": "Sweet Home 3D 是一款跨平台的免费开源室内装潢设计工具，支持通过二维平面图设计家具布局，并实时生成三维视图进行效果预览。"
+    },
+    "color": "#DE0305"
+  },
+  {
+    "id": "18",
+    "name": "Canva",
+    "image": "/Skill/Canva.png",
+    "percentage": 10,
+    "Description": {
+      "en": "Canva is a free-to-use online graphic design tool. Use it to create social media posts, presentations, posters, videos, logos and more.",
+      "id": "Canva adalah sebuah alat desain grafis online gratis yang dapat digunakan untuk membuat konten sosial media, presentasi, poster, video, logo, dan sebagainya.",
+      "cn": "Canva (可画) 是一款全球领先的‌一体化视觉沟通与协作平台‌，旨在“赋予世界设计的力量”，让即使没有专业设计背景的人也能轻松创建高质量的视觉内容"
+    },
+    "color": "#00CC77"
+  }
+]

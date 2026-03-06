@@ -5,7 +5,7 @@ import { translations } from "../utils/i18n.js";
 
 const { Title, Text } = Typography;
 
-export default function PortfolioDetail({ event }) {
+export default function ProjectDetail({ event }) {
   const { language } = useContext(LanguageContext);
   const t = translations[language];
   if (!event) return null;

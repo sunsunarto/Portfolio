@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Lunacy",
+    "link": "https://www.lunacy.com/",
+    "color": "#159AE0"
+  },
+  {
+    "name": "html",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+    "color": "#E44D26"
+  },
+  {
+    "name": "css",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+    "color": "#264DE4"
+  },
+  {
+    "name": "javascript",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    "color": "#F0DB4F"
+  },
+  {
+    "name": "react",
+    "link": "https://reactjs.org/",
+    "color": "#61DBFB"
+  },
+  {
+    "name": "next",
+    "link": "https://nextjs.org/",
+    "color": "#000000"
+  },
+  {
+    "name": "gsap",
+    "link": "https://greensock.com/",
+    "color": "#07E247"
+  },
+  {
+    "name": "antd",
+    "link": "https://ant.design/",
+    "color": "#1677ff"
+  },
+  {
+    "name": "tailwind",
+    "link": "https://tailwindcss.com/",
+    "color": "#1BABB4"
+  },
+  {
+    "name": "three js",
+    "link": "https://threejs.org/",
+    "color": "#000000"
+  },
+  {
+    "name": "Vite",
+    "link": "https://www.blender.org/",
+    "color": "#9F4DF6"
+  },
+  {
+    "name": "formik",
+    "link": "https://www.blender.org/",
+    "color": "#265787"
+  },
+  {
+    "name": "yup",
+    "link": "https://www.figma.com/",
+    "color": "#F24E1E"
+  },
+  {
+    "name": "axios",
+    "link": "https://www.figma.com/",
+    "color": "#F24E1E"
+  }
+]

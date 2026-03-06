@@ -698,5 +698,33 @@
       "id": "Membuat JSON baru untuk kemampuan",
       "cn": "为技能制作一个新的JSON"
     }
+  },
+  {
+    "commit": "Update Readme",
+    "date": {
+      "en": "5 March 2026",
+      "id": "5 Maret 2026",
+      "cn": "2026年3月5日"
+    },
+    "version": "3.5.3",
+    "description": {
+      "en:": "update readme",
+      "id": "perbarui readme",
+      "cn": "更新自述文件"
+    }
+  },
+  {
+    "commit": "JSON language code",
+    "date": {
+      "en": "6 March 2026",
+      "id": "6 Maret 2026",
+      "cn": "2026年3月6日"
+    },
+    "version": "3.7.3",
+    "description": {
+      "en:": "New JSON tools language code",
+      "id": "JSON baru untuk kode bahasa alat",
+      "cn": "为工具语言代码制作一个新的JSON"
+    }
   }
 ]

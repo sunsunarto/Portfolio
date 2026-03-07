@@ -20,7 +20,7 @@ export default function ViewProject() {
   useEffect(() => {
     const fetchProject = async () => {
       try {
-        const res = await fetch('/data/project.json');
+        const res = await fetch('/data/Project.json');
         const data = await res.json();
         const found = data.find((e) => e.id === id);
         setProject(found);

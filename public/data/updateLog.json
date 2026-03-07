@@ -720,11 +720,25 @@
       "id": "6 Maret 2026",
       "cn": "2026年3月6日"
     },
-    "version": "3.7.3",
+    "version": "3.6.3",
     "description": {
       "en:": "New JSON tools language code",
       "id": "JSON baru untuk kode bahasa alat",
       "cn": "为工具语言代码制作一个新的JSON"
+    }
+  },
+  {
+    "commit": "Bug Project [id]",
+    "date": {
+      "en": "7 March 2026",
+      "id": "7 Maret 2026",
+      "cn": "2026年3月7日"
+    },
+    "version": "3.6.4",
+    "description": {
+      "en:": "fixing theh show detail in the project page",
+      "id": "memperbaiki tampilan detail di halaman proyek",
+      "cn": "修复项目页面的显示详情"
     }
   }
 ]

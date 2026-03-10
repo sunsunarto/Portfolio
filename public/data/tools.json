@@ -1,72 +1,97 @@
 [
   {
     "name": "Lunacy",
+    "code": "lunacy",
     "link": "https://www.lunacy.com/",
     "color": "#159AE0"
   },
   {
-    "name": "html",
+    "name": " HTML 5",
+    "code": "html_5",
     "link": "https://developer.mozilla.org/en-US/docs/Web/HTML",
     "color": "#E44D26"
   },
   {
-    "name": "css",
+    "name": "CSS",
+    "code": "css",
     "link": "https://developer.mozilla.org/en-US/docs/Web/CSS",
     "color": "#264DE4"
   },
   {
-    "name": "javascript",
+    "name": "Javascript",
+    "code": "javascript",
     "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
     "color": "#F0DB4F"
   },
   {
-    "name": "react",
+    "name": "React",
+    "code": "react",
     "link": "https://reactjs.org/",
     "color": "#61DBFB"
   },
   {
-    "name": "next",
+    "name": "next_js",
     "link": "https://nextjs.org/",
     "color": "#000000"
   },
   {
-    "name": "gsap",
+    "name": "GSAP",
+    "code": "gsap",
     "link": "https://greensock.com/",
     "color": "#07E247"
   },
   {
-    "name": "antd",
+    "name": "ANTD",
+    "code": "antd",
     "link": "https://ant.design/",
     "color": "#1677ff"
   },
   {
-    "name": "tailwind",
+    "name": "Tailwind CSS",
+    "code": "tailwind_css",
     "link": "https://tailwindcss.com/",
     "color": "#1BABB4"
   },
   {
-    "name": "three js",
+    "name": "Three JS",
+    "code": "three_js",
     "link": "https://threejs.org/",
     "color": "#000000"
   },
   {
     "name": "Vite",
-    "link": "https://www.blender.org/",
+    "code": "vite",
+    "link": "https://vite.dev/",
     "color": "#9F4DF6"
   },
   {
-    "name": "formik",
-    "link": "https://www.blender.org/",
+    "name": "Formik",
+    "code": "formik",
+    "link": "https://formik.org/",
     "color": "#265787"
   },
   {
-    "name": "yup",
-    "link": "https://www.figma.com/",
+    "name": "Yup",
+    "code": "yup",
+    "link": "https://www.npmjs.com/package/yup?activeTab=readme",
     "color": "#F24E1E"
   },
   {
-    "name": "axios",
-    "link": "https://www.figma.com/",
+    "name": "Axios",
+    "code": "axios",
+    "link": "https://www.axios.com/",
     "color": "#F24E1E"
+  },
+  {
+    "name": "Swiper JS",
+    "code": "swiper_js",
+    "link": "https://swiperjs.com/",
+    "color": "#F24E1E"
+  },
+  {
+    "name": "Sweet Alert 2",
+    "code": "sweetalert2",
+    "link": "https://sweetalert2.github.io/",
+    "color": "#E7C99B"
   }
 ]

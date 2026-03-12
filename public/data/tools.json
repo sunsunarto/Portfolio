@@ -93,5 +93,41 @@
     "code": "sweetalert2",
     "link": "https://sweetalert2.github.io/",
     "color": "#E7C99B"
+  },
+  {
+    "name": "Email JS",
+    "code": "email_js",
+    "link": "https://www.emailjs.com/",
+    "color": "#FF8434"
+  },
+  {
+    "name": "clsx",
+    "code": "clsx",
+    "link": "https://www.npmjs.com/package/clsx",
+    "color": "#26A0FF"
+  },
+  {
+    "name": "Day JS",
+    "code": "day_js",
+    "link": "https://day.js.org/",
+    "color": "#FF5F4C"
+  },
+  {
+    "name": "Lightning CSS",
+    "code": "lightningcss",
+    "link": "https://lightningcss.dev/",
+    "color": "#F9BB03"
+  },
+  {
+    "name": "Lunar Typescript",
+    "code": "lunartypescript",
+    "link": "https://www.npmjs.com/package/lunar-typescript",
+    "color": "#A11011"
+  },
+  {
+    "name": "React Circular Progressbar",
+    "code": "react_circular_progressbar",
+    "link": "https://www.npmjs.com/package/react-circular-progressbar",
+    "color": "#3E98C7"
   }
 ]

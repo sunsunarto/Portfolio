@@ -21,7 +21,7 @@ export default function ProjectCard() {
         const filtered = data.filter((item) => item.status === 'Project');
         setProject(filtered);
 
-        const toolRes = await fetch('/data/Tools.json');
+        const toolRes = await fetch('/data/tools.json');
         const toolData = await toolRes.json();
         setTools(toolData);
       } catch (error) {

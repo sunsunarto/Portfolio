@@ -740,5 +740,19 @@
       "id": "memperbaiki tampilan detail di halaman proyek",
       "cn": "修复项目页面的显示详情"
     }
+  },
+  {
+    "commit": "Update table Project",
+    "date": {
+      "en": "16 March 2026",
+      "id": "16 Maret 2026",
+      "cn": "2026年3月16日"
+    },
+    "version": "3.7.4",
+    "description": {
+      "en:": "Update table Project",
+      "id": "Perbarui tabel Proyek",
+      "cn": "更新项目表格"
+    }
   }
 ]

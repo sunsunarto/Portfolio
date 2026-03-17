@@ -1,5 +1,5 @@
 import { Layout, Menu, Avatar, Typography, Grid, Drawer, Button, Space, Divider } from 'antd';
-import { DashboardOutlined, CalendarOutlined, MenuOutlined, UserOutlined, ContactsOutlined } from '@ant-design/icons';
+import { DashboardOutlined, CalendarOutlined, MenuOutlined, UserOutlined, ContactsOutlined, TrophyOutlined, BookOutlined, SafetyCertificateOutlined, ToolOutlined, ProjectOutlined } from '@ant-design/icons';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useState, useContext } from 'react';
@@ -51,22 +51,22 @@ export default function LayoutApp({ children }) {
       <Menu.Item key="/about" icon={<UserOutlined />}>
         <Link href="/about">{t.navAbout}</Link>
       </Menu.Item>
-      <Menu.Item key="/skill" icon={<UserOutlined />}>
+      <Menu.Item key="/skill" icon={<SafetyCertificateOutlined/>}>
         <Link href="/skill">{t.navSkills}</Link>
       </Menu.Item>
-      <Menu.Item key="/education" icon={<UserOutlined />}>
+      <Menu.Item key="/education" icon={<BookOutlined />}>
         <Link href="/education">{t.navEducation}</Link>
       </Menu.Item>
-      <Menu.Item key="/achievement" icon={<UserOutlined />}>
+      <Menu.Item key="/achievement" icon={<TrophyOutlined />}>
         <Link href="/achievement">{t.navAchievement}</Link>
       </Menu.Item>
-      <Menu.Item key="/project" icon={<CalendarOutlined />}>
+      <Menu.Item key="/project" icon={<ProjectOutlined />}>
         <Link href="/project">{t.navProject}</Link>
       </Menu.Item>
       <Menu.Item key="/Calendar" icon={<CalendarOutlined />}>
         <Link href="/Calendar">{t.navCalendar}</Link>
       </Menu.Item>
-      <Menu.Item key="/3DModel" icon={<DashboardOutlined />}>
+      <Menu.Item key="/3DModel" icon={<ToolOutlined />}>
         <Link href="/3DModel">{t.nav3DModel}</Link>
       </Menu.Item>
       <Menu.Item key="/getInTouch" icon={<ContactsOutlined />}>

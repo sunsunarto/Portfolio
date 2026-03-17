@@ -1,11 +1,15 @@
-import React from 'react';
+import React,{ useContext } from 'react';
 import { Card, Typography, Image, Tag } from 'antd';
+import { LanguageContext } from "../context/LanguageContext.js";
+import { translations } from "../utils/i18n.js";
 
 const { Title, Text, Paragraph } = Typography;
 
 const EventInfo = ({ date, events, lang = 'en' }) => {
   const formattedDate = date.format('YYYY-MM-DD');
   const matchedEvents = events.filter(e => e.date?.iso === formattedDate);
+  const { language } = useContext(LanguageContext);
+  const t = translations[language];
 
   // Default width (safe for SSR)
   const [width, setWidth] = React.useState(350);
@@ -26,8 +30,8 @@ const EventInfo = ({ date, events, lang = 'en' }) => {
   if (matchedEvents.length === 0) {
     return (
       <Card style={{ marginLeft: 16, width }}>
-        <Title level={4}>Events</Title>
-        <Text>No events found for {formattedDate}</Text>
+        <Title level={4}>{t.event}</Title>
+        <Text>{t.empty + ' ' + formattedDate  } </Text>
       </Card>
     );
   }
@@ -36,8 +40,8 @@ const EventInfo = ({ date, events, lang = 'en' }) => {
     <div style={{ marginLeft: 16, width }}>
       {matchedEvents.map(event => (
         <Card key={event.id} bordered style={{ marginBottom: 16 }}>
-          <Title level={4}>{event.title?.[lang] || event.title?.en || 'Untitled'}</Title>
-          <Text type="secondary">{event.date?.[lang] || event.date?.en || ''}</Text>
+          <Title level={4}>{event.title?.[language] || event.title?.en || 'Untitled'}</Title>
+          <Text type="secondary">{event.date?.[language] || event.date?.en || ''}</Text>
 
           {event.status && (
             <div style={{ marginTop: 6 }}>
@@ -51,7 +55,7 @@ const EventInfo = ({ date, events, lang = 'en' }) => {
             </Paragraph>
           )}
 
-          {event.from && <Text strong>From: {event.from}</Text>}
+          {event.from && <Text strong>{ t.from + " : " + event.from}</Text>}
 
           {event.pic && (
             <div style={{ marginTop: 12 }}>

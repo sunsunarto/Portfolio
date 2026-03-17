@@ -69,12 +69,17 @@ export const translations = {
     yourEmail: "Your Email",
     yourSubject: "Subject",
     yourMessage: "Message",
-    submit: "Submit",
+    send: "Submit",
     //3d model content
     nav3DModel: "3D Model",
     Text3D: "This 3D card shows a simple aircraft model. It is inspired by real planes like Airbus and Boeing. The model is not perfect, but you can rotate and look at it from different sides. It helps to see the basic shape and idea of the aircraft. I made this project just for fun as a hobby, so please excuse any mistakes or rough design.",
+    done: "Done",
+    close: "Close",
     //Calendar content
     navCalendar: "Calendar",
+    empty: "No events found for this ",
+    event: "Event",
+    from: "from",
     //404 content
     f404: "Page not found",
   },
@@ -151,8 +156,13 @@ export const translations = {
     send: "Kirim",
     //3d model content
     nav3DModel: "Model 3D",
+    done: "Selesai",
+    close: "Tutup",
     //Calendar content
     navCalendar: "Kalender",
+    empty: "Tidak ada acara yang ditemukan untuk tanggal",
+    event: "Acara",
+    from: "Dari",
     //404 content
     f404: "Halaman tidak ditemukan",
   },
@@ -226,12 +236,17 @@ export const translations = {
     yourEmail: "您的邮箱",
     yourSubject: "主题",
     yourMessage: "留言",
-    submit: "提交",
+    send: "提交",
     //3d model content
     nav3DModel: "3D模型",
-    Text3D: "这张3D卡片展示了一个简单的飞机模型。它的灵感来源于空客和波音等真实飞机。模型并不完美，但您可以旋转并从不同角度查看。这有助于了解飞机的基本形状和设计理念。我制作这个项目只是为了娱乐，所以请原谅任何错误或粗糙的设计。",
+    Text3D: "这张3D卡片展示了一个简单的飞机模型。它的灵感来源于空客和波音等真实飞机。模型并不完美, 但您可以旋转并从不同角度查看。这有助于了解飞机的基本形状和设计理念。我制作这个项目只是为了娱乐，所以请原谅任何错误或粗糙的设计。",
+    done: "完成",
+    close: "关闭",
     //Calendar content
     navCalendar: "日历",
+    empty: "未找到该日期的任何事件",
+    event: "事件",
+    from: "从",
     //404 content
     f404: "页面未找到",
   }

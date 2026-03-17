@@ -20,8 +20,9 @@ export default function Languages() {
         style={{
           borderRadius: 4,
           boxShadow: '0 2px 6px rgba(0,0,0,0.15)',
-          backgroundColor: '#3949AB',
-          color: '#fff',
+          backgroundColor: '#ffffff',
+          color: '#3949AB',
+          fontWeight: 'bold'
         }}
         onClick={() => setDrawerVisible(true)}
       >
@@ -39,8 +40,8 @@ export default function Languages() {
           <Radio.Group onChange={handleLanguageChange} value={language}>
             <Space direction="vertical">
               <Radio value="en">English</Radio>
-              <Radio value="id">Bahasa Indonesia (not fully done)</Radio>
-              <Radio value="cn">中文 (in the next update)</Radio>
+              <Radio value="id">Bahasa Indonesia</Radio>
+              <Radio value="cn">中文</Radio>
             </Space>
           </Radio.Group>
         </Space>

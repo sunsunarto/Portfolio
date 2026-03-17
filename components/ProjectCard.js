@@ -1,6 +1,6 @@
 import { useEffect, useState, useContext } from 'react';
 import { Table, Typography, Image, Space } from 'antd';
-import { VideoCameraOutlined } from '@ant-design/icons';
+import { ProjectOutlined } from '@ant-design/icons';
 import Link from 'next/link';
 import { LanguageContext } from "../context/LanguageContext.js";
 import { translations } from "../utils/i18n.js";
@@ -65,7 +65,7 @@ export default function ProjectCard() {
 
     return (
         <Space direction="vertical" style={{ width: '100%', backgroundColor: '#E6F7FF' }}>
-            <Title level={2} style={{ color: '#000080' }}> <VideoCameraOutlined style={{ color: '#000080' }}/> {t.navProject}</Title>
+            <Title level={2} style={{ color: '#000080' }}> <ProjectOutlined style={{ color: '#000080' }}/> {t.navProject}</Title>
             <Table style={{backgroundColor: '#E6F7FF' }}
                 dataSource={project}
                 columns={columns}

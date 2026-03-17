@@ -56,33 +56,38 @@ export default function ProjectCard() {
       render: (_, record) => (
         <div style={{ display: "flex", flexDirection: "column", gap: "5px" }}>
           <strong>{record.title?.[language] || record.title?.en || 'Untitled'}</strong>
-          <Space style={{maxWidth: "400px"}}wrap>
-            {record.tools?.map((toolCode, i) => {
+          <Space style={{ maxWidth: "400px" }} wrap>
+            {record.tools?.map((toolCode, i,) => {
               const tool = getToolInfo(toolCode);
               const content = (
                 <Button
                   type="link"
+                  style={{ color: tool?.colorText }}
                   onClick={() =>
                     window.open(
                       tool?.link,
-                      'popupWindow',
+                      '_blank',
                       'width=800,height=600,scrollbars=yes,resizable=yes'
                     )
                   }
                 >
                   {tool?.link}
                 </Button>
+
               );
               return (
                 <Popover
                   key={i}
                   content={content}
-                  title={tool?.name || toolCode}
+                  title={
+                    <span style={{ color: tool?.colorText || '#000' }}>
+                      {tool?.name || toolCode}
+                    </span>}
                   trigger="click"
                   overlayInnerStyle={{
                     backgroundColor: tool?.color || '#fff',
                     borderRadius: 6,
-                    color: '#000',
+                    color: tool?.colorText,
                   }}
                 >
                   <Tag

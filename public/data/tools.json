@@ -3,131 +3,154 @@
     "name": "Lunacy",
     "code": "lunacy",
     "link": "https://www.lunacy.com/",
-    "color": "#159AE0"
+    "color": "#159AE0",
+    "colorText": "#000000"
   },
   {
     "name": " HTML 5",
     "code": "html_5",
     "link": "https://developer.mozilla.org/en-US/docs/Web/HTML",
-    "color": "#E44D26"
+    "color": "#E44D26",
+    "colorText": "#ffffff"
   },
   {
     "name": "CSS",
     "code": "css",
     "link": "https://developer.mozilla.org/en-US/docs/Web/CSS",
-    "color": "#264DE4"
+    "color": "#264DE4",
+    "colorText": "#ffffff"
   },
   {
     "name": "Javascript",
     "code": "javascript",
     "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-    "color": "#F0DB4F"
+    "color": "#F0DB4F",
+    "colorText": "#000000"
   },
   {
     "name": "React",
     "code": "react",
     "link": "https://reactjs.org/",
-    "color": "#61DBFB"
+    "color": "#61DBFB",
+    "colorText": "#000000"
   },
   {
-    "name": "next_js",
+    "name": "Next Js",
+    "code": "next_js",
     "link": "https://nextjs.org/",
-    "color": "#000000"
+    "color": "#000000",
+    "colorText": "#ffffff"
   },
   {
     "name": "GSAP",
     "code": "gsap",
     "link": "https://greensock.com/",
-    "color": "#07E247"
+    "color": "#07E247",
+    "colorText": "#000000"
   },
   {
     "name": "ANTD",
     "code": "antd",
     "link": "https://ant.design/",
-    "color": "#1677ff"
+    "color": "#1677ff",
+    "colorText": "#ffffff"
   },
   {
     "name": "Tailwind CSS",
     "code": "tailwind_css",
     "link": "https://tailwindcss.com/",
-    "color": "#1BABB4"
+    "color": "#1BABB4",
+    "colorText": "#ffffff"
   },
   {
     "name": "Three JS",
     "code": "three_js",
     "link": "https://threejs.org/",
-    "color": "#000000"
+    "color": "#000000",
+    "colorText": "#ffffff"
   },
   {
     "name": "Vite",
     "code": "vite",
     "link": "https://vite.dev/",
-    "color": "#9F4DF6"
+    "color": "#9F4DF6",
+    "colorText": "#ffffff"
   },
   {
     "name": "Formik",
     "code": "formik",
     "link": "https://formik.org/",
-    "color": "#265787"
+    "color": "#265787",
+    "colorText": "#ffffff"
   },
   {
     "name": "Yup",
     "code": "yup",
     "link": "https://www.npmjs.com/package/yup?activeTab=readme",
-    "color": "#F24E1E"
+    "color": "#000000",
+    "colorText": "#ffffff"
   },
   {
     "name": "Axios",
     "code": "axios",
     "link": "https://www.axios.com/",
-    "color": "#F24E1E"
+    "color": "#F24E1E",
+    "colorText": "#ffffff"
   },
   {
     "name": "Swiper JS",
     "code": "swiper_js",
     "link": "https://swiperjs.com/",
-    "color": "#F24E1E"
+    "color": "#0297FF",
+    "colorText": "#ffffff"
   },
   {
     "name": "Sweet Alert 2",
     "code": "sweetalert2",
     "link": "https://sweetalert2.github.io/",
-    "color": "#E7C99B"
+    "color": "#E7C99B",
+    "colorText": "#000000"
   },
   {
     "name": "Email JS",
     "code": "email_js",
     "link": "https://www.emailjs.com/",
-    "color": "#FF8434"
+    "color": "#FF8434",
+    "colorText": "#000000"
   },
   {
     "name": "clsx",
     "code": "clsx",
     "link": "https://www.npmjs.com/package/clsx",
-    "color": "#26A0FF"
+    "color": "#26A0FF",
+    "colorText": "#ffffff"
   },
   {
     "name": "Day JS",
     "code": "day_js",
     "link": "https://day.js.org/",
-    "color": "#FF5F4C"
+    "color": "#FF5F4C",
+    "colorText": "#ffffff"
   },
   {
     "name": "Lightning CSS",
     "code": "lightningcss",
     "link": "https://lightningcss.dev/",
-    "color": "#F9BB03"
+    "color": "#F9BB03",
+    "colorText": "#000000"
   },
   {
     "name": "Lunar Typescript",
     "code": "lunartypescript",
     "link": "https://www.npmjs.com/package/lunar-typescript",
-    "color": "#A11011"
+    "color": "#A11011",
+    "colorText": "#ffffff"
   },
   {
     "name": "React Circular Progressbar",
     "code": "react_circular_progressbar",
     "link": "https://www.npmjs.com/package/react-circular-progressbar",
-    "color": "#3E98C7"
+    "color": "#3E98C7",
+    "colorText": "#ffffff"
   }
 ]

@@ -303,7 +303,7 @@
       "id": "Proyek ini merupakan upaya kolaboratif dengan departemen akuntansi untuk mendesain situs web front-end untuk perusahaan fiktif, yang berfungsi sebagai ajang promosi identitas dan layanannya.",
       "cn": "本项目是与会计部门合作，为一家虚拟公司设计前端网站，作为其形象和服务的宣传展示平台。"
     },
-    "tools": ["next_js", "gsap", "tailwind_css"],
+    "tools": ["next_js", "antd", "tailwind_css", "swiper_js"],
     "link": "https://filipayo.vercel.app/",
     "github": "https://github.com/sunsunarto/Filipayo"
   },
@@ -331,7 +331,7 @@
       "id": "Proyek ini merupakan inisiatif kolaboratif dengan departemen akuntansi untuk membangun situs web front-end untuk perusahaan fiktif, yang menampilkan lebih dari 25 produk mereka dengan memanfaatkan data basis data lokal.",
       "cn": "本项目是与会计部门合作开展的一项计划，旨在为一家虚拟公司构建一个前端网站，利用本地数据库数据展示其 25 多种产品。"
     },
-    "tools": ["next_js", "gsap", "tailwind_css"],
+    "tools": ["next_js", "gsap", "antd","tailwind_css"],
     "link": "https://pt-luxura-furni.vercel.app/",
     "github": "https://github.com/sunsunarto/PT.-LUXURA-FURNI"
   },
@@ -359,7 +359,7 @@
       "id": "Situs web ini adalah portofolio pribadi saya, sebuah proyek hidup yang akan terus berkembang dan tumbuh di masa depan. Situs ini berfungsi sebagai ruang digital tempat saya memamerkan keterampilan saya, menyoroti proyek-proyek yang telah saya kerjakan, dan berbagi lebih banyak tentang siapa saya di luar kode pemrograman. Pengunjung dapat menjelajahi karya saya, mempelajari perjalanan saya, dan terhubung langsung dengan saya. Situs ini dirancang bukan hanya sebagai portofolio statis, tetapi sebagai pusat interaktif yang mencerminkan kemajuan, kreativitas, dan semangat saya dalam membangun solusi yang elegan dan ramah pengguna.",
       "cn": "本网站是我的个人作品集，一个不断发展壮大的项目。它作为一个数字空间，展示我的技能，重点介绍我参与过的项目，并分享代码之外的更多个人故事。访客可以浏览我的作品，了解我的成长历程，并直接与我联系。本网站的设计并非仅仅是一个静态的作品集，而是一个互动平台，它反映了我的进步、创造力以及我对构建优雅、用户友好型解决方案的热情。"
     },
-    "tools": ["next_js", "gsap", "tailwind_css", "email_js", "three_js", "clsx", "day_js", "lightningcss", "lunartypescript", ""],
+    "tools": ["next_js", "gsap", "tailwind_css", "email_js", "three_js", "clsx", "day_js", "lightningcss", "lunartypescript", "react_circular_progressbar"],
     "link": "https://portfolio-sunaryo.vercel.app/",
     "github": "https://github.com/sunsunarto/Portfolio"
   }

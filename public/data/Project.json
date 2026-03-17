@@ -3,22 +3,27 @@
     "id": "1",
     "title": {
       "en": "Socio Social Media App",
-      "id": "Aplikasi Media Sosial \"Socio\""
+      "id": "Aplikasi Media Sosial \"Socio\"",
+      "cn": "Socio 社交媒体应用"
     },
     "date": { 
       "en": "15 November 2024",
-      "id": "15 November 2024"
+      "id": "15 November 2024",
+      "cn": "2024年11月15日"
     },
     "lastestUpdate": {
       "en": "17 November 2024",
-      "id": "17 November 2024"
+      "id": "17 November 2024",
+      "cn": "2024年11月17日"
     },
     "status": "Project",
     "pic": "/Projects/Screenshot 2025-03-27 101644.png",
     "decription": {
       "en": "The application named \"socio\" is a social media platform designed for user interaction and content sharing. It features a clean and structured interface, enabling users to post updates, add multimedia, and engage with trending discussions.",
-      "id": "Aplikasi bernama \"socio\" ini merupakan platform media sosial yang dirancang untuk interaksi pengguna dan berbagi konten. Antarmukanya bersih dan terstruktur, memungkinkan pengguna untuk mengunggah pembaruan, menambahkan multimedia, dan terlibat dalam diskusi yang sedang tren."
+      "id": "Aplikasi bernama \"socio\" ini merupakan platform media sosial yang dirancang untuk interaksi pengguna dan berbagi konten. Antarmukanya bersih dan terstruktur, memungkinkan pengguna untuk mengunggah pembaruan, menambahkan multimedia, dan terlibat dalam diskusi yang sedang tren.",
+      "cn": "名为 “socio” 的应用程序是一个社交媒体平台，旨在促进用户互动和内容分享。它拥有简洁明了的界面，使用户能够发布动态、添加多媒体内容并参与热门话题讨论。" 
     },
+    "tools": ["vite", "react"],
     "link": "https://quiz-16-sunaryo.vercel.app/",
     "github": "https://github.com/sunsunarto/Quiz_16_Sunaryo/"
   },
@@ -26,22 +31,27 @@
     "id": "2",
     "title":{ 
       "en": "Bahasa Indonesia Project", 
-      "id": "Projek Bahasa Indonesia"
+      "id": "Projek Bahasa Indonesia",
+      "cn": "印度尼西亚语项目"
     },
     "date": {
       "en": "18 November 2024",
-      "id": "18 November 2024"
+      "id": "18 November 2024",
+      "cn": "2024年11月18日"
     },
     "lastestUpdate": {
       "en": "18 November 2024",
-      "id": "18 November 2024"
+      "id": "18 November 2024",
+      "cn": "2024年11月18日"
     },
     "status": "Project",
     "pic": "/Projects/Screenshot 2025-03-27 105058.png",
     "decription": {
       "en": "The application appears to be a story-sharing website titled \"Cerita Anekdot\" (Anecdote Stories). It features a clean and user-friendly interface, allowing users to share their stories and engage in entertainment discussions.",
-      "id": "Aplikasi ini tampaknya merupakan situs web berbagi cerita berjudul \"Cerita Anekdot\". Antarmukanya bersih dan ramah pengguna, memungkinkan pengguna untuk berbagi cerita dan terlibat dalam diskusi yang menghibur."
+      "id": "Aplikasi ini tampaknya merupakan situs web berbagi cerita berjudul \"Cerita Anekdot\". Antarmukanya bersih dan ramah pengguna, memungkinkan pengguna untuk berbagi cerita dan terlibat dalam diskusi yang menghibur.",
+      "cn": "该应用似乎是一个名为“Cerita Anekdot” (轶事故事) 的故事分享网站。它拥有简洁易用的界面，用户可以在这里分享故事并参与娱乐讨论。"
     },
+    "tools": ["vite", "react"],
     "link": "https://projekbi.vercel.app/",
     "github": "https://github.com/sunsunarto/Projekbi"
   },
@@ -49,15 +59,18 @@
     "id": "3",
     "title": {
       "en": "Dessert Shop Website",
-      "id": "Website Toko Dessert"
+      "id": "Website Toko Dessert",
+      "cn": "甜品店网站"
     },
     "date": {
       "en": "09 January 2025",
-      "id": "09 Januari 2025"
+      "id": "09 Januari 2025",
+      "cn": "2025年1月9日"
     },
     "lastestUpdate": {
       "en": "09 January 2025",
-      "id": "09 Januari 2025"
+      "id": "09 Januari 2025",
+      "cn": "2025年1月9日"
     },
     "status": "Project",
     "pic": "/Projects/Screenshot 2025-03-27 110325.png",
@@ -65,29 +78,35 @@
       "en": "The shop offers various desserts with images, names, and prices displayed. You also can buy a dessert by clicking the \"Comfirm Order\" button. this is only the front-end part of the application website.",
       "id": "Toko ini menawarkan berbagai macam hidangan penutup dengan gambar, nama, dan harga yang ditampilkan. Anda juga dapat membeli hidangan penutup dengan mengeklik tombol \"Konfirmasi Pesanan\". Ini hanyalah tampilan depan situs web aplikasi."
     },
+    "tools": ["vite", "react"],
     "link": "https://dessert-shop-part-2.vercel.app/",
-    "github": "https://github.com/sunsunarto/Dessert-Shop-Part-2"
+    "github": "https://github.com/sunsunarto/Dessert-Shop-Part-2."
   },
   {
     "id": "4",
     "title": {
       "en": "Post Management App",
-      "id": "Aplikasi Pengelolaan Post"
+      "id": "Aplikasi Pengelolaan Post",
+      "cn": "帖子管理应用"
     },
     "date": {
       "en": "15 January 2025",
-      "id": "15 Januari 2025"
+      "id": "15 Januari 2025",
+      "cn": "2025年1月15日"
     },
     "lastestUpdate": {
       "en": "27 March 2025",
-      "id": "27 Maret 2025"
+      "id": "27 Maret 2025",
+      "cn": "2025年3月27日"
     },
     "status": "Project",
     "pic": "/Projects/Screenshot 2025-03-27 112937.png",
     "decription": {
       "en": "The Post Management App is A Post Management App with a clean and simple interface designed for handling user-generated posts. It allows users to create, read, update, and delete posts efficiently.",
-      "id": "Aplikasi Manajemen Postingan adalah aplikasi manajemen postingan dengan antarmuka yang bersih dan sederhana, dirancang untuk mengelola postingan yang dibuat pengguna. Aplikasi ini memungkinkan pengguna untuk membuat, membaca, memperbarui, dan menghapus postingan secara efisien."
+      "id": "Aplikasi Manajemen Postingan adalah aplikasi manajemen postingan dengan antarmuka yang bersih dan sederhana, dirancang untuk mengelola postingan yang dibuat pengguna. Aplikasi ini memungkinkan pengguna untuk membuat, membaca, memperbarui, dan menghapus postingan secara efisien.",
+      "cn": "这款帖子管理应用界面简洁明了，专为管理用户生成的帖子而设计。它使用户能够高效地创建、阅读、更新和删除帖子。"
     },
+    "tools": ["vite", "react", "axios"],
     "link": "https://post-management-app-939m.vercel.app/",
     "github": "https://github.com/sunsunarto/Post-Management-App"
   },
@@ -95,22 +114,27 @@
     "id": "5",
     "title": {
       "en": "Advice Generator Website",
-      "id": "Website Generator Advice"
+      "id": "Website Generator Advice",
+      "cn": "建议生成器网站"
     },
     "date": {
       "en": "15 January 2025",
-      "id": "15 Januari 2025"
+      "id": "15 Januari 2025",
+      "cn": "2025年1月15日"
     },
     "lastestUpdate": { 
       "en": "15 January 2025",
-      "id": "15 Januari 2025"
+      "id": "15 Januari 2025",
+      "cn": "2025年1月15日"
     },
     "status": "Project",
     "pic": "/Projects/Screenshot 2025-03-27 120348.png",
     "decription": {
-      "en": "The Adive generator app is a user-friendly interface that allows users to generate random adjectives and nouns, which they can then use to create unique and creative names for their projects.",
-      "id": "Aplikasi generator Adive adalah antarmuka yang mudah digunakan yang memungkinkan pengguna untuk menghasilkan kata sifat dan kata benda acak, yang kemudian dapat mereka gunakan untuk membuat nama yang unik dan kreatif untuk proyek mereka."
+      "en": "The Advice generator app is a user-friendly interface that allows users to generate random adjectives and nouns, which they can then use to create unique and creative names for their projects.",
+      "id": "Aplikasi generator saran adalah antarmuka yang mudah digunakan yang memungkinkan pengguna untuk menghasilkan kata sifat dan kata benda acak, yang kemudian dapat mereka gunakan untuk membuat nama yang unik dan kreatif untuk proyek mereka.",
+      "cn": "建议生成器应用程序拥有用户友好的界面，允许用户生成随机的形容词和名词，然后他们可以使用这些形容词和名词为自己的项目创建独特而富有创意的名称。"
     },
+    "tools": ["vite", "react", "axios"],
     "link": "https://advice-generator-coral-iota.vercel.app/",
     "github": "https://github.com/sunsunarto/Advice-Generator"
   },
@@ -118,22 +142,27 @@
     "id": "6",
     "title": {
       "en": "User Authentication System",
-      "id": "Sistem Autentikasi Pengguna"
+      "id": "Sistem Autentikasi Pengguna",
+      "cn": "用户身份验证系统"
     },
     "date": {
       "en": "30 January 2025",
-      "id": "30 Januari 2025"
+      "id": "30 Januari 2025",
+      "cn": "2025年1月30日"
     },
     "lastestUpdate": {
       "en": "30 January 2025",
-      "id": "30 Januari 2025"
+      "id": "30 Januari 2025",
+      "cn": "2025年1月30日"
     },
     "status": "Project",
     "pic": "/Projects/Screenshot 2025-03-27 113854.png",
     "decription": { 
       "en": "The application appears to be a user-friendly form interface designed for registration and login. It features a blue background with white text for easy readability. Users can choose between two options they are. This is not connected to database.",
-      "id": "Aplikasi ini tampaknya merupakan antarmuka formulir yang ramah pengguna, dirancang untuk pendaftaran dan masuk. Aplikasi ini memiliki latar belakang biru dengan teks putih agar mudah dibaca. Pengguna dapat memilih di antara dua opsi yang tersedia. Aplikasi ini tidak terhubung ke basis data."
+      "id": "Aplikasi ini tampaknya merupakan antarmuka formulir yang ramah pengguna, dirancang untuk pendaftaran dan masuk. Aplikasi ini memiliki latar belakang biru dengan teks putih agar mudah dibaca. Pengguna dapat memilih di antara dua opsi yang tersedia. Aplikasi ini tidak terhubung ke basis data.",
+      "cn": "该应用程序界面友好，设计用于注册和登录。它采用蓝色背景和白色文字，便于阅读。用户可以在两个选项中进行选择。该应用程序未连接到数据库。"
     },
+    "tools": ["vite", "react", "yup", "formik"],
     "link": "https://user-authentication-system-ten.vercel.app/",
     "github": "https://github.com/sunsunarto/User-Authentication-System"
   },
@@ -141,22 +170,28 @@
     "id": "7",
     "title": { 
       "en": "Movie Collection Website",
-      "id": "Website Koleksi Film"
+      "id": "Website Koleksi Film",
+      "cn": "电影收藏网站"
     },
     "date": {
       "en": "04 March 2025",
-      "id": "04 Maret 2025"
+      "id": "04 Maret 2025",
+      "cn": "2025年3月4日"
     },
     "lastestUpdate": {
       "en": "04 March 2025",
-      "id": "04 Maret 2025"
+      "id": "04 Maret 2025",
+      "cn": "2025年3月4日"
     },
     "status": "Project",
     "pic": "/Projects/Screenshot 2025-03-27 115030.png",
     "decription": {
       "en": "This is a website about movie collection. this website is not connected to API (Application Programming Interface). you can search any movie you want. but you can't watch just see about the movies.",
-      "id": "Ini adalah situs web tentang koleksi film. Situs web ini tidak terhubung ke API (Antarmuka Pemrograman Aplikasi). Anda dapat mencari film apa pun yang Anda inginkan. Tetapi Anda tidak dapat menonton, hanya melihat-lihat tentang film."
+      "id": "Ini adalah situs web tentang koleksi film. Situs web ini tidak terhubung ke API (Antarmuka Pemrograman Aplikasi). Anda dapat mencari film apa pun yang Anda inginkan. Tetapi Anda tidak dapat menonton, hanya melihat-lihat tentang film.",
+      "cn": "这是一个电影收藏网站。该网站未连接任何应用程序编程接口 (API)。您可以搜索任何您想看的电影，但您只能浏览电影信息，无法观看。"
+      
     },
+    "tools": ["vite", "react", "axios", "gsap", "sweetalert2"],
     "link": "https://sunaryo-movie-collection-gsap-part-2-9mco.vercel.app/",
     "github": "https://github.com/sunsunarto/Sunaryo_movie_collection_gsap_part_2"
   },
@@ -164,22 +199,27 @@
     "id": "8",
     "title": {
       "en": "Weight Calculator App",
-      "id": "Aplikasi Kalkulator Berat Badan"
+      "id": "Aplikasi Kalkulator Berat Badan",
+      "cn": "体重计算器应用"
     },
     "date": {
       "en": "20 May 2025",
-      "id": "20 Mei 2025"
+      "id": "20 Mei 2025",
+      "cn": "2025年5月20日"
     },
     "lastestUpdate": {
       "en": "25 May 2025",
-      "id": "25 Mei 2025"
+      "id": "25 Mei 2025",
+      "cn": "2025年5月25日"
     },
     "status": "Project",
     "pic": "/Projects/Screenshot 2025-07-26 111335.png",
     "decription": {
       "en": "The weight Calculator app is a user-friendly interface that allows users to calculate their weight based on their height and age.",
-      "id": "Aplikasi Kalkulator Berat Badan adalah antarmuka yang ramah pengguna yang memungkinkan pengguna untuk menghitung berat mereka berdasarkan tingginya dan umurnya."
+      "id": "Aplikasi Kalkulator Berat Badan adalah antarmuka yang ramah pengguna yang memungkinkan pengguna untuk menghitung berat mereka berdasarkan tingginya dan umurnya.",
+      "cn": "体重计算器应用是一款用户友好的界面，允许用户根据身高和年龄计算自己的体重。"
     },
+    "tools": ["next_js", "tailwind_css"],
     "link": "https://weight-calculator-eosin.vercel.app//",
     "github": "https://github.com/sunsunarto/weight-calculator-"
   },
@@ -187,22 +227,27 @@
     "id": "9",
     "title": {
       "en": "My Art Space Website",
-      "id": "Website My Art Space"
+      "id": "Website My Art Space",
+      "cn": "我的艺术空间网站"
     },
     "date": { 
       "en": "22 May 2025",
-      "id": "22 Mei 2025"
+      "id": "22 Mei 2025",
+      "cn": "2025年5月22日"
     },
     "lastestUpdate": {
       "en": "25 May 2025",
-      "id": "25 Mei 2025"
+      "id": "25 Mei 2025",
+      "cn": "2025年5月25日"
     },
     "status": "Project",
     "pic": "/Projects/Screenshot 2025-07-26 122647.png",
     "decription": {
       "en": "The My Art Space app is a user-friendly interface that allows users introduce to one of my creation on making a portfolio website.",
-      "id": "Aplikasi My Art Space adalah antarmuka yang ramah pengguna yang memungkinkan pengguna memperkenalkan satu dari karya saya dalam membuat website portfolio."
+      "id": "Aplikasi My Art Space adalah antarmuka yang ramah pengguna yang memungkinkan pengguna memperkenalkan satu dari karya saya dalam membuat website portfolio.",
+      "cn": "My Art Space 应用拥有用户友好的界面，用户可以借此向他人展示我的作品，并创建作品集网站。"
     },
+    "tools": ["next_js", "gsap", "tailwind_css"],
     "link": "https://my-art-space-drj7.vercel.app/",
     "github": "https://github.com/sunsunarto/My-Art-Space"
   },
@@ -210,23 +255,112 @@
     "id": "10",
     "title": {
       "en": "dummy News Website",
-      "id": "Website Berita Dummy"
+      "id": "Website Berita Dummy",
+      "cn": "虚拟新闻网站"
     },
     "date": {
       "en": "22 July 2025",
-      "id": "22 Juli 2025"
+      "id": "22 Juli 2025",
+      "cn": "2025年7月22日"
     },
     "lastestUpdate": {
-      "en": "09 July 2025",
-      "id": "09 Juli 2025"
+      "en": "22 July 2025",
+      "id": "22 Juli 2025",
+      "cn": "2025年7月22日"
     },
     "status": "Project",
     "pic": "/Projects/Screenshot 2025-07-26 113733.png",
     "decription": {
       "en": "The Latest News app is a user-friendly interface that allows users to read the latest news from the world of aviation, such as teh Air India news, and the Hijack Plane news.",
-      "id": "Aplikasi Berita Terbaru adalah antarmuka yang ramah pengguna yang memungkinkan pengguna untuk membaca berita terbaru dari dunia aviasi, seperti berita Air India dan berita Hijack Plane."
+      "id": "Aplikasi Berita Terbaru adalah antarmuka yang ramah pengguna yang memungkinkan pengguna untuk membaca berita terbaru dari dunia aviasi, seperti berita Air India dan berita Hijack Plane.",
+      "cn": "“最新新闻”应用程序界面友好，用户可以阅读航空界的最新新闻，例如印度航空新闻和劫机事件新闻。"
     },
+    "tools": ["next_js", "antd", "tailwind_css"],
     "link": "https://latest-news-sunaryo.vercel.app/",
     "github": "https://github.com/sunsunarto/latest-news-Sunaryo"
+  },
+  {
+    "id": "11",
+    "title": {
+      "en": "PT Filipayo Tech Website (dummmy industry)",
+      "id": "Website PT Filipayo Tech (dummmy industri)",
+      "cn": "PT Filipayo Tech 网站(虚拟行业)"
+    },
+    "date": {
+      "en": "21 August 2025",
+      "id": "21 Agustus 2025",
+      "cn": "2025年8月21日"
+    },
+    "lastestUpdate": {
+      "en": "19 December 2025",
+      "id": "19 Desember 2025",
+      "cn": "2025年12月19日"
+    },
+    "status": "Project",
+    "pic": "Projects/Screenshot 2025-12-05 103139.png",
+    "decription": {
+      "en": "This project is a collaborative effort with the accountancy department to design a front-end website for a dummy company, serving as a promotional showcase of its identity and services.",
+      "id": "Proyek ini merupakan upaya kolaboratif dengan departemen akuntansi untuk mendesain situs web front-end untuk perusahaan fiktif, yang berfungsi sebagai ajang promosi identitas dan layanannya.",
+      "cn": "本项目是与会计部门合作，为一家虚拟公司设计前端网站，作为其形象和服务的宣传展示平台。"
+    },
+    "tools": ["next_js", "antd", "tailwind_css", "swiper_js"],
+    "link": "https://filipayo.vercel.app/",
+    "github": "https://github.com/sunsunarto/Filipayo"
+  },
+  {
+    "id": "12",
+    "title": {
+      "en": "PT LUXURA FURNI Website (dummmy industry)",
+      "id": "Website PT LUXURA FURNI (dummmy industri)",
+      "cn": "PT LUXURA FURNI 网站(虚拟行业)"
+    },
+    "date": {
+      "en": "10 October 2025",
+      "id": "10 Oktober 2025",
+      "cn": "2025年10月10日"
+    },
+    "lastestUpdate": {
+      "en": "19 December 2025",
+      "id": "19 Desember 2025",
+      "cn": "2025年12月19日"
+    },
+    "status": "Project",
+    "pic": "/Projects/Screenshot 2025-12-05 102735.png",
+    "decription": {
+      "en": "This project is a collaborative initiative with the accountancy department to build a front-end website for a dummy company, showcasing more than 25 of their products by leveraging local database data.",
+      "id": "Proyek ini merupakan inisiatif kolaboratif dengan departemen akuntansi untuk membangun situs web front-end untuk perusahaan fiktif, yang menampilkan lebih dari 25 produk mereka dengan memanfaatkan data basis data lokal.",
+      "cn": "本项目是与会计部门合作开展的一项计划，旨在为一家虚拟公司构建一个前端网站，利用本地数据库数据展示其 25 多种产品。"
+    },
+    "tools": ["next_js", "gsap", "antd","tailwind_css"],
+    "link": "https://pt-luxura-furni.vercel.app/",
+    "github": "https://github.com/sunsunarto/PT.-LUXURA-FURNI"
+  },
+  {
+    "id": "13",
+    "title": {
+      "en": "This portfolio Website",
+      "id": "Website Portfolio ini",
+      "cn": "这个作品集网站"
+    },
+    "date": {
+      "en": "21 October 2025",
+      "id": "21 Oktober 2025",
+      "cn": "2025年10月21日"
+    },
+    "lastestUpdate": {
+      "en": "Present",
+      "id": "Hinga sekarang",
+      "cn": "到现在"
+    },
+    "status": "Project",
+    "pic": "/Projects/Screenshot 2026-03-09 091641.png",
+    "decription": {
+      "en": "This website is my personal portfolio, a living project that will continue to evolve and grow in the future. It serves as a digital space where I showcase my skills, highlight the projects I've worked on, and share more about who I am beyond the code. Visitors can explore my work, learn about my journey, and connect with me directly. The site is designed not just as a static portfolio, but as an interactive hub that reflects my progress, creativity, and passion for building elegant, user-friendly solutions.",
+      "id": "Situs web ini adalah portofolio pribadi saya, sebuah proyek hidup yang akan terus berkembang dan tumbuh di masa depan. Situs ini berfungsi sebagai ruang digital tempat saya memamerkan keterampilan saya, menyoroti proyek-proyek yang telah saya kerjakan, dan berbagi lebih banyak tentang siapa saya di luar kode pemrograman. Pengunjung dapat menjelajahi karya saya, mempelajari perjalanan saya, dan terhubung langsung dengan saya. Situs ini dirancang bukan hanya sebagai portofolio statis, tetapi sebagai pusat interaktif yang mencerminkan kemajuan, kreativitas, dan semangat saya dalam membangun solusi yang elegan dan ramah pengguna.",
+      "cn": "本网站是我的个人作品集，一个不断发展壮大的项目。它作为一个数字空间，展示我的技能，重点介绍我参与过的项目，并分享代码之外的更多个人故事。访客可以浏览我的作品，了解我的成长历程，并直接与我联系。本网站的设计并非仅仅是一个静态的作品集，而是一个互动平台，它反映了我的进步、创造力以及我对构建优雅、用户友好型解决方案的热情。"
+    },
+    "tools": ["next_js", "gsap", "tailwind_css", "email_js", "three_js", "clsx", "day_js", "lightningcss", "lunartypescript", "react_circular_progressbar"],
+    "link": "https://portfolio-sunaryo.vercel.app/",
+    "github": "https://github.com/sunsunarto/Portfolio"
   }
 ]

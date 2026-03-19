@@ -828,15 +828,30 @@
     "id": 56,
     "commit": "[Update Log] add update show detail ",
     "date": {
-      "en": "18 March 2026",
-      "id": "18 Maret 2026",
-      "cn": "2026年3月18日"
+      "en": "19 March 2026",
+      "id": "19 Maret 2026",
+      "cn": "2026年3月19日"
     },
     "version": "3.9.4",
     "description": {
       "en": "Add Update Log to see the update list",
       "id": "Tambahkan Update Log untuk melihat daftar pembaruan",
       "cn": "添加更新日志以查看更新列表"
+    }
+  },
+  {
+    "id": 57,
+    "commit": "[Project] Add total",
+    "date": {
+      "en": "19 March 2026",
+      "id": "19 Maret 2026",
+      "cn": "2026年3月19日"
+    },
+    "version": "3.10.4",
+    "description": {
+      "en": "Add Total Project in Project Page",
+      "id": "Tambahkan Total Proyek di Halaman Proyek",
+      "cn": "在项目页面添加总项目"
     }
   }
 ]

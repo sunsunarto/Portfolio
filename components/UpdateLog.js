@@ -1,13 +1,16 @@
-// UpdateLog.js
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import { Button, Popover } from "antd";
 import { HistoryOutlined } from "@ant-design/icons";
 import { useRouter } from "next/router";
+import { LanguageContext } from "../context/LanguageContext.js";
+import { translations } from "../utils/i18n.js";
 
 const UpdateLog = () => {
   const [open, setOpen] = useState(false);
   const [updateLogs, setUpdateLogs] = useState([]);
   const router = useRouter();
+  const { language } = useContext(LanguageContext);
+  const t = translations[language];
 
   useEffect(() => {
     const fetchUpdateLog = async () => {
@@ -51,19 +54,19 @@ const UpdateLog = () => {
             <div><strong>Version:</strong> {log.version}</div>
           </div>
           <Button size="small" type="primary" onClick={() => handleKick(log)}>
-            Go
+            {t.go}
           </Button>
         </div>
       ))}
     </div>
   ) : (
-    <p style={{ width: "200px" }}>Loading update log...</p>
+    <p style={{ width: "200px" }}>{t.upLoading}</p>
   );
 
   return (
     <Popover
       content={content}
-      title="Update Log"
+      title={t.updateTitle}
       trigger="click"
       open={open}
       onOpenChange={setOpen}

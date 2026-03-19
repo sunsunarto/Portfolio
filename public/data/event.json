@@ -3,12 +3,14 @@
     "id": "1",
     "title": {
       "en": "Rapid UI Building With React + Tailwind Design Stunning Interfaces Faster Than Ever!",
-      "id": "Membangun UI Cepat dengan React + Tailwind Design Antarmuka Menakjubkan Lebih Cepat dari Sebelumnya!"
+      "id": "Membangun UI Cepat dengan React + Tailwind Design Antarmuka Menakjubkan Lebih Cepat dari Sebelumnya!",
+      "cn": "快速构建 React + Tailwind 设计的杰出界面,比以前更快!"
     },
     "date": {
       "iso": "2025-10-24",
       "en": "24 October 2025",
-      "id" : "24 Oktober 2025"
+      "id" : "24 Oktober 2025",
+      "cn": "2025年10月24日"
     },
     "status": "Webinar",
     "from": "SkillEcted",
@@ -18,12 +20,14 @@
     "id": "2",
     "title": {
       "en": "DSF 44 - Cyber Security",
-      "id": "DSF 44 - Keamanan Siber"
+      "id": "DSF 44 - Keamanan Siber",
+      "cn": "DSF 44 - 网络安全"
     },
     "date": {
       "iso": "2025-10-13",
       "en": "13-17 October 2025",
-      "id" : "13-17 Oktober 2025"
+      "id" : "13-17 Oktober 2025",
+      "cn": "2025年10月13日-17日"
     },
     "status": "Bootcamp",
     "from": "DiBimbing",
@@ -33,12 +37,14 @@
     "id": "3",
     "title": {
       "en": "Learn To Build A To-Do App With Local Storage",
-      "id": "Belajar Membangun Aplikasi To-Do Dengan Local Storage"
+      "id": "Belajar Membangun Aplikasi To-Do Dengan Local Storage",
+      "cn": "使用本地存储构建 To-Do 应用"
     },
     "date": {
       "iso": "2025-10-03",
       "en": "03 October 2025",
-      "id" : "03 Oktober 2025"
+      "id" : "03 Oktober 2025",
+      "cn": "2025年10月3日"
     },
     "status": "Webinar",
     "from": "SkillEcted",
@@ -48,12 +54,14 @@
     "id": "4",
     "title": { 
       "en": "Build A Movie Search App Using React JS - Explore, Search & Discover",
-      "id": "Membangun Aplikasi Pencarian Film Menggunakan React JS - Eksplor, Cari & Temukan"
+      "id": "Membangun Aplikasi Pencarian Film Menggunakan React JS - Eksplor, Cari & Temukan",
+      "cn": "使用 React JS 构建电影搜索应用 - 探索、搜索和发现"
     },
     "date": {
       "iso": "2025-10-03",
       "en": "03 - 05 October 2025",
-      "id" : "03 - 05 Oktober 2025"
+      "id" : "03 - 05 Oktober 2025",
+      "cn": "2025年10月3日-5日"
     },
     "status": "Webinar",
     "from": "SkillEcted",
@@ -63,12 +71,14 @@
     "id": "5",
     "title": {
       "en": "Attend Indoneisa Smart Mathematicas & Science Olypiad 2025",
-      "id": "Datang ke Olimpiade Matematika dan Ilmu Pengetahuan Indonesia 2025"
+      "id": "Datang ke Olimpiade Matematika dan Ilmu Pengetahuan Indonesia 2025",
+      "cn": "参加智能数学和科学奥林匹克赛 2025"
     },
     "date": {
       "iso": "2025-10-03",
       "en": "03-05 October 2025",
-      "id" : "03-05 Oktober 2025"
+      "id" : "03-05 Oktober 2025",
+      "cn": "2025年10月3日-5日"
     },
     "status": "competition",
     "from": "CV. Divya Cahaya Prestasi",
@@ -79,12 +89,14 @@
     "id": "6",
     "title": {
       "en": "Code Your Frist Game: Phython Snake With Turtle Graphics",
-      "id": "Kodekan Aplikasi Pertama Kamu: Python Snake Dengan Graphics Turtle"
+      "id": "Kodekan Aplikasi Pertama Kamu: Python Snake Dengan Graphics Turtle",
+      "cn": "编写你的第一个游戏: Python 蛇形游戏（带海龟图形）"
     },
     "date": {
       "iso": "2025-09-26",
       "en": "26 September 2025",
-      "id" : "26 September 2025"
+      "id" : "26 September 2025",
+      "cn": "2025年9月26日"
     },
     "status": "Webinar",
     "from": "SkillEcted",
@@ -94,12 +106,14 @@
     "id": "7",
     "title": {
       "en": "Attend Nasional Intellect Competition 2025",
-      "id": "Datang ke Olimpiade Matematika dan Ilmu Pengetahuan Indonesia 2025"
+      "id": "Datang ke Olimpiade Matematika dan Ilmu Pengetahuan Indonesia 2025",
+      "cn": "参加智能数学和科学奥林匹克赛 2025"
     },
     "date": {
       "iso": "2025-09-19",
       "en": "19-21 September 2025",
-      "id" : "19-21 September 2025"
+      "id" : "19-21 September 2025",
+      "cn": "2025年9月19日到21日"
     },
     "status": "competition",
     "from": "CV. Divya Cahaya Prestasi",
@@ -110,12 +124,14 @@
     "id": "8",
     "title": {
       "en": "Attend 2025 Indonesian Independence Day Science Olympiad",
-      "id": "Megikuti Olimpiade Matematika dan Ilmu Pengetahuan Indonesia 2025"
+      "id": "Megikuti Olimpiade Matematika dan Ilmu Pengetahuan Indonesia 2025",
+      "cn": "参加智能数学和科学奥林匹克赛 2025"
     },
     "date": {
       "iso": "2025-08-30", 
       "en": "29-31 Agustus 2025",
-      "id" : "29-31 Agustus 2025"
+      "id" : "29-31 Agustus 2025",
+      "cn": "2025年8月29日到31日"
     },
     "status": "competition",
     "from": "CV. Divya Cahaya Prestasi",
@@ -126,12 +142,14 @@
     "id": "9",
     "title": {
       "en": "Attend 2025 Indonesian Independence Day Science Olympiad",
-      "id": "Megikuti Olimpiade Matematika dan Ilmu Pengetahuan Indonesia 2025"
+      "id": "Megikuti Olimpiade Matematika dan Ilmu Pengetahuan Indonesia 2025",
+      "cn": "参加智能数学和科学奥林匹克赛 2025"
     },
     "date": { 
       "iso": "2025-08-29",
       "en": "29-31 August 2025",
-      "id" : "29-31 Agustus 2025"
+      "id" : "29-31 Agustus 2025",
+      "cn": "2025年8月29日到31日"
     },
     "status": "competition",
     "from": "CV. Divya Cahaya Prestasi",
@@ -142,12 +160,14 @@
     "id": "10",
     "title": {
       "en": "Why Java In 2025? Beginner's Guide To Java Career, Projects & Roadmap",
-      "id": "Kenapa Java Di 2025? Panduan Pemula Untuk Karir, Projek, dan Roadmap Java"
+      "id": "Kenapa Java Di 2025? Panduan Pemula Untuk Karir, Projek, dan Roadmap Java",
+      "cn": "为什么 Java 2025? Java 职业,项目和路线图"
     },
     "date": {
       "iso": "2025-07-27",
       "en": "27 July 2025",
-      "id" : "27 Juli 2025"
+      "id" : "27 Juli 2025",
+      "cn": "2025年7月27日"
     },
     "status": "Webinar",
     "from": "SkillEcted",
@@ -157,12 +177,14 @@
     "id": "11",
     "title": {
       "en": "Master Python With AI In 60 Minutes! Learn Pro Tips, Tricks & AI-Powered Insights",
-      "id": "Master Python Dengan AI Di 60 Menit! Pelajari Tips, Trik, dan Pengetahuan AI"
+      "id": "Master Python Dengan AI Di 60 Menit! Pelajari Tips, Trik, dan Pengetahuan AI",
+      "cn": "60 分钟学会 AI! 学会 AI 提示,技巧和 AI-驱动的洞察"
     },
     "date": {
       "iso": "2025-07-27",
       "en": "27 July 2025",
-      "id" : "27 Juli 2025"
+      "id" : "27 Juli 2025",
+      "cn": "2025年7月27日"
     },
     "status": "Webinar",
     "from": "SkillEcted",
@@ -172,12 +194,14 @@
     "id": "12",
     "title": {
       "en": "Getting Started With Industial Cybersecurity",
-      "id": "Memulai Dengan Industri Keamanan Siber"
+      "id": "Memulai Dengan Industri Keamanan Siber",
+      "cn": "从行业安全开始"
     },
     "date": {
       "iso": "2025-07-25",
       "en": "25 Juli 2025",
-      "id" : "25 Juli 2025"
+      "id" : "25 Juli 2025",
+      "cn": "2025年7月25日"
     },
     "status": "Webinar",
     "from": "ID-Networkers",
@@ -187,12 +211,14 @@
     "id": "13",
     "title": {
       "en": "Build a Smart Chatbot Using React.js - From UI To Response",
-      "id": "Buat Chatbot Smart Menggunakan React.js - Dari UI Hingga Respon"
+      "id": "Buat Chatbot Smart Menggunakan React.js - Dari UI Hingga Respon",
+      "cn": "使用 React.js 构建智能聊天机器人 - 从 UI 到响应"
     },
     "date": {
       "iso": "2025-06-08",
       "en": "08 June 2025",
-      "id" : "08 Juni 2025"
+      "id" : "08 Juni 2025",
+      "cn": "2025年6月8日"
     },
     "status": "Webinar",
     "from": "SkillEcted",
@@ -202,12 +228,14 @@
     "id": "14",
     "title": {
       "en": "Build A Weather App With React & OpenWeather API",
-      "id": "Buat Aplikasi Cuaca Dengan React & OpenWeather API"
+      "id": "Buat Aplikasi Cuaca Dengan React & OpenWeather API",
+      "cn": "使用 React 和 OpenWeather API 构建天气应用"
     },
     "date": {
       "iso": "2025-05-28",
       "en": "28 May 2025",
-      "id" : "28 Mei 2025"
+      "id" : "28 Mei 2025",
+      "cn": "2025年5月28日"
     },
     "status": "Webinar",
     "from": "SkillEcted",
@@ -217,12 +245,14 @@
     "id": "15",
     "title": { 
       "en": "Cybersecurity Roadmap 2025: Start Your Journey to Become A Cyber Pro!",
-      "id": "Jalur Keamanan Siber 2025: Mulai Jalanmu Menjadi Cyber Pro!"
+      "id": "Jalur Keamanan Siber 2025: Mulai Jalanmu Menjadi Cyber Pro!",
+      "cn": "网络安全路线图 2025: 从零开始成为网络安全专家!"
     },
     "date": {
       "iso": "2025-05-29",
       "en": "29 May 2025",
-      "id" : "29 Mei 2025"
+      "id" : "29 Mei 2025",
+      "cn": "2025年5月29日"
     },
     "status": "Webinar",
     "from": "SkillEcted",
@@ -232,12 +262,14 @@
     "id": "16",
     "title": {
       "en": "Master Python In 60 Minutes- Kickstart Your Full Stack Journey With Python",
-      "id": "Master Python Dalam 60 Menit- Mulai Jalanmu Dengan Python"
+      "id": "Master Python Dalam 60 Menit- Mulai Jalanmu Dengan Python",
+      "cn": "60 分钟学会 Python- 从 Python 开始你的全栈之旅"
     },
     "date": {
       "iso": "2025-05-16",
       "en": "16 May 2025",
-      "id" : "16 Mei 2025"
+      "id" : "16 Mei 2025",
+      "cn": "2025年5月16日"
     },
     "status": "Webinar",
     "from": "SkillEcted",
@@ -247,12 +279,14 @@
     "id": "17",
     "title": {
       "en": "Secrets To Building Fast & Lightweight JavaScript Web Apps",
-      "id": "Rahasia Menyusun Aplikasi Web JavaScript Cepat dan Ringan"
+      "id": "Rahasia Menyusun Aplikasi Web JavaScript Cepat dan Ringan",
+      "cn": "构建快速和轻量级 JavaScript Web 应用的秘密"
     },
     "date": {
       "iso": "2025-05-02",
       "en": "02 May 2025",
-      "id" : "02 Mei 2025"
+      "id" : "02 Mei 2025",
+      "cn": "2025年5月2日"
     },
     "status": "Webinar",
     "from": "SkillEcted",
@@ -262,12 +296,14 @@
     "id": "18",
     "title": {
       "en": "NodeJs For Beginners-Build Your first Rest API",
-      "id": "NodeJs Untuk Pemula-Buat API Rest Pertama"
+      "id": "NodeJs Untuk Pemula-Buat API Rest Pertama",
+      "cn": "为初学者构建 REST API"
     },
     "date": {
       "iso": "2025-04-19",
       "en": "19 April 2025",
-      "id" : "19 April 2025"
+      "id" : "19 April 2025",
+      "cn": "2025年4月19日"
     },
     "status": "Webinar",
     "from": "SkillEcted",
@@ -277,12 +313,14 @@
     "id": "19",
     "title": {
       "en": "Build Your Own Portfolio Webinar with HTML, CSS & JS",
-      "id": "Buat Portfolio Webinar Dengan HTML, CSS & JS"
+      "id": "Buat Portfolio Webinar Dengan HTML, CSS & JS",
+      "cn": "使用 HTML、CSS 和 JS 构建自己的个人网站"
     },
     "date": {
       "iso": "2025-03-27",
       "en": "27 March 2025",
-      "id" : "27 Maret 2025"
+      "id" : "27 Maret 2025",
+      "cn": "2025年3月27日"
     },
     "status": "Webinar",
     "from": "SkillEcted",
@@ -292,19 +330,22 @@
     "id": "20",
     "title": {
       "en": "Second place Of Class 2024 ",
-      "id": "Kedua Pemenang Kelas 2024"
+      "id": "Kedua Pemenang Kelas 2024",
+      "cn": "2024年2月13日"
     },
     "date": {
       "iso": "2024-06-13",
       "en": "13 June 2024",
-      "id" : "13 Juni 2024"
+      "id" : "13 Juni 2024",
+      "cn": "2024年6月13日"
     },
     "status": "other",
     "from": "Mutiara Bangsa 3 School",
     "pic": "/sertifikat/certificate _07.jpg",
     "decription": {
       "en": "Second place Of Class 2024 in Junior High School Mutiara Bangsa 3 Sccool with the Average value of 84.88",
-      "id": "Kedua Pemenang Kelas 2024 di SMA Mutiara Bangsa 3 Sccool dengan nilai rata-rata 84.88"
+      "id": "Kedua Pemenang Kelas 2024 di SMA Mutiara Bangsa 3 Sccool dengan nilai rata-rata 84.88",
+      "cn": "在穆蒂亚拉邦萨3号初中2024届中, 以平均分84.88名列第二。"
     }
   },
   {
@@ -325,7 +366,8 @@
     "pic": "/sertifikat/certificate _04.jpg",
     "decription": {
       "en": "This certificate is issued by Cetiya Eka Satya Dharma (守忠佛堂) to formally recognize an individual's participation in an online classical scripture reading class. The class focused on the study of Kitab Klasik (Classical Texts), specifically the  百孝經 (bai Xiao Jing, or \"Classic of Filial Piety\")",
-      "id": "Sertifikat ini dikeluarkan oleh Cetiya Eka Satya Dharma (守忠佛堂) sebagai pengakuan resmi atas keikutsertaan seseorang dalam kelas membaca kitab suci klasik daring. Kelas ini berfokus pada pembelajaran Kitab Klasik (Teks Klasik), khususnya 百孝經 (bai Xiao Jing, atau \"Kitab Suci Kesalehan Anak\")"
+      "id": "Sertifikat ini dikeluarkan oleh Cetiya Eka Satya Dharma (守忠佛堂) sebagai pengakuan resmi atas keikutsertaan seseorang dalam kelas membaca kitab suci klasik daring. Kelas ini berfokus pada pembelajaran Kitab Klasik (Teks Klasik), khususnya 百孝經 (bai Xiao Jing, atau \"Kitab Suci Kesalehan Anak\")",
+      "cn": "此证书由Cetiya Eka Satya Dharma(守忠佛堂)发放,作为正式证明个人参加在线传统文献阅读班的参与。该班专注于学习百孝经(百孝经,即\"孝子经\")"
     }
   },
   {
@@ -376,76 +418,88 @@
     "id": "24",
     "title": {
       "en": "Participate in the Beyond The `Match` From biometric Bypass To Full Access",
-      "id": "Mengikuti Beyond The `Match` From Biometric Bypass To Full Access"
+      "id": "Mengikuti Beyond The `Match` From Biometric Bypass To Full Access",
+      "cn": "参加 Beyond The `Match` From biometric Bypass To Full Access"
     },
     "date": {
       "iso": "2025-11-30",
       "en": "30 November 2025",
-      "id" : "30 November 2025"
+      "id" : "30 November 2025",
+      "cn": "2025年11月30日"
     },
     "status": "Webinar",
     "from": "Merdeka Cyber",
     "pic": "/sertifikat/Sunaryo Soengkono beyond the match from bio.png",
     "decription": {
       "en": "Webinar on Cybersecurity and Ethical Hacking",
-      "id": "Webinar tentang Keamanan Siber dan Peretasan Etis"
+      "id": "Webinar tentang Keamanan Siber dan Peretasan Etis",
+      "cn": "网络安全与伦理黑客"
     }
   },
   {
     "id": "25",
     "title": {
       "en": "Participate in the Inception competition 2025",
-      "id": "Mengikuti Olimpiade Inception 2025"
+      "id": "Mengikuti Olimpiade Inception 2025",
+      "cn": "参加智能数学和科学奥林匹克赛 2025"
     },
     "date": {
       "iso": "2025-11-01",
       "en": "01 November 2025",
-      "id" : "01 November 2025"
+      "id" : "01 November 2025",
+      "cn": "2025年11月01日"
     },
     "status": "competition",
     "from": "Inception ",
     "pic": "/sertifikat/Sunaryo Soengkono inception.png",
     "decription": {
       "en": "Inception competition 2025 with the jobdesk as a ui/ux design team",
-      "id": "Olimpiade Inception 2025 dengan jobdesk sebagai tim desain ui/ux"
+      "id": "Olimpiade Inception 2025 dengan jobdesk sebagai tim desain ui/ux",
+      "cn": "智能数学和科学奥林匹克赛 2025"
     }
   },
   {
     "id": "26",
     "title": {
       "en": "Participate in the Infra Competition 2025",
-      "id": "Mengikuti Olimpiade Infra 2025"
+      "id": "Mengikuti Olimpiade Infra 2025",
+      "cn": "参加智能数学和科学奥林匹克赛 2025"
     },
     "date": {
       "iso": "2025-11-08",
       "en": "08 November 2025",
-      "id" : "08 November 2025"
+      "id" : "08 November 2025",
+      "cn": "2025年11月08日"
     },
     "status": "competition",
     "from": "Jagoan Hosting",
     "pic": "/sertifikat/1401758603237-150142.png",
     "decription": {
       "en": "attend the infra competition 2025 with teh jobdesk as a copywriter and help teh ui/ux design team",
-      "id": "mengikuti olimpiade infra 2025 dengan jobdesk sebagai copywriter dan membantu tim desain ui/ux"
+      "id": "mengikuti olimpiade infra 2025 dengan jobdesk sebagai copywriter dan membantu tim desain ui/ux",
+      "cn": "智能数学和科学奥林匹克赛 2025"
     }
   },
   {
     "id": "27",
     "title": {
       "en": "attend the Data Science & AI Bootcamp",
-      "id": "Mengikuti Bootcamp Data Science & AI"
+      "id": "Mengikuti Bootcamp Data Science & AI",
+      "cn": "参加 Data Science & AI Bootcamp"
     },
     "date": {
       "iso": "2025-10-11",
       "en": "11 October 2025",
-      "id" : "11 Oktober 2025"
+      "id" : "11 Oktober 2025",
+      "cn": "2025年10月11日"
     },
     "status": "Bootcamp",
     "from": "Intelligo.id",
     "pic": "/sertifikat/Trial - Sunaryo Soengkono - INT-TBDSAI-0925-069.png",
     "decription": {
       "en": "Trail Bootcamp Data Science & AI with project from Intelligo.id",
-      "id": "Trial Bootcamp Data Science & AI dengan proyek dari Intelligo.id"
+      "id": "Trial Bootcamp Data Science & AI dengan proyek dari Intelligo.id",
+      "cn": "Data Science & AI Bootcamp"
     }
   }
 ]

@@ -714,7 +714,7 @@
     },
     "version": "3.2.3",
     "description": {
-      "en:": "fix the fetch file not found in the 3d model page",
+      "en": "fix the fetch file not found in the 3d model page",
       "id": "memperbaiki file fetch tidak ditemukan di halaman model 3D",
       "cn": "修复3D模型页面中的fetch文件未找到"
     }
@@ -729,7 +729,7 @@
     },
     "version": "3.3.3",
     "description": {
-      "en:": "Rename Portfolio to Project",
+      "en": "Rename Portfolio to Project",
       "id": "Mengubah Portfolio menjadi Project",
       "cn": "重命名Portfolio为Project"
     }
@@ -744,7 +744,7 @@
     },
     "version": "3.4.3",
     "description": {
-      "en:": "Make a new JSON for skill",
+      "en": "Make a new JSON for skill",
       "id": "Membuat JSON baru untuk kemampuan",
       "cn": "为技能制作一个新的JSON"
     }
@@ -759,7 +759,7 @@
     },
     "version": "3.5.3",
     "description": {
-      "en:": "update readme",
+      "en": "update readme",
       "id": "perbarui readme",
       "cn": "更新自述文件"
     }
@@ -774,7 +774,7 @@
     },
     "version": "3.6.3",
     "description": {
-      "en:": "New JSON tools language code",
+      "en": "New JSON tools language code",
       "id": "JSON baru untuk kode bahasa alat",
       "cn": "为工具语言代码制作一个新的JSON"
     }
@@ -789,7 +789,7 @@
     },
     "version": "3.6.4",
     "description": {
-      "en:": "fixing theh show detail in the project page",
+      "en": "fixing theh show detail in the project page",
       "id": "memperbaiki tampilan detail di halaman proyek",
       "cn": "修复项目页面的显示详情"
     }
@@ -804,7 +804,7 @@
     },
     "version": "3.7.4",
     "description": {
-      "en:": "Update table Project",
+      "en": "Update table Project",
       "id": "Perbarui tabel Proyek",
       "cn": "更新项目表格"
     }
@@ -813,14 +813,14 @@
     "id": 55,
     "commit": "CN Langguage",
     "date": {
-      "en": "18 March 2026",
-      "id": "18 Maret 2026",
-      "cn": "2026年3月18日"
+      "en": "17 March 2026",
+      "id": "17 Maret 2026",
+      "cn": "2026年3月17日"
     },
     "version": "3.8.4",
     "description": {
-      "en:": "add Chinese Language",
-      "id": "tambahkan Bahasa Mandarin",
+      "en": "Add Chinese Language",
+      "id": "Tambahkan Bahasa Mandarin",
       "cn": "添加中文语言"
     }
   },
@@ -834,7 +834,7 @@
     },
     "version": "3.9.4",
     "description": {
-      "en:": "Add Update Log to see the update list",
+      "en": "Add Update Log to see the update list",
       "id": "Tambahkan Update Log untuk melihat daftar pembaruan",
       "cn": "添加更新日志以查看更新列表"
     }

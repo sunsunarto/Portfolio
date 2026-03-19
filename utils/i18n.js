@@ -1,5 +1,3 @@
-import { Text3D } from "@react-three/drei";
-
 export const translations = {
   en: {
     //sider content
@@ -16,8 +14,8 @@ export const translations = {
     class: "Grade 11 Software Engineering in SMK Tri Ratna",
     location1: "Location",
     viewCV: "View CV",
-    navAbout: "About Me",
     //about content
+    navAbout: "About Me",
     about1: "Coding is a journey filled with calm cruising and intense moments of turbulence. The most critical phases starting a new project and deploying it with precision are the moments I live for. My name is Sunaryo, and I bring discipline, focus, and responsibility into every line of code I write.",
     about2: "I'm a front-end Web developer with a passion for crafting modular, intuitive, and emotionally resonant digital experiences. My toolkit includes Next.js, React, Vite, and libraries like Ant Design, GSAP, and others that help me build interfaces that are not only functional but also elegant and responsive. I believe that every website should feel seamless users deserve clarity, comfort and confidence in their interactions.",
     about3: "I'm from SMK Tri Ratna, majoring in Software Engineering (Rekayasa Perangkat Lunak), where I built a strong foundation in website development, user experience, and performance optimization. But beyond the technical skills, I've developed a mindset that treats every project as a mission—one that demands clarity, care, and a commitment to excellence.",
@@ -33,7 +31,7 @@ export const translations = {
     time: "Present",
     //achievement content
     navAchievement: "Achievement",
-    aboutAchievement: "here's my quick summary of my achievements.", 
+    aboutAchievement: "here's my quick summary of my achievements.",
     total: "Total Achievements",
     viewMore: "View Details",
     competition: "Competition",
@@ -71,15 +69,25 @@ export const translations = {
     yourEmail: "Your Email",
     yourSubject: "Subject",
     yourMessage: "Message",
-    submit: "Submit",
+    send: "Submit",
     //3d model content
     nav3DModel: "3D Model",
     Text3D: "This 3D card shows a simple aircraft model. It is inspired by real planes like Airbus and Boeing. The model is not perfect, but you can rotate and look at it from different sides. It helps to see the basic shape and idea of the aircraft. I made this project just for fun as a hobby, so please excuse any mistakes or rough design.",
+    done: "Done",
+    close: "Close",
     //Calendar content
     navCalendar: "Calendar",
+    empty: "No events found for this ",
+    event: "Event",
+    from: "from",
+    //update log content
+    updateTitle: "Update Log",
+    upLoding: "Loading update log...",
+    go: "Go",
     //404 content
     f404: "Page not found",
   },
+  //Indonesia
   id: {
     //sider content
     name: "Sunaryo Soengkono",
@@ -89,7 +97,7 @@ export const translations = {
     //home content
     navHome: "Beranda",
     titleHome: "Pengembangan Website & Desain UX/UI Design",
-    greeting: "Hai, saya ", 
+    greeting: "Hai, saya ",
     greeting1: ". saya adalah Web Developer spesialis Front-end dan Desain UX/UI",
     rightNow: "Sekarang",
     class: "kelas 11 Rekayasa Perangkat Lunak di SMK Tri Ratna",
@@ -98,7 +106,7 @@ export const translations = {
     //about content
     navAbout: "Tentang Saya",
     about1: "Pemrograman adalah perjalanan yang penuh dengan ketenangan dan momen-momen turbulensi yang intens. Fase-fase paling krusial—memulai proyek baru dan menerapkannya dengan presisi adalah momen-momen yang saya nanti-nantikan. Nama saya Sunaryo, dan saya menerapkan disiplin, fokus, dan tanggung jawab dalam setiap baris kode yang saya tulis.",
-    about2: "Saya seorang pengembang web front-end dengan hasrat untuk menciptakan pengalaman digital yang modular, intuitif, dan beresonansi secara emosional. Perangkat saya mencakup Next.js, React, Vite, dan pustaka seperti Ant Design, GSAP, dan lainnya yang membantu saya membangun antarmuka yang tidak hanya fungsional tetapi juga elegan dan responsif. Saya percaya bahwa setiap situs web harus terasa lancar, pengguna berhak mendapatkan kejelasan, kenyamanan, dan kepercayaan dalam interaksi mereka.", 
+    about2: "Saya seorang pengembang web front-end dengan hasrat untuk menciptakan pengalaman digital yang modular, intuitif, dan beresonansi secara emosional. Perangkat saya mencakup Next.js, React, Vite, dan pustaka seperti Ant Design, GSAP, dan lainnya yang membantu saya membangun antarmuka yang tidak hanya fungsional tetapi juga elegan dan responsif. Saya percaya bahwa setiap situs web harus terasa lancar, pengguna berhak mendapatkan kejelasan, kenyamanan, dan kepercayaan dalam interaksi mereka.",
     about3: "Saya lulusan SMK Tri Ratna, jurusan Rekayasa Perangkat Lunak (RPL), tempat saya membangun fondasi yang kuat dalam pengembangan situs web, pengalaman pengguna, dan optimasi kinerja. Namun, di luar keterampilan teknis, saya telah mengembangkan pola pikir yang memperlakukan setiap proyek sebagai misi—misi yang menuntut kejelasan, ketelitian, dan komitmen terhadap keunggulan.",
     //skill content
     navSkills: "Talenta",
@@ -153,9 +161,106 @@ export const translations = {
     send: "Kirim",
     //3d model content
     nav3DModel: "Model 3D",
+    done: "Selesai",
+    close: "Tutup",
     //Calendar content
     navCalendar: "Kalender",
+    empty: "Tidak ada acara yang ditemukan untuk tanggal",
+    event: "Acara",
+    from: "Dari",
+    //update log content
+    updateTitle: "Log Pembaruan",
+    upLoding: "Memuat log pembaruan...",
+    go: "pergi",
     //404 content
     f404: "Halaman tidak ditemukan",
+  },
+  cn: {
+    //sider content
+    name: "孙文杰",
+    role: "前端开发工程师",
+    location: "印度尼西亚",
+    language: "语言",
+    //home content
+    navHome: "首页",
+    titleHome: "网站开发 & UX/UI 设计",
+    greeting: "您好，我是 ",
+    greeting1: ". 我是一名专注于前端和 UX/UI 设计的 Web 开发人员",
+    rightNow: "现在",
+    class: "SMK Tri Ratna 11 年级软件工程专业",
+    location1: "位置",
+    viewCV: "查看简历",
+    //about content
+    navAbout: "关于我",
+    about1: "编程是一段旅程，既有风平浪静的平稳时期，也有惊心动魄的挑战时刻。启动新项目并精准部署的关键阶段, 正是我最热爱的时刻。我叫Sunaryo, 我将严谨、专注和责任感融入到我编写的每一行代码中。",
+    about2: "我是一名前端Web开发人员, 热衷于打造模块化、直观且富有情感共鸣的数字体验。我的工具包包括Next.js、React、Vite以及Ant Design、GSAP等库, 这些库帮助我构建不仅功能强大，而且优雅且响应迅速的界面。我相信每个网站都应该让用户感到流畅——用户在交互过程中应该获得清晰、舒适和自信的体验。",
+    about3: "我毕业于SMK Tri Ratna, 主修软件工程 (Rekayasa Perangkat Lunak) , 在那里我打下了扎实的网站开发、用户体验和性能优化基础。但除了技术技能之外，我还培养了一种将每个项目都视为使命的思维模式——一种需要清晰思路、认真对待和……的使命。”致力于追求卓越。",
+    //skill content
+    navSkills: "技能",
+    skill1: "我是一名软件工程师, 对 Web 开发有着浓厚的兴趣。我拥有多种编程语言和框架的使用经验，并且始终渴望学习更多知识。",
+    //education content
+    navEducation: "教育经历",
+    edu1: "小学",
+    edu2: "小学",
+    edu3: "初中",
+    edu4: "高中 - 软件工程",
+    time: "目前",
+    //achievement content
+    navAchievement: "成就",
+    aboutAchievement: "以下是我的成就简要概述。",
+    total: "成就总数",
+    viewMore: "查看详情",
+    competition: "竞赛",
+    other: "其他",
+    tabAchievement: "成就表",
+    tabWebinar: "网络研讨会成就",
+    tabBootcamp: "训练营成就",
+    tabCompetition: "比赛成就",
+    tabOther: "其他成就",
+    detailsWebinar: "网络研讨会详情",
+    detailsBootcamp: "训练营详情",
+    detailsCompetition: "比赛详情",
+    detailsOther: "其他详情",
+    title: "标题",
+    date: "日期",
+    information: "信息",
+    status: "状态",
+    organizer: "组织者",
+    description: "描述",
+    certificate: "证书",
+    backWebinar: "返回网络研讨会表",
+    backBootcamp: "返回训练营表",
+    backCompetition: "返回比赛表",
+    backOther: "返回其他表",
+    back: "返回",
+    //Project content
+    navProject: "项目",
+    titleProject: "项目详情",
+    tabProject: "项目图片",
+    update: "上次更新",
+    backProject: "返回项目表",
+    //contact content
+    navContact: "联系我们",
+    yourName: "您的姓名",
+    yourEmail: "您的邮箱",
+    yourSubject: "主题",
+    yourMessage: "留言",
+    send: "提交",
+    //3d model content
+    nav3DModel: "3D模型",
+    Text3D: "这张3D卡片展示了一个简单的飞机模型。它的灵感来源于空客和波音等真实飞机。模型并不完美, 但您可以旋转并从不同角度查看。这有助于了解飞机的基本形状和设计理念。我制作这个项目只是为了娱乐，所以请原谅任何错误或粗糙的设计。",
+    done: "完成",
+    close: "关闭",
+    //Calendar content
+    navCalendar: "日历",
+    empty: "未找到该日期的任何事件",
+    event: "事件",
+    from: "从",
+    //update log content
+    updateTitle: "更新日志",
+    upLoading: "正在加载更新日志...",
+    go: "前往",
+    //404 content
+    f404: "页面未找到",
   }
 };

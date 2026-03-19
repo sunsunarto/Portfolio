@@ -131,6 +131,7 @@ export default function ProjectCard() {
         pagination={{ pageSize: 7 }}
         bordered
       />
+      <Typography>{t.projectTotal}{ project.length}</Typography>
     </Space>
   );
 }

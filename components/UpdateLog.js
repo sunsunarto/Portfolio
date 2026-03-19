@@ -15,7 +15,7 @@ const UpdateLog = () => {
   useEffect(() => {
     const fetchUpdateLog = async () => {
       try {
-        const res = await fetch("/data/updatelog.json");
+        const res = await fetch("/data/updateLog.json");
         const data = await res.json();
         const sorted = [...data].sort((a, b) => b.id - a.id);
         setUpdateLogs(sorted);

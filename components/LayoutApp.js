@@ -7,8 +7,9 @@ import { LanguageContext } from "../context/LanguageContext.js";
 import { translations } from "../utils/i18n.js";
 import Breadcrumbnav from '../components/Breadcrumb.js';
 import Languages from './Languages.js';
+import UpdateLog from "../components/UpdateLog.js";
 
-const { Content, Sider } = Layout;
+const { Content, Sider, Header } = Layout;
 const { Title, Text } = Typography;
 const { useBreakpoint } = Grid;
 
@@ -33,9 +34,27 @@ export default function LayoutApp({ children }) {
         <span style={{ fontWeight: 'bold', color: '#3949AB' }}>{t.role} </span>
         <span style={{ fontWeight: 'bold', color: '#000' }}>{t.location}</span>
       </Text>
-      <Divider></Divider>
-      <Languages/>
     </div>
+  );
+
+  const TopHeader = () => (
+    <Header
+      style={{
+        background: '#3949AB',
+        padding: '0 24px',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        boxShadow: '0 2px 6px rgba(0,0,0,0.15)',
+      }}
+    >
+      <div className='left'>
+        <Languages />
+      </div>
+      <div className='right'>
+        <UpdateLog />
+      </div>
+    </Header>
   );
 
   const menuItems = (
@@ -87,7 +106,7 @@ export default function LayoutApp({ children }) {
 
         {isMobile && (
           <>
-            <Button icon={<MenuOutlined />}type="text" style={{ position: 'fixed', top: 16, left: 16, zIndex: 1100, background: '#fff', borderRadius: 4, boxShadow: '0 2px 6px rgba(0,0,0,0.15)'}} onClick={() => setDrawerVisible(true)}/>
+            <Button icon={<MenuOutlined />} type="text" style={{ position: 'fixed', top: 16, left: 16, zIndex: 1100, background: '#fff', borderRadius: 4, boxShadow: '0 2px 6px rgba(0,0,0,0.15)' }} onClick={() => setDrawerVisible(true)} />
             <Drawer placement="left" onClose={() => setDrawerVisible(false)} open={drawerVisible} bodyStyle={{ padding: 0 }}>
               <ProfileHeader />
               {menuItems}
@@ -95,11 +114,14 @@ export default function LayoutApp({ children }) {
           </>
         )}
 
-        <Content style={{ background: '#e6f7ff', padding: isMobile ? '24px 16px' : '40px', flex: 1, position: 'relative' }}>
-          {isMobile && <div style={{ height: 56 }} />}
-          <Breadcrumbnav />
-          {children}
-        </Content>
+        <Layout style={{ flex: 1 }}>
+          <TopHeader />
+          <Content style={{ background: '#e6f7ff', padding: isMobile ? '24px 16px' : '40px', flex: 1, position: 'relative' }}>
+            {isMobile && <div style={{ height: 56 }} />}
+            <Breadcrumbnav />
+            {children}
+          </Content>
+        </Layout>
       </Layout>
     </div>
   );

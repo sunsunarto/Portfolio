@@ -19,11 +19,11 @@ export default function BreadcrumbNav() {
         let url = '/' + arr.slice(0, index + 1).join('/');
 
         if (segment === '[id]' && query.id) {
-          label = `Event ${query.id}`;
-          url = `/events/${query.id}`;
+          label = `${query.id}`;
+          url = `/${query.id}`;
         } else if (segment === 'edit') {
           label = 'Edit Event';
-          url = `/events/${query.id}/edit`;
+          url = `${query.id}/edit`;
         } else {
           label = label.replace(/[-_]/g, ' ');
           label = label.charAt(0).toUpperCase() + label.slice(1);

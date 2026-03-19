@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "commit": "Initial commit from Create Next App",
     "date": {
       "en": "23 October 2025",
@@ -14,6 +15,7 @@
     }
   },
   {
+    "id": 2,
     "commit": "First Commit",
     "date": {
       "en": "23 October 2025",
@@ -28,6 +30,7 @@
     }
   },
   {
+    "id": 3,
     "commit": "third Commit",
     "date": {
       "en": "23 October 2025",
@@ -42,6 +45,7 @@
     }
   },
   {
+    "id": 4,
     "commit": "second Commit",
     "date": {
       "en": "23 October 2025",
@@ -56,6 +60,7 @@
     }
   },
   {
+    "id": 5,
     "commit": "Fourth Commit",
     "date": {
       "en": "23 October 2025",
@@ -70,6 +75,7 @@
     }
   },
   {
+    "id": 6,
     "commit": "delete Commit",
     "date": {
       "en": "23 October 2025",
@@ -84,6 +90,7 @@
     }
   },
   {
+    "id": 7,
     "commit": "delete1 Commit",
     "date": {
       "en": "23 October 2025",
@@ -98,6 +105,7 @@
     }
   },
   {
+    "id": 8,
     "commit": "edit app commit",
     "date": {
       "en": "23 October 2025",
@@ -112,6 +120,7 @@
     }
   },
   {
+    "id": 9,
     "commit": "edit app1 commit",
     "date": {
       "en": "23 October 2025",
@@ -126,6 +135,7 @@
     }
   },
   {
+    "id": 10,
     "commit": "fifth commit",
     "date": {
       "en": "23 October 2025",
@@ -140,6 +150,7 @@
     }
   },
   {
+    "id": 11,
     "commit": "sixth commit",
     "date": {
       "en": "24 October 2025",
@@ -154,6 +165,7 @@
     }
   },
   {
+    "id": 12,
     "commit": "seventh commit",
     "date": {
       "en": "25 October 2025",
@@ -168,6 +180,7 @@
     }
   },
   {
+    "id": 13,
     "commit": "fix table competition card  commit",
     "date": {
       "en": "25 October 2025",
@@ -182,6 +195,7 @@
     }
   },
   {
+    "id": 14,
     "commit": "fix table competition commit",
     "date": {
       "en": "25 October 2025",
@@ -196,6 +210,7 @@
     }
   },
   {
+    "id": 15,
     "commit": "fix table competition commit",
     "date": {
       "en": "25 October 2025",
@@ -210,6 +225,7 @@
     }
   },
   {
+    "id": 16,
     "commit": "eighth commit",
     "date": {
       "en": "26 October 2025",
@@ -224,6 +240,7 @@
     }
   },
   {
+    "id": 17,
     "commit": "fix &apos  commit",
     "date": {
       "en": "26 October 2025",
@@ -238,6 +255,7 @@
     }
   },
   {
+    "id": 18,
     "commit": "ninth commit",
     "date": {
       "en": "27 October 2025",
@@ -252,6 +270,7 @@
     }
   },
   {
+    "id": 19,
     "commit": "tenth commit",
     "date": {
       "en": "02 November 2025",
@@ -266,6 +285,7 @@
     }
   },
   {
+    "id": 20,
     "commit": "eleventh commit",
     "date": {
       "en": "04 November 2025",
@@ -280,6 +300,7 @@
     }
   },
   {
+    "id": 21,
     "commit": "test competition commit",
     "date": {
       "en": "05 November 2025",
@@ -294,6 +315,7 @@
     }
   },
   {
+    "id": 22,
     "commit": "test 1 competition commit",
     "date": {
       "en": "05 November 2025",
@@ -308,6 +330,7 @@
     }
   },
   {
+    "id": 23,
     "commit": "test 2 competition commit",
     "date": {
       "en": "05 November 2025",
@@ -322,6 +345,7 @@
     }
   },
   {
+    "id": 24,
     "commit": "change index.js",
     "date": {
       "en": "06 November 2025",
@@ -336,6 +360,7 @@
     }
   },
   {
+    "id": 25,
     "commit": "twelveth commit",
     "date": {
       "en": "06 November 2025",
@@ -350,6 +375,7 @@
     }
   },
   {
+    "id": 26,
     "commit": "Merge branch 'main' of https://github.com/sunsunarto/Portfolio",
     "date": {
       "en": "06 November 2025",
@@ -364,6 +390,7 @@
     }
   },
   {
+    "id": 27,
     "commit": "fix commit",
     "date": {
       "en": "06 November 2025",
@@ -378,6 +405,7 @@
     }
   },
   {
+    "id": 28,
     "commit": "thirdteenth commit",
     "date": {
       "en": "30 November 2025",
@@ -392,6 +420,7 @@
     }
   },
   {
+    "id": 29,
     "commit": "eight commit",
     "date": {
       "en": "30 November 2025",
@@ -406,6 +435,7 @@
     }
   },
   {
+    "id": 30,
     "commit": "fourteenth commit",
     "date": {
       "en": "05 November 2025",
@@ -420,6 +450,7 @@
     }
   },
   {
+    "id": 31,
     "commit": "fifteenth commit",
     "date": {
       "en": "30 November 2025",
@@ -434,6 +465,7 @@
     }
   },
   {
+    "id": 32,
     "commit": "fix bug commit",
     "date": {
       "en": "09 December 2025",
@@ -448,6 +480,7 @@
     }
   },
   {
+    "id": 33,
     "commit": "Update Next.js/React Flight packages for RCE advisory",
     "date": {
       "en": "09 December 2025",
@@ -462,6 +495,7 @@
     }
   },
   {
+    "id": 34,
     "commit": "Merge pull request #1 from sunsunarto/vercel/nextjsreact-flight-packages-fo-3du6wp",
     "date": {
       "en": "09 December 2025",
@@ -476,6 +510,7 @@
     }
   },
   {
+    "id": 35,
     "commit": "fix 1  commit",
     "date": {
       "en": "09 December 2025",
@@ -490,6 +525,7 @@
     }
   },
   {
+    "id": 36,
     "commit": "fix 2 commit",
     "date": {
       "en": "09 December 2025",
@@ -504,6 +540,7 @@
     }
   },
   {
+    "id": 37,
     "commit": "fix 3 commit",
     "date": {
       "en": "09 December 2025",
@@ -518,6 +555,7 @@
     }
   },
   {
+    "id": 38,
     "commit": "update and fix commit",
     "date": {
       "en": "20 December 2025",
@@ -532,6 +570,7 @@
     }
   },
   {
+    "id": 39,
     "commit": "add commit",
     "date": {
       "en": "29 December 2025",
@@ -546,6 +585,7 @@
     }
   },
   {
+    "id": 40,
     "commit": "update",
     "date": {
       "en": "29 December 2025",
@@ -560,6 +600,7 @@
     }
   },
   {
+    "id": 41,
     "commit": "sixteenth commit",
     "date": {
       "en": "31 December 2025",
@@ -574,6 +615,7 @@
     }
   },
   {
+    "id": 42,
     "commit": "seventeenth commit",
     "date": {
       "en": "30 January 2026",
@@ -588,6 +630,7 @@
     }
   },
   {
+    "id": 43,
     "commit": "newconseptcode",
     "date": {
       "en": "22 February 2026",
@@ -602,6 +645,7 @@
     }
   },
   {
+    "id": 44,
     "commit": "bug-button",
     "date": {
       "en": "26 February 2026",
@@ -616,6 +660,7 @@
     }
   },
   {
+    "id": 45,
     "commit": "input-not-reqired",
     "date": {
       "en": "27 February 2026",
@@ -630,6 +675,7 @@
     }
   },
   {
+    "id": 46,
     "commit": "bg-mobile",
     "date": {
       "en": "27 February 2026",
@@ -644,6 +690,7 @@
     }
   },
   {
+    "id": 47,
     "commit": "Update UpdateLog.json",
     "date": {
       "en": "2 March 2026",
@@ -658,6 +705,7 @@
     }
   },
   {
+    "id": 48,
     "commit": "3d-fetch-data",
     "date": {
       "en": "2 March 2026",
@@ -666,12 +714,13 @@
     },
     "version": "3.2.3",
     "description": {
-      "en:": "fix the fetch file not found in the 3d model page",
+      "en": "fix the fetch file not found in the 3d model page",
       "id": "memperbaiki file fetch tidak ditemukan di halaman model 3D",
       "cn": "修复3D模型页面中的fetch文件未找到"
     }
   },
   {
+    "id": 49,
     "commit": "Rename Portfolio",
     "date": {
       "en": "3 March 2026",
@@ -680,12 +729,13 @@
     },
     "version": "3.3.3",
     "description": {
-      "en:": "Rename Portfolio to Project",
+      "en": "Rename Portfolio to Project",
       "id": "Mengubah Portfolio menjadi Project",
       "cn": "重命名Portfolio为Project"
     }
   },
   {
+    "id": 50,
     "commit": "New JSON Skill",
     "date": {
       "en": "5 March 2026",
@@ -694,12 +744,13 @@
     },
     "version": "3.4.3",
     "description": {
-      "en:": "Make a new JSON for skill",
+      "en": "Make a new JSON for skill",
       "id": "Membuat JSON baru untuk kemampuan",
       "cn": "为技能制作一个新的JSON"
     }
   },
   {
+    "id": 51,
     "commit": "Update Readme",
     "date": {
       "en": "5 March 2026",
@@ -708,12 +759,13 @@
     },
     "version": "3.5.3",
     "description": {
-      "en:": "update readme",
+      "en": "update readme",
       "id": "perbarui readme",
       "cn": "更新自述文件"
     }
   },
   {
+    "id": 52,
     "commit": "JSON language code",
     "date": {
       "en": "6 March 2026",
@@ -722,12 +774,13 @@
     },
     "version": "3.6.3",
     "description": {
-      "en:": "New JSON tools language code",
+      "en": "New JSON tools language code",
       "id": "JSON baru untuk kode bahasa alat",
       "cn": "为工具语言代码制作一个新的JSON"
     }
   },
   {
+    "id": 53,
     "commit": "Bug Project [id]",
     "date": {
       "en": "7 March 2026",
@@ -736,23 +789,54 @@
     },
     "version": "3.6.4",
     "description": {
-      "en:": "fixing theh show detail in the project page",
+      "en": "fixing theh show detail in the project page",
       "id": "memperbaiki tampilan detail di halaman proyek",
       "cn": "修复项目页面的显示详情"
     }
   },
   {
+    "id": 54,
     "commit": "Update table Project",
     "date": {
-      "en": "18 March 2026",
-      "id": "18 Maret 2026",
-      "cn": "2026年3月18日"
+      "en": "17 March 2026",
+      "id": "17 Maret 2026",
+      "cn": "2026年3月17日"
     },
     "version": "3.7.4",
     "description": {
-      "en:": "Update table Project",
+      "en": "Update table Project",
       "id": "Perbarui tabel Proyek",
       "cn": "更新项目表格"
+    }
+  },
+  {
+    "id": 55,
+    "commit": "CN Langguage",
+    "date": {
+      "en": "17 March 2026",
+      "id": "17 Maret 2026",
+      "cn": "2026年3月17日"
+    },
+    "version": "3.8.4",
+    "description": {
+      "en": "Add Chinese Language",
+      "id": "Tambahkan Bahasa Mandarin",
+      "cn": "添加中文语言"
+    }
+  },
+  {
+    "id": 56,
+    "commit": "[Update Log] add update show detail ",
+    "date": {
+      "en": "19 March 2026",
+      "id": "19 Maret 2026",
+      "cn": "2026年3月19日"
+    },
+    "version": "3.9.4",
+    "description": {
+      "en": "Add Update Log to see the update list",
+      "id": "Tambahkan Update Log untuk melihat daftar pembaruan",
+      "cn": "添加更新日志以查看更新列表"
     }
   }
 ]

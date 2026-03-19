@@ -16,7 +16,7 @@ export default function UpdateDetail() {
 
     const fetchLog = async () => {
       try {
-        const res = await fetch("/data/updatelog.json");
+        const res = await fetch("/data/updateLog.json");
         const data = await res.json();
         const found = data.find((item) => String(item.id) === String(id));
         setLog(found);

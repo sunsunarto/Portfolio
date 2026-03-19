@@ -63,6 +63,7 @@ export const translations = {
     tabProject: "Project Picture",
     update: "last Update",
     backProject: "Back to Project Table",
+    projectTotal: "Total Project: ",
     //contact content
     navContact: "Get In Touch",
     yourName: "Your Name",
@@ -152,6 +153,7 @@ export const translations = {
     tabProject: "Projek Gambar",
     update: "Pembaruan Terakhir",
     backProject: "Kembali ke Tabel Projek",
+    projectTotal: "Total Projek: ",
     //contact content
     navContact: "Hubungi Saya",
     yourName: "Nama Anda",
@@ -239,6 +241,7 @@ export const translations = {
     tabProject: "项目图片",
     update: "上次更新",
     backProject: "返回项目表",
+    projectTotal: "项目总览: ",
     //contact content
     navContact: "联系我们",
     yourName: "您的姓名",

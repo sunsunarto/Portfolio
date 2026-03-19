@@ -80,9 +80,14 @@ export const translations = {
     empty: "No events found for this ",
     event: "Event",
     from: "from",
+    //update log content
+    updateTitle: "Update Log",
+    upLoding: "Loading update log...",
+    go: "Go",
     //404 content
     f404: "Page not found",
   },
+  //Indonesia
   id: {
     //sider content
     name: "Sunaryo Soengkono",
@@ -163,6 +168,10 @@ export const translations = {
     empty: "Tidak ada acara yang ditemukan untuk tanggal",
     event: "Acara",
     from: "Dari",
+    //update log content
+    updateTitle: "Log Pembaruan",
+    upLoding: "Memuat log pembaruan...",
+    go: "pergi",
     //404 content
     f404: "Halaman tidak ditemukan",
   },
@@ -247,6 +256,10 @@ export const translations = {
     empty: "未找到该日期的任何事件",
     event: "事件",
     from: "从",
+    //update log content
+    updateTitle: "更新日志",
+    upLoading: "正在加载更新日志...",
+    go: "前往",
     //404 content
     f404: "页面未找到",
   }

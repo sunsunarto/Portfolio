@@ -10,17 +10,12 @@ const EventInfo = ({ date, events, lang = 'en' }) => {
   const matchedEvents = events.filter(e => e.date?.iso === formattedDate);
   const { language } = useContext(LanguageContext);
   const t = translations[language];
-
-  // Default width (safe for SSR)
   const [width, setWidth] = React.useState(350);
 
   React.useEffect(() => {
-    // Runs only in browser
     const handleResize = () => {
       setWidth(window.innerWidth <= 768 ? 450 : 350);
     };
-
-    // Set initial width
     handleResize();
 
     window.addEventListener('resize', handleResize);

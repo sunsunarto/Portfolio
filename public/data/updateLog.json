@@ -854,19 +854,34 @@
       "cn": "在项目页面添加总项目"
     }
   },
-    {
-      "id": 58,
-      "commit": "[Skill] New Model Style",
-      "date": {
-        "en": "25 March 2026",
-        "id": "25 Maret 2026",
-        "cn": "2026年3月25日"
-      },
-      "version": "3.11.4",
-      "description": {
-        "en": "Add New Model Style in Skill Page",
-        "id": "Tambahkan Model Baru di Halaman Skill",
-        "cn": "在技能页面添加新模型样式"
-      }
+  {
+    "id": 58,
+    "commit": "[Skill] New Model Style",
+    "date": {
+      "en": "25 March 2026",
+      "id": "25 Maret 2026",
+      "cn": "2026年3月25日"
+    },
+    "version": "3.11.4",
+    "description": {
+      "en": "Add New Model Style in Skill Page",
+      "id": "Tambahkan Model Baru di Halaman Skill",
+      "cn": "在技能页面添加新模型样式"
+    }
+  },
+  {
+    "id": 58,
+    "commit": "[Update Log] Icon in Mobile view",
+    "date": {
+      "en": "25 March 2026",
+      "id": "25 Maret 2026",
+      "cn": "2026年3月25日"
+    },
+    "version": "3.11.5",
+    "description": {
+      "en": "Fix the button icon in mobile view",
+      "id": "Memperbaiki ikon tombol di tampilan mobile",
+      "cn": "修复移动端视图中的按钮图标"
+    }
   }
 ]

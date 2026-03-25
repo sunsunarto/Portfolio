@@ -78,7 +78,7 @@ const UpdateLog = () => {
           color: "white"
         }}
       >
-        <HistoryOutlined style={{ fontSize: "1.3vw" }} />
+        <HistoryOutlined style={{ fontSize: "20px" }} />
       </Button>
     </Popover>
   );

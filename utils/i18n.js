@@ -22,6 +22,9 @@ export const translations = {
     //skill content
     navSkills: "Skills",
     skill1: "I'm a software engineer with a strong interest in web development. I have experience with a variety of programming languages and frameworks, and I'm always looking to learn more.",
+    skillChangeBtn: "Switch to",
+    circleType: "Circle",
+    barType: "Bar",
     //education content
     navEducation: "Education",
     edu1: "Primary School",
@@ -112,6 +115,9 @@ export const translations = {
     //skill content
     navSkills: "Talenta",
     skill1: "Saya seorang pengembang perangkat lunak yang bersemangat dan sangat tertarik dengan pengembangan web. Saya berpengalaman dengan berbagai bahasa pemrograman dan kerangka kerja, dan saya selalu ingin belajar lebih banyak.",
+    skillChangeBtn: "Beralih ke",
+    circleType: "Lingkaran",
+    barType: "Bar",
     //education content
     navEducation: "Edukasi",
     edu1: "Sekolah Dasar",
@@ -200,6 +206,9 @@ export const translations = {
     //skill content
     navSkills: "技能",
     skill1: "我是一名软件工程师, 对 Web 开发有着浓厚的兴趣。我拥有多种编程语言和框架的使用经验，并且始终渴望学习更多知识。",
+    skillChangeBtn: "切换到",
+    circleType: "圆圈",
+    barType: "条形",
     //education content
     navEducation: "教育经历",
     edu1: "小学",

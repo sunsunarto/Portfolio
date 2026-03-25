@@ -182,7 +182,7 @@
   {
     "id": "16",
     "name": "Audacity",
-    "image": "/Skill/Audacity.wenp",
+    "image": "/Skill/Audacity.webp",
     "percentage": 30,
     "Description": {
       "en": "Audacity is a free and open-source audio editing software that allows users to record, edit, and manipulate audio files.",
@@ -207,12 +207,12 @@
     "id": "18",
     "name": "Canva",
     "image": "/Skill/Canva.png",
-    "percentage": 10,
+    "percentage": 85,
     "Description": {
       "en": "Canva is a free-to-use online graphic design tool. Use it to create social media posts, presentations, posters, videos, logos and more.",
       "id": "Canva adalah sebuah alat desain grafis online gratis yang dapat digunakan untuk membuat konten sosial media, presentasi, poster, video, logo, dan sebagainya.",
       "cn": "Canva (可画) 是一款全球领先的‌一体化视觉沟通与协作平台‌，旨在“赋予世界设计的力量”，让即使没有专业设计背景的人也能轻松创建高质量的视觉内容"
     },
-    "color": "#00CC77"
+    "color": "#0000FF"
   }
 ]

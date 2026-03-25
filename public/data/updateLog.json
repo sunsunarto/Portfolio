@@ -843,9 +843,9 @@
     "id": 57,
     "commit": "[Project] Add total",
     "date": {
-      "en": "19 March 2026",
-      "id": "19 Maret 2026",
-      "cn": "2026年3月19日"
+      "en": "24 March 2026",
+      "id": "24 Maret 2026",
+      "cn": "2026年3月24日"
     },
     "version": "3.10.4",
     "description": {
@@ -853,5 +853,20 @@
       "id": "Tambahkan Total Proyek di Halaman Proyek",
       "cn": "在项目页面添加总项目"
     }
+  },
+    {
+      "id": 58,
+      "commit": "[Skill] New Model Style",
+      "date": {
+        "en": "25 March 2026",
+        "id": "25 Maret 2026",
+        "cn": "2026年3月25日"
+      },
+      "version": "3.11.4",
+      "description": {
+        "en": "Add New Model Style in Skill Page",
+        "id": "Tambahkan Model Baru di Halaman Skill",
+        "cn": "在技能页面添加新模型样式"
+      }
   }
 ]

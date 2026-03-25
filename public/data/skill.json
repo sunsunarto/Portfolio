@@ -38,7 +38,7 @@
   {
     "id": "4",
     "name": "React",
-    "image": "/Skill/react.png",
+    "image": "/Skill/React.png",
     "percentage": 80,
     "Description": {
       "en": "React is a JavaScript library for building user interfaces.",

@@ -2,18 +2,20 @@ import { Layout, Menu, Avatar, Typography, Grid, Drawer, Button, Space, Divider 
 import { DashboardOutlined, CalendarOutlined, MenuOutlined, UserOutlined, ContactsOutlined, TrophyOutlined, BookOutlined, SafetyCertificateOutlined, ToolOutlined, ProjectOutlined } from '@ant-design/icons';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import { useState, useContext } from 'react';
+import React,{ useState, useContext } from 'react';
 import { LanguageContext } from "../context/LanguageContext.js";
 import { translations } from "../utils/i18n.js";
 import Breadcrumbnav from '../components/Breadcrumb.js';
 import Languages from './Languages.js';
 import UpdateLog from "../components/UpdateLog.js";
+import { ThemeContext } from "../context/ThemeContext";
 
 const { Content, Sider, Header } = Layout;
 const { Title, Text } = Typography;
 const { useBreakpoint } = Grid;
 
 export default function LayoutApp({ children }) {
+  const { tokens, setTheme, theme } = useContext(ThemeContext);
   const router = useRouter();
   const path = router.pathname;
   const screens = useBreakpoint();
@@ -26,13 +28,13 @@ export default function LayoutApp({ children }) {
     <div style={{ textAlign: 'center', padding: '32px 16px' }}>
       <Avatar
         size={100}
-        style={{ marginBottom: 16, border: '4px solid #3949AB' }}
+        style={{ marginBottom: 16, border: `4px solid ${tokens.borderPrimary}` }}
         src="/WhatsApp Image 2025-09-23 at 15.59.59_5da190e1.jpg"
       />
-      <Title level={4} style={{ marginBottom: 0 }}>{t.name}</Title>
+      <Title level={4} style={{ marginBottom: 0, color: tokens.textPrimary }}>{t.name}</Title>
       <Text type="secondary" style={{ fontSize: 14 }}>
-        <span style={{ fontWeight: 'bold', color: '#3949AB' }}>{t.role} </span>
-        <span style={{ fontWeight: 'bold', color: '#000' }}>{t.location}</span>
+        <span style={{ fontWeight: 'bold', color: tokens.textSecondary }}>{t.role} </span>
+        <span style={{ fontWeight: 'bold', color: tokens.textPrimary }}>{t.location}</span>
       </Text>
     </div>
   );
@@ -40,65 +42,79 @@ export default function LayoutApp({ children }) {
   const TopHeader = () => (
     <Header
       style={{
-        background: '#3949AB',
-        padding: '0 24px',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'space-between',
-        boxShadow: '0 2px 6px rgba(0,0,0,0.15)',
+        background: tokens.primary,
+        color: tokens.textPrimary,
+        padding: "0 24px",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "space-between",
+        boxShadow: "0 2px 6px rgba(0,0,0,0.15)",
       }}
     >
-      <div className='left'>
+      <div className="left">
         <Languages />
       </div>
-      <div className='right'>
+      <div className="right">
+        <Button
+          type="text"
+          onClick={() => setTheme(theme === "light" ? "dark" : "light")}
+          style={{ color: tokens.textPrimary }}
+        >
+          {theme === "light" ? "🌙 Dark Mode" : "☀️ Light Mode"}
+        </Button>
         <UpdateLog />
       </div>
     </Header>
   );
 
-  const menuItems = (
-    <Menu
-      mode="vertical"
-      selectedKeys={[path]}
-      style={{ background: 'white', borderRight: 'none', boxShadow: '2px 0 8px rgba(0,0,0,0.1)', height: '450px' }}
-      onClick={() => setDrawerVisible(false)}
-    >
-      <Menu.Item key="/" icon={<DashboardOutlined />}>
-        <Link href="/">{t.navHome}</Link>
+const menuItems = (
+  <Menu
+    mode="vertical"
+    selectedKeys={[path]}
+    style={{
+      background: tokens.background,
+      borderRight: "none",
+      boxShadow: "2px 0 8px rgba(0,0,0,0.1)",
+      height: "450px",
+    }}
+    onClick={() => setDrawerVisible(false)}
+  >
+    {[
+      { key: "/", icon: <DashboardOutlined />, label: t.navHome },
+      { key: "/about", icon: <UserOutlined />, label: t.navAbout },
+      { key: "/skill", icon: <SafetyCertificateOutlined />, label: t.navSkills },
+      { key: "/education", icon: <BookOutlined />, label: t.navEducation },
+      { key: "/achievement", icon: <TrophyOutlined />, label: t.navAchievement },
+      { key: "/project", icon: <ProjectOutlined />, label: t.navProject },
+      { key: "/Calendar", icon: <CalendarOutlined />, label: t.navCalendar },
+      { key: "/3DModel", icon: <ToolOutlined />, label: t.nav3DModel },
+      { key: "/getInTouch", icon: <ContactsOutlined />, label: t.navContact },
+    ].map(({ key, icon, label }) => (
+      <Menu.Item
+        key={key}
+        icon={React.cloneElement(icon, {
+          style: { color: path === key ? tokens.primary : tokens.textPrimary },
+        })}
+      >
+        <Link
+          href={key}
+          style={{
+            color: path === key ? tokens.primary : tokens.textPrimary,
+            fontWeight: path === key ? "bold" : "normal",
+          }}
+        >
+          {label}
+        </Link>
       </Menu.Item>
-      <Menu.Item key="/about" icon={<UserOutlined />}>
-        <Link href="/about">{t.navAbout}</Link>
-      </Menu.Item>
-      <Menu.Item key="/skill" icon={<SafetyCertificateOutlined/>}>
-        <Link href="/skill">{t.navSkills}</Link>
-      </Menu.Item>
-      <Menu.Item key="/education" icon={<BookOutlined />}>
-        <Link href="/education">{t.navEducation}</Link>
-      </Menu.Item>
-      <Menu.Item key="/achievement" icon={<TrophyOutlined />}>
-        <Link href="/achievement">{t.navAchievement}</Link>
-      </Menu.Item>
-      <Menu.Item key="/project" icon={<ProjectOutlined />}>
-        <Link href="/project">{t.navProject}</Link>
-      </Menu.Item>
-      <Menu.Item key="/Calendar" icon={<CalendarOutlined />}>
-        <Link href="/Calendar">{t.navCalendar}</Link>
-      </Menu.Item>
-      <Menu.Item key="/3DModel" icon={<ToolOutlined />}>
-        <Link href="/3DModel">{t.nav3DModel}</Link>
-      </Menu.Item>
-      <Menu.Item key="/getInTouch" icon={<ContactsOutlined />}>
-        <Link href="/getInTouch">{t.navContact}</Link>
-      </Menu.Item>
-    </Menu>
-  );
+    ))}
+  </Menu>
+);
 
   return (
     <div>
       <Layout style={{ minHeight: '100vh', flexDirection: 'row' }}>
         {!isMobile && (
-          <Sider width={280} style={{ background: 'white', boxShadow: '2px 0 8px rgba(0,0,0,0.1)' }}>
+          <Sider width={280} style={{ background: tokens.background, boxShadow: '2px 0 8px rgba(0,0,0,0.1)' }}>
             <ProfileHeader />
             <div>{menuItems}</div>
           </Sider>

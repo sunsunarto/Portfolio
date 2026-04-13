@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "../styles/globals.css";
-import { LanguageProvider } from "../context/LanguageContext"; // adjust path if needed
+import { LanguageProvider } from "../context/LanguageContext";
+import { ThemeProvider } from "../context/ThemeContext";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,11 +16,13 @@ const geistMono = Geist_Mono({
 export default function MyApp({ Component, pageProps }) {
   return (
     <LanguageProvider>
-      <main
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <Component {...pageProps} />
-      </main>
+      <ThemeProvider>
+        <main
+          className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        >
+          <Component {...pageProps} />
+        </main>
+      </ThemeProvider>
     </LanguageProvider>
   );
 }

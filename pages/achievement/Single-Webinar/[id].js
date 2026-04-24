@@ -1,10 +1,10 @@
 import { useRouter } from 'next/router';
 import { useEffect, useState, useContext } from 'react';
 import { Typography, Row, Col, Card, Button, Divider, Image } from 'antd';
-import LayoutApp from '../../../../components/LayoutApp.js';
-import AchievementDetailOtherCard from '../../../../components/AchievementDetailOtherCard.js';
-import { LanguageContext } from "../../../../context/LanguageContext.js";
-import { translations } from "../../../../utils/i18n.js";
+import LayoutApp from '../../../components/LayoutApp.js';
+import AchievementDetailWebinarCard from '../../../components/AchievementDetailWebinarCard.js';
+import { LanguageContext } from "../../../context/LanguageContext.js";
+import { translations } from "../../../utils/i18n.js";
 
 
 const { Title, Text } = Typography;
@@ -44,13 +44,11 @@ export default function ViewEvent() {
   return (
     <LayoutApp>
       <div style={{ padding: '24px' }}>
-        <Title level={2} style={{ color: '#000080' }}>{t.detailsOther}</Title>
+        <Title level={2} style={{ color: '#000080' }}>{t.detailWebinar}</Title>
         <Divider />
-
-        <AchievementDetailOtherCard event={event} />
-
+        <AchievementDetailWebinarCard event={event} />
         <Divider />
-        <Button type="primary" style ={{ backgroundColor: '#000080' }} href="/achievement/AchievementTable/Table-Other">{t.backOther}</Button>
+        <Button type="primary" style ={{ backgroundColor: '#000080' }} href="/achievement">{t.backWebinar}</Button>
       </div>
     </LayoutApp>
   );

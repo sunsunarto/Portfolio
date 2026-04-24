@@ -873,15 +873,30 @@
     "id": 58,
     "commit": "[Update Log] Icon in Mobile view",
     "date": {
-      "en": "25 March 2026",
-      "id": "25 Maret 2026",
-      "cn": "2026年3月25日"
+      "en": "8 April 2026",
+      "id": "8 April 2026",
+      "cn": "2026年4月8日"
     },
     "version": "3.11.5",
     "description": {
       "en": "Fix the button icon in mobile view",
       "id": "Memperbaiki ikon tombol di tampilan mobile",
       "cn": "修复移动端视图中的按钮图标"
+    }
+  },
+  {
+    "id": 59,
+    "commit": "[Achievement] Change model",
+    "date": {
+      "en": "24 April 2026",
+      "id": "24 April 2026",
+      "cn": "2026年4月24日"
+    },
+    "version": "3.12.5",
+    "description": {
+      "en": "Change the model in Achievement Page to reduce the UX issue",
+      "id": "Ubah model di Halaman Pencapaian untuk mengurangi masalah UX",
+      "cn": "更改成就页面中的模型以减少UX问题"
     }
   }
 ]

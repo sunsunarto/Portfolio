@@ -1,10 +1,10 @@
 import { useRouter } from 'next/router';
 import { useEffect, useState, useContext } from 'react';
 import { Typography, Row, Col, Card, Button, Divider, Image } from 'antd';
-import LayoutApp from '../../../../components/LayoutApp.js';
-import AchievementDetailCompetitionCard from '../../../../components/AchievementDetailCompetitionCard.js';
-import { LanguageContext } from "../../../../context/LanguageContext.js";
-import { translations } from "../../../../utils/i18n.js";
+import LayoutApp from '../../../components/LayoutApp.js';
+import AchievementDetailCompetitionCard from '../../../components/AchievementDetailCompetitionCard.js';
+import { LanguageContext } from "../../../context/LanguageContext.js";
+import { translations } from "../../../utils/i18n.js";
 
 
 const { Title, Text } = Typography;
@@ -48,7 +48,7 @@ export default function ViewEvent() {
         <Divider />
         <AchievementDetailCompetitionCard event={event} />
         <Divider />
-        <Button type="primary" style ={{ backgroundColor: '#000080' }} href="/achievement/AchievementTable/Table-Competition">{t.backCompetition}</Button>
+        <Button type="primary" style ={{ backgroundColor: '#000080' }} href="/achievement">{t.backCompetition}</Button>
       </div>
     </LayoutApp>
   );

@@ -7,6 +7,7 @@ import { translations } from "../utils/i18n.js";
 import dayjs from 'dayjs';
 import customParseFormat from 'dayjs/plugin/customParseFormat';
 import 'dayjs/locale/id';
+import { ThemeContext } from "../context/ThemeContext.js";
 
 dayjs.extend(customParseFormat);
 
@@ -16,6 +17,7 @@ export default function TableCompetitionCard() {
   const { language } = useContext(LanguageContext);
   const t = translations[language];
   const [competition, setcompetition] = useState([]);
+  const { tokens } = useContext(ThemeContext);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -95,21 +97,26 @@ export default function TableCompetitionCard() {
   ];
 
   return (
-    <Space direction="vertical" style={{ width: '100%', backgroundColor: '#E6F7FF' }}>
-      <Title style={{ color: '#000080' }} level={2}>
-        <TrophyOutlined style={{ color: '#000080' }} /> {t.tabCompetition}
+    <Space direction="vertical" style={{ width: '100%' }}>
+      <Title style={{ color: tokens.textSecondary }} level={2}>
+        <TrophyOutlined style={{ color: tokens.textSecondary }} /> {t.tabCompetition}
       </Title>
+      <div style={{ 
+        "--tableBackground": tokens.background,
+        "--paginationText": tokens.textPrimary,
+        "--paginationActive": tokens.primary,
+      }}>
       <Table
-        style={{ backgroundColor: '#E6F7FF' }}
         dataSource={competition}
         columns={columns}
         rowKey="id"
         pagination={{ pageSize: 7 }}
         bordered
       />
+      </div>
       <Button
         type="primary"
-        style={{ backgroundColor: '#000080' }}
+        style={{ backgroundColor: tokens.buttonPrimary, color: tokens.textBlack }}
         href="/achievement/AchievementTable"
       >
         {t.back}

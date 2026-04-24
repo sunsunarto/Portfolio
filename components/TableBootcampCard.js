@@ -7,6 +7,7 @@ import { translations } from "../utils/i18n.js";
 import dayjs from 'dayjs';
 import customParseFormat from 'dayjs/plugin/customParseFormat';
 import 'dayjs/locale/id';
+import { ThemeContext } from "../context/ThemeContext.js";
 
 dayjs.extend(customParseFormat);
 
@@ -16,6 +17,7 @@ export default function TableBootcampCard() {
   const { language } = useContext(LanguageContext);
   const t = translations[language];
   const [bootcamp, setBootcamp] = useState([]);
+  const { tokens } = useContext(ThemeContext);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -95,12 +97,12 @@ export default function TableBootcampCard() {
   ];
 
   return (
-    <Space direction="vertical" style={{ width: '100%', backgroundColor: '#E6F7FF' }}>
-      <Title style={{ color: '#000080' }} level={2}>
-        <BookOutlined style={{ color: '#000080' }} /> {t.tabBootcamp}
+    <Space direction="vertical" style={{ width: '100%' }}>
+      <Title style={{ color: tokens.textSecondary }} level={2}>
+        <BookOutlined style={{ color: tokens.textSecondary }} /> {t.tabBootcamp}
       </Title>
       <Table
-        style={{ backgroundColor: '#E6F7FF' }}
+        style={{ backgroundColor: tokens.tableBackground }}
         dataSource={bootcamp}
         columns={columns}
         rowKey="id"
@@ -109,7 +111,7 @@ export default function TableBootcampCard() {
       />
       <Button
         type="primary"
-        style={{ backgroundColor: '#000080' }}
+        style={{ backgroundColor: tokens.buttonPrimary, color: tokens.textBlack }}
         href="/achievement/AchievementTable"
       >
         {t.back}

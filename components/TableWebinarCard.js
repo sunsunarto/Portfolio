@@ -7,6 +7,7 @@ import { translations } from "../utils/i18n.js";
 import dayjs from 'dayjs';
 import customParseFormat from 'dayjs/plugin/customParseFormat';
 import 'dayjs/locale/id';
+import { ThemeContext } from "../context/ThemeContext.js";
 
 dayjs.extend(customParseFormat);
 
@@ -16,6 +17,7 @@ export default function TableWebinarCard() {
   const { language } = useContext(LanguageContext);
   const t = translations[language];
   const [webinar, setWebinar] = useState([]);
+  const { tokens } = useContext(ThemeContext);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -95,21 +97,26 @@ export default function TableWebinarCard() {
   ];
 
   return (
-    <Space direction="vertical" style={{ width: '100%', backgroundColor: '#E6F7FF' }}>
-      <Title style={{ color: '#000080' }} level={2}>
-        <BookOutlined style={{ color: '#000080' }} /> {t.tabWebinar}
+    <Space direction="vertical" style={{ width: '100%' }}>
+      <Title level={2} style={{ color: tokens.textSecondary }}>
+        <BookOutlined style={{ color: tokens.textSecondary }} /> {t.tabWebinar}
       </Title>
-      <Table
-        style={{ backgroundColor: '#E6F7FF' }}
-        dataSource={webinar}
-        columns={columns}
-        rowKey="id"
-        pagination={{ pageSize: 7 }}
-        bordered
-      />
+      <div style={{ 
+        "--tableBackground": tokens.background,
+        "--paginationText": tokens.textPrimary,
+        "--paginationActive": tokens.primary,
+      }}>
+        <Table
+          dataSource={webinar}
+          columns={columns}
+          rowKey="id"
+          pagination={{ pageSize: 7 }}
+          bordered
+        />
+      </div>
       <Button
         type="primary"
-        style={{ backgroundColor: '#000080' }}
+        style={{ backgroundColor: tokens.buttonPrimary, color: tokens.textBlack }}
         href="/achievement/AchievementTable"
       >
         {t.back}

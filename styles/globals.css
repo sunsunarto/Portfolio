@@ -4,6 +4,10 @@
   --background: #ffffff;
   --foreground: #171717;
   --accent: #FF7043;
+
+  --tableBackground: var(--background);
+  --paginationBackground: var(--background);
+  --paginationActive: var(--accent);
 }
 
 @theme inline {
@@ -34,3 +38,41 @@ body {
   width: 100px;
   text-align: center;
 }
+
+.ant-table {
+  background-color: var(--tableBackground) !important;
+}
+
+.ant-table-thead > tr > th {
+  background-color: var(--tableBackground) !important;
+}
+
+.ant-table-tbody > tr > td {
+  background-color: var(--tableBackground) !important;
+}
+
+.ant-pagination {
+  background-color: var(--paginationBackground) !important;
+  padding: 8px;
+  border-radius: 0 0 8px 8px;
+}
+
+/* Inactive pagination items */
+.ant-pagination-item {
+  color: black !important;
+  border-color: black !important;
+}
+
+.ant-pagination-item a {
+  color: black !important;
+}
+
+/* Active pagination item */
+.ant-pagination-item-active {
+  background-color: var(--paginationActive) !important;
+  border-color: var(--paginationActive) !important;
+  color: #fff !important;
+}
+
+
+

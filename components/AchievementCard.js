@@ -3,6 +3,7 @@ import { Typography, Row, Col, Card, Button, Divider } from 'antd';
 import Link from 'next/link';
 import { LanguageContext } from "../context/LanguageContext.js";
 import { translations } from "../utils/i18n.js";
+import { ThemeContext } from "../context/ThemeContext.js";
 
 const { Title, Text } = Typography;
 
@@ -13,6 +14,7 @@ export default function AchievementCard() {
     competition: 0,
     Bootcamp: 0,
   });
+  const { tokens } = useContext(ThemeContext);
 
   useEffect(() => {
     const fetchStats = async () => {
@@ -36,12 +38,12 @@ export default function AchievementCard() {
   const t = translations[language];
   return (
     <div>
-      <Title level={2} style={{ color: '#000080' }} >{t.navAchievement}</Title>
-      <Text type="secondary">{t.aboutAchievement}</Text>
+      <Title level={2} style={{ color: tokens.textSecondary }} >{t.navAchievement}</Title>
+      <Text>{t.aboutAchievement}</Text>
       <Divider />
-      <Row gutter={[16, 16]}>
+      <Row  justify="center">
         <Col xs={64} sm={8}>
-          <Card title={t.total} bordered>
+          <Card title={t.total} bordered style={{background: tokens.background}}>
             <Title level={3}>{stats.total}</Title>
             <Link href="/achievement/AchievementTable"><Button type="link">{t.viewMore}</Button></Link>
           </Card>

@@ -4,11 +4,13 @@ import LayoutApp from '../../../components/LayoutApp.js';
 import Link from 'next/link';
 import { LanguageContext } from "../../../context/LanguageContext";
 import { translations } from "../../../utils/i18n.js";
+import { ThemeContext } from "../../../context/ThemeContext.js";
 
 const { Title, Text } = Typography;
 
 export default function AchievementCardTable() {
   const { language } = useContext(LanguageContext);
+  const { tokens } = useContext(ThemeContext);
   const t = translations[language];
 
   const [stats, setStats] = useState({
@@ -39,11 +41,11 @@ export default function AchievementCardTable() {
   return (
     <LayoutApp>
       <Divider />
-      <Title level={2} style={{ color: '#000080' }} >{t.tabAchievement}</Title>
+      <Title level={2} style={{ color: tokens.textSecondary }} >{t.tabAchievement}</Title>
         <Divider />
       <Row gutter={[16, 16]}>
         <Col xs={24} sm={8}>
-          <Card title="Webinar" bordered>
+          <Card title="Webinar" bordered style={{background: tokens.background}}>
             <Title level={3}>{stats.webinar}</Title>
             <Link href="/achievement/AchievementTable/Table-Webinar">
               <Button type="link">{t.viewMore}</Button>
@@ -51,7 +53,7 @@ export default function AchievementCardTable() {
           </Card>
         </Col>
         <Col xs={24} sm={8}>
-          <Card title= {t.competition} bordered>
+          <Card title= {t.competition} bordered style={{background: tokens.background}}>
             <Title level={3}>{stats.competition}</Title>
             <Link href="/achievement/AchievementTable/Table-Competition">
               <Button type="link">{t.viewMore}</Button>
@@ -59,7 +61,7 @@ export default function AchievementCardTable() {
           </Card>
         </Col>
         <Col xs={24} sm={8}>
-          <Card title="Bootcamp" bordered>
+          <Card title="Bootcamp" bordered style={{background: tokens.background}}>
             <Title level={3}>{stats.Bootcamp}</Title>
             <Link href="/achievement/AchievementTable/Table-Bootcamp">
               <Button type="link">{t.viewMore}</Button>
@@ -67,7 +69,7 @@ export default function AchievementCardTable() {
           </Card>
         </Col>
         <Col xs={24} sm={8}>
-          <Card title={t.other} bordered>
+          <Card title={t.other} bordered style={{background: tokens.background}}>
             <Title level={3}>{stats.other}</Title>
             <Link href="/achievement/AchievementTable/Table-Other">
               <Button type="link">{t.viewMore}</Button>

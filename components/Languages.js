@@ -2,10 +2,12 @@ import { useState, useContext } from "react";
 import { Button, Drawer, Radio, Space } from "antd";
 import { LanguageContext } from "../context/LanguageContext.js";
 import { translations } from "../utils/i18n.js";
+import { ThemeContext } from "../context/ThemeContext.js";
 
 export default function Languages() {
   const [drawerVisible, setDrawerVisible] = useState(false);
   const { language, setLanguage } = useContext(LanguageContext);
+  const { tokens } = useContext(ThemeContext);
   const t = translations[language];
 
   const handleLanguageChange = (e) => {
@@ -20,8 +22,8 @@ export default function Languages() {
         style={{
           borderRadius: 4,
           boxShadow: '0 2px 6px rgba(0,0,0,0.15)',
-          backgroundColor: '#ffffff',
-          color: '#3949AB',
+          backgroundColor: tokens.background,
+          color: tokens.textSecondary,
           fontWeight: 'bold'
         }}
         onClick={() => setDrawerVisible(true)}

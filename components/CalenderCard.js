@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext, useState } from 'react';
 import { Calendar, Col, Radio, Row, Select } from 'antd';
 import { createStyles } from 'antd-style';
 import { clsx } from 'clsx';
@@ -6,6 +6,7 @@ import dayjs from 'dayjs';
 import { HolidayUtil, Lunar } from 'lunar-typescript';
 import events from '../public/data/event.json'; 
 import EventInfo from './EventInfo';
+import { ThemeContext } from '../context/ThemeContext';
 
 const useStyle = createStyles(({ token, css, cx }) => {
   const lunar = css`
@@ -96,8 +97,10 @@ const useStyle = createStyles(({ token, css, cx }) => {
 });
 const CalendarCard = () => {
   const { styles } = useStyle({ test: true });
-  const [selectDate, setSelectDate] = React.useState(() => dayjs());
-  const [panelDateDate, setPanelDate] = React.useState(() => dayjs());
+  const [selectDate, setSelectDate] = useState(() => dayjs());
+  const [panelDateDate, setPanelDate] = useState(() => dayjs());
+  const { tokens } = useContext(ThemeContext);
+  
   const onPanelChange = (value, mode) => {
     console.log(value.format('YYYY-MM-DD'), mode);
     setPanelDate(value);

@@ -58,7 +58,7 @@ export default function LayoutApp({ children }) {
         <Button
           type="text"
           onClick={() => setTheme(theme === "light" ? "dark" : "light")}
-          style={{ color: tokens.textPrimary }}
+          style={{  backgroundColor: tokens.secondary, color: tokens.textPrimary }}
         >
           {theme === "light" ? "🌙 Dark Mode" : "☀️ Light Mode"}
         </Button>
@@ -132,7 +132,7 @@ const menuItems = (
 
         <Layout style={{ flex: 1 }}>
           <TopHeader />
-          <Content style={{ background: '#e6f7ff', padding: isMobile ? '24px 16px' : '40px', flex: 1, position: 'relative' }}>
+          <Content style={{ background: tokens.secondary, padding: isMobile ? '24px 16px' : '40px', flex: 1, position: 'relative' }}>
             {isMobile && <div style={{ height: 56 }} />}
             <Breadcrumbnav />
             {children}

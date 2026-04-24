@@ -1,3 +1,7 @@
+import { useContext } from "react";
+import { LanguageContext } from "../context/LanguageContext.js";
+
+
 export const translations = {
   en: {
     //sider content
@@ -276,3 +280,13 @@ export const translations = {
     f404: "页面未找到",
   }
 };
+
+export function useTranslations() {
+  const { language } = useContext(LanguageContext);
+  const { tokens } = useContext(ThemeContext);
+
+  return {
+    t: translations[language] || translations.en,
+    color: tokens.textPrimary, // just one color
+  };
+}

@@ -8,21 +8,25 @@ export const ThemeProvider = ({ children }) => {
   const themes = {
     light: {
       primary: "#3949AB",
-      secondary: "#B2E2F7",
+      secondary: "#e6f7ff",
       accent: "#FF7043",
       textPrimary: "#212121",
-      textSecondary: "#3949AB",
+      textSecondary: "#000080",
+      textBlack: "#ffffff",
       background: "#ffffff",
-      borderPrimary: "#3949AB",
+      borderPrimary: "#000080",
+      buttonPrimary: "#3949AB",
     },
     dark: {
-      primary: "#0D1164",
+      primary: "#000080",
       secondary: "#3949AB",
       accent: "#FF7043",
       textPrimary: "#f5f5f5",
-      textSecondary: "#B2E2F7",
+      textSecondary: "#e6f7ff",
+      textBlack: "#000000",
       background: "#121212",
-      borderPrimary: "#B2E2F7",
+      borderPrimary: "#e6f7ff",
+      buttonPrimary: "#e6f7ff",
     },
   };
 

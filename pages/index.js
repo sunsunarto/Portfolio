@@ -4,17 +4,19 @@ import LayoutApp from '../components/LayoutApp.js';
 import Link from 'next/link';
 import { LanguageContext } from "../context/LanguageContext";
 import { translations } from "../utils/i18n.js";
+import { ThemeContext } from "../context/ThemeContext";
 
 const { Title, Text } = Typography;
 
 export default function Dashboard() {
   const { language } = useContext(LanguageContext);
+  const { tokens } = useContext(ThemeContext);
   const t = translations[language];
 
   return (
     <LayoutApp>
-      <div style={{ background: '#e6f7ff', padding: '40px 24px' }}>
-        <Title level={2} style={{ color: '#000080' }}>{t.titleHome}</Title>
+      <div style={{ padding: '40px 24px' }}>
+        <Title level={2} style={{ color: tokens.textSecondary }}>{t.titleHome}</Title>
         <Text style={{ fontSize: 16 }}>
           {t.greeting}<strong>{t.name}</strong>{t.greeting1}
         </Text>
@@ -23,11 +25,11 @@ export default function Dashboard() {
 
         <Row gutter={32} justify="center">
           <Col xs={24} sm={12}>
-            <Title level={2} style={{ color: '#000080' }}>{t.rightNow}</Title>
+            <Title level={2} style={{ color: tokens.textSecondary }}>{t.rightNow}</Title>
             <Text>{t.class}</Text>
           </Col>
           <Col xs={24} sm={12}>
-            <Title level={2} style={{ color: '#000080' }}>{t.location1}</Title>
+            <Title level={2} style={{ color: tokens.textSecondary }}>{t.location1}</Title>
             <Text>(Indonesia), DKI Jakarta</Text>
           </Col>
         </Row>
@@ -36,10 +38,10 @@ export default function Dashboard() {
 
         <div style={{ display: 'flex', gap: '16px' }}>
           <a href="/Sunaryo_Soengkono_CV_13.pdf" target="_blank" rel="noopener noreferrer">
-            <Button  size="large" style={{background: '#000080', color: '#fff'}}>{t.viewCV}</Button>
+            <Button  size="large" style={{background: tokens.buttonPrimary, color: tokens.textBlack, borderColor: tokens.borderPrimary}}>{t.viewCV}</Button>
           </a>
           <Link href="/about">
-            <Button size="large">{t.navAbout}</Button>
+            <Button size="large" style={{background: tokens.background, borderColor: tokens.background}}>{t.navAbout}</Button>
           </Link>
         </div>
       </div>

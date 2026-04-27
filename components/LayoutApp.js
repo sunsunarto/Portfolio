@@ -48,7 +48,15 @@ export default function LayoutApp({ children }) {
         boxShadow: '0 2px 6px rgba(0,0,0,0.15)',
       }}
     >
-      <div className='left'>
+      <div className='left' style={{ display: 'flex', alignItems: 'center' }}>
+        {isMobile && (
+          <Button
+            icon={<MenuOutlined />}
+            type="text"
+            style={{ color: '#fff', fontSize: 18 }}
+            onClick={() => setDrawerVisible(true)}
+          />
+        )}
         <Languages />
       </div>
       <div className='right'>
@@ -106,7 +114,7 @@ export default function LayoutApp({ children }) {
 
         {isMobile && (
           <>
-            <Button icon={<MenuOutlined />} type="text" style={{ position: 'fixed', top: 16, left: 16, zIndex: 1100, background: '#fff', borderRadius: 4, boxShadow: '0 2px 6px rgba(0,0,0,0.15)' }} onClick={() => setDrawerVisible(true)} />
+            
             <Drawer placement="left" onClose={() => setDrawerVisible(false)} open={drawerVisible} bodyStyle={{ padding: 0 }}>
               <ProfileHeader />
               {menuItems}

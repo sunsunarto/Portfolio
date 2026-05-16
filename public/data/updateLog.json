@@ -913,5 +913,20 @@
       "id": "Pada gaya ponsel, buat ikon menu tetap di header tidak posisi tetap. beri jarak dengan bahasa 10 px",
       "cn": "在手机样式下, 使菜单图标保持在标题处而不是固定位置。与语言间隔10像素"
     }
-  }
+  },
+  {
+    "id": 62,
+    "commit": "[Tab Title] add logo and Title",
+    "date": {
+      "en": "16 May 2026",
+      "id": "16 Mei 2026",
+      "cn": "2026年5月16日"
+    },
+    "version": "3.13.6",
+    "description": {
+      "en": "Add logo and title to the tab",
+      "id": "Tambahkan logo dan judul ke tab",
+      "cn": "向标签添加logo和标题"
+    }
+   }
 ]

@@ -870,7 +870,7 @@
     }
   },
   {
-    "id": 58,
+    "id": 59,
     "commit": "[Update Log] Icon in Mobile view",
     "date": {
       "en": "8 April 2026",
@@ -885,7 +885,7 @@
     }
   },
   {
-    "id": 59,
+    "id": 60,
     "commit": "[Achievement] Change model",
     "date": {
       "en": "24 April 2026",
@@ -898,5 +898,35 @@
       "id": "Ubah model di Halaman Pencapaian untuk mengurangi masalah UX",
       "cn": "更改成就页面中的模型以减少UX问题"
     }
-  }
+  },
+  {
+    "id": 61,
+    "commit": "[App Layout] Menu Responsive",
+    "date": {
+      "en": "27 April 2026",
+      "id": "27 April 2026",
+      "cn": "2026年4月27日"
+    },
+    "version": "3.12.6",
+    "description": {
+      "en": "At the phone style make the menu icon stays at the header not position fix. give gap with the language 10 px",
+      "id": "Pada gaya ponsel, buat ikon menu tetap di header tidak posisi tetap. beri jarak dengan bahasa 10 px",
+      "cn": "在手机样式下, 使菜单图标保持在标题处而不是固定位置。与语言间隔10像素"
+    }
+  },
+  {
+    "id": 62,
+    "commit": "[Tab Title] add logo and Title",
+    "date": {
+      "en": "16 May 2026",
+      "id": "16 Mei 2026",
+      "cn": "2026年5月16日"
+    },
+    "version": "3.13.6",
+    "description": {
+      "en": "Add logo and title to the tab",
+      "id": "Tambahkan logo dan judul ke tab",
+      "cn": "向标签添加logo和标题"
+    }
+   }
 ]
